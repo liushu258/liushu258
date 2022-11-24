@@ -13,28 +13,12 @@
     <description><![CDATA[&ldquo;4&rdquo;]]></description>
 </item>
 <item>
-    <title>Third_post</title>
-    <link>https://liushu258.github.io/liushu258/third_post/</link>
-    <pubDate>Tue, 15 Nov 2022 16:20:40 &#43;0800</pubDate>
-    <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/third_post/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Second_post</title>
-    <link>https://liushu258.github.io/liushu258/second_post/</link>
-    <pubDate>Tue, 15 Nov 2022 10:04:47 &#43;0800</pubDate>
-    <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/second_post/</guid>
-    <description><![CDATA[&ldquo;这是第二条博客&rdquo;]]></description>
-</item>
-<item>
-    <title>First_post</title>
-    <link>https://liushu258.github.io/liushu258/first_post/</link>
+    <title>如何学习前端</title>
+    <link>https://liushu258.github.io/liushu258/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</link>
     <pubDate>Tue, 15 Nov 2022 10:03:41 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/first_post/</guid>
-    <description><![CDATA[&ldquo;这是第一条博客&rdquo;]]></description>
+    <guid>https://liushu258.github.io/liushu258/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</guid>
+    <description><![CDATA[兴趣是最好的老师 量变到质变：从基础开始，技术需要沉淀 总结和分享技术 对业务和对需求的思考，技术都是服务与业务的 行业同龄人比较，了解自己的不足 成]]></description>
 </item>
 </channel>
 </rss>
