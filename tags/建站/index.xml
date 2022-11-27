@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>建站 - 标签 - 小刘呀の博客 - 归来仍是少年</title>
+        <link>https://liushu258.github.io/liushu258/tags/%E5%BB%BA%E7%AB%99/</link>
+        <description>建站 - 标签 - 小刘呀の博客 - 归来仍是少年</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
+            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Nov 2022 20:24:45 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/tags/%E5%BB%BA%E7%AB%99/" rel="self" type="application/rss+xml" /><item>
+    <title>个人博客</title>
+    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+    <pubDate>Sun, 27 Nov 2022 20:24:45 &#43;0800</pubDate>
+    <author>小刘呀の博客</author>
+    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+    <description><![CDATA[入门靠了这篇文章，简单的布置了自己的博客 https://pingfan.me/posts/cs/create_blog_with_zero_experience/ 但是有点太过简单了，看了一些大佬的博客网站，心生向往，决定再努努力，搞得好看一点 这是我收藏的一些大]]></description>
+</item>
+</channel>
+</rss>

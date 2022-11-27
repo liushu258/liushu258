@@ -4,28 +4,36 @@
         <link>https://liushu258.github.io/liushu258/categories/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/</link>
         <description>前端菜鸟 - 分类 - 小刘呀の博客 - 归来仍是少年</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
-            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 15 Nov 2022 10:04:47 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/categories/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Nov 2022 20:24:45 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/categories/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>个人博客</title>
+    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+    <pubDate>Sun, 27 Nov 2022 20:24:45 &#43;0800</pubDate>
+    <author>小刘呀の博客</author>
+    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+    <description><![CDATA[入门靠了这篇文章，简单的布置了自己的博客 https://pingfan.me/posts/cs/create_blog_with_zero_experience/ 但是有点太过简单了，看了一些大佬的博客网站，心生向往，决定再努努力，搞得好看一点 这是我收藏的一些大]]></description>
+</item>
+<item>
     <title>REACT路线图</title>
-    <link>https://liushu258.github.io/liushu258/react%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
+    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/react%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
     <pubDate>Tue, 15 Nov 2022 10:04:47 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/react%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
+    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/react%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
     <description><![CDATA[React Fundamental Topics Create React App JSX Components Functional Components Class Components Props vs State Conditional Rendering Component Life Cycle Lists and keys Composition Vs Inheritance Basic Hooks useEffect useState Advanced Topics Hooks Writing your Own Hooks Common Hooks useRef useCallback useMemo useReducer useContext Context Refs Render Props Code Splitting High Order Components Portals Error Boundaries Fiber Architecture Ecosystem Routers React Router Reach Router SSR Next.js SSG Next.js Gatsby API]]></description>
 </item>
 <item>
     <title>前端路线图</title>
-    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
+    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</link>
     <pubDate>Tue, 15 Nov 2022 10:03:41 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
+    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%BA%BF%E5%9B%BE/</guid>
     <description><![CDATA[Front-end Internet How does the internet work？ What is HTTP? Browsers and how they work? DNS and how it works? What is Domain Name? What is hosting？ HTML Learn the basics Writing Semantic HTML Forms and Validations Conventions and Best Practices Accessibility SEO Basics CSS Learn the basic Making Layouts Floats Positioning Display Box Mode CSS Grid Flex Box]]></description>
 </item>
 <item>
     <title>如何学习前端</title>
-    <link>https://liushu258.github.io/liushu258/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</link>
+    <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</link>
     <pubDate>Tue, 15 Nov 2022 10:03:41 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</guid>
+    <guid>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%E5%89%8D%E7%AB%AF/</guid>
     <description><![CDATA[兴趣是最好的老师 量变到质变：从基础开始，技术需要沉淀 总结和分享技术 对业务和对需求的思考，技术都是服务与业务的 行业同龄人比较，了解自己的不足 成]]></description>
 </item>
 </channel>
