@@ -39,7 +39,7 @@ Making Layouts
 1. Floats
 2. Positioning
 3. Display
-4. Box Mode 
+4. Box Mode
 5. CSS Grid
 6. Flex Box
 
@@ -49,7 +49,7 @@ Responsive design and Media Queries
 
 Syntax and Basic Constructs
 
-Learn DOM Manipulation 
+Learn DOM Manipulation
 
 Learn Fetch API/Ajax (XHR)
 
@@ -175,9 +175,9 @@ You can fill all your testing needs with just these.
 
 Learn the difference between Unit, Integration and Functional tests and learn how to write them with the tools listed on the left,
 
-- Jasmine 
-- Mocha 
-- Chai 
+- Jasmine
+- Mocha
+- Chai
 - Avo
 
 ## Type Checkers
@@ -190,7 +190,7 @@ Flow
 
 Learn different Web APIs used in PWAs
 
-- Storage 
+- Storage
 - Web Sockets
 - Service Workers
 - Location
@@ -201,9 +201,9 @@ Learn different Web APIs used in PWAs
 
 Calculating,Measuring and improving performance
 
-- PRPL Pattern 
-- RAIL Model 
-- Performance Metrics 
+- PRPL Pattern
+- RAIL Model
+- Performance Metrics
 - Using Lighthouse
 - Using Dev Tools
 
