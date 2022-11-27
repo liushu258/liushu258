@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>信息安全 - 小刘呀の博客 - 归来仍是少年</title><meta name="Description" content="My Blog"><meta property="og:title" content="信息安全" />
+<meta property="og:description" content="个人信息安全管理 几个基本安全概念 管理重于技术 总体而言，就是做好系统、信息和账户的分级管理和备份工作，即使技术能力比较低的人，也能通过管理手段" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liushu258.github.io/liushu258/%E7%BD%91%E5%AE%89%E8%8B%A6%E6%B5%B7/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" /><meta property="article:section" content="网安苦海" />
+<meta property="article:published_time" content="2022-11-27T22:21:01+08:00" />
+<meta property="article:modified_time" content="2022-11-27T22:21:01+08:00" /><meta property="og:site_name" content="小刘呀の博客" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="信息安全"/>
+<meta name="twitter:description" content="个人信息安全管理 几个基本安全概念 管理重于技术 总体而言，就是做好系统、信息和账户的分级管理和备份工作，即使技术能力比较低的人，也能通过管理手段"/>
+<meta name="application-name" content="小刘呀の博客">
+<meta name="apple-mobile-web-app-title" content="小刘呀の博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://liushu258.github.io/liushu258/%E7%BD%91%E5%AE%89%E8%8B%A6%E6%B5%B7/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" /><link rel="stylesheet" href="/liushu258/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "信息安全",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/liushu258.github.io\/liushu258\/%E7%BD%91%E5%AE%89%E8%8B%A6%E6%B5%B7\/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8\/"
+        },"image": ["https:\/\/liushu258.github.io\/images\/Apple-Devices-Preview.png"],"genre": "网安苦海","keywords": "网络安全","wordcount":  4076 ,
+        "url": "https:\/\/liushu258.github.io\/liushu258\/%E7%BD%91%E5%AE%89%E8%8B%A6%E6%B5%B7\/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8\/","datePublished": "2022-11-27T22:21:01+08:00","dateModified": "2022-11-27T22:21:01+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/liushu258.github.io\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "小刘呀の博客"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/liushu258/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/liushu258/posts/"> 所有文章 </a><a class="menu-item" href="/liushu258/tags/"> 标签 </a><a class="menu-item" href="/liushu258/categories/"> 分类 </a><a class="menu-item" href="/liushu258/categories/documentation/"> 文档 </a><a class="menu-item" href="/liushu258/about"> 关于 </a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/liushu258/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/liushu258/posts/" title="">所有文章</a><a class="menu-item" href="/liushu258/tags/" title="">标签</a><a class="menu-item" href="/liushu258/categories/" title="">分类</a><a class="menu-item" href="/liushu258/categories/documentation/" title="">文档</a><a class="menu-item" href="/liushu258/about" title="">关于</a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">信息安全</h1><div class="content" id="content"><h1 id="个人信息安全管理">个人信息安全管理</h1>
+<h2 id="几个基本安全概念">几个基本安全概念</h2>
+<h4 id="管理重于技术">管理重于技术</h4>
+<p>总体而言，就是做好系统、信息和账户的分级管理和备份工作，即使技术能力比较低的人，也能通过管理手段，保障自己的信息安全。</p>
+<h4 id="有限度的防护">有限度的防护</h4>
+<p>对安全的要求及所付出的成本是密切相关的，甚至呈几何级数放大。要评估自己的信息重要程度如何，或是说，被窃取或公开后对事业对自己造成的损失如何，再决定自己投入的技术和资金。</p>
+<h4 id="鸡蛋不装到一个篮子里">鸡蛋不装到一个篮子里</h4>
+<p>不要把所有的用户账号与同一个邮箱关联，不要把所有的密码记在一个文档里或放在一个地方。避免这个账号或记录密码的地方被入侵，会让所有的账号失控。</p>
+<h4 id="避免雪崩效应">避免雪崩效应</h4>
+<p>如果一个邮箱丢失，别的邮箱或账号都以这个邮箱作备份，那丢一个就丢了其他的，也不要把所有的密码设成一样或同样的规律。</p>
+<p>按最坏的情况做准备</p>
+<p>经常问自己，如果电脑丢失、系统崩溃、硬盘崩溃或账号失控的情况出现，自己正在进行的工作会不会无法进行?自己的社交关系会不会无法恢复? 信息安全管理，要以最坏的情况出现作预案。</p>
+<h4 id="把自己当成透明他们什么都知道">把自己当成透明，他们什么都知道</h4>
+<p>不管什么人，不管做什么样的安全防护，除非不把秘密记录下来及完全不告诉任何人，否则都有泄密的可能。进行信息安全管理，是为行动争取时间，减少自己的恐惧与损失。</p>
+<h3 id="安全的几个层面">安全的几个层面</h3>
+<h4 id="系统的安全">系统的安全</h4>
+<p>主要指的是自己使用的电脑的安全性，包括有无足够强度的登录密码，登录密码是否定期更换，有没有及时升级补丁修复漏洞，有没有安装杀毒和防火墙的软件等。当系统安全出现问题时，一则影响工作效率，二则影响资料的安全，后果不仅仅是白辛苦，也会造成不可挽回原损失。</p>
+<h4 id="账户的安全">账户的安全</h4>
+<p>主要指包括邮箱社交平台等网络应用或服务的安全，一旦失控，轻则导致情况上的恐惧，重则导致资料的丢失，还有一项容易被忽略的，就是人际关系损失。想想看，大家如果主邮箱丢失，有多少人的联系方式就没有了?</p>
+<h4 id="虚拟资产的安全">虚拟资产的安全</h4>
+<p>针对虚拟财产是网络钓鱼及木马的主要目的，反而针对民运人士、媒体人及不同信仰人士往往是少数。大家都使用贝宝支付宝，虚拟资产的安全就变得很重要。</p>
+<h4 id="人际网络的安全">人际网络的安全</h4>
+<p>很多人把人际网络依赖于网上的某个社交应用，如脸书微博等，如果账号被封杀或失控，在此平台上建立的人际网络也会丢失。人际网络不安全，有往往是因沟通不畅引起，让有心之人搅混水有了可乘之机，他们往往是通过单方面提供不对称信息来达到目的的，如，私下告诉你某人如何如何。</p>
+<h3 id="影响安全的几个因素">影响安全的几个因素</h3>
+<h4 id="使用习惯及人为失误">使用习惯及人为失误</h4>
+<p>最大的影响因素来自于使用习惯及人为失误，例如，写东西时没有定时保存文档的习惯，脚一不小心踢到电脑的开关，一天的工作就不见了。误操作也会占很大的比例，例如把有资料备份的优盘给格式化了，把文档删了还顺手把回收站给清空了，操作完才发现弄错了。另外一个人为失误就是遗忘，设置或更改密码的时候觉得这个密码肯定不会忘记，但要用的时候却想不起来。</p>
+<h4 id="不可抗力">不可抗力</h4>
+<p>不可抗力包括很多因素，最常见的就是丢失电脑资料存储介质，国内的朋友还会碰到被查抄扣押电脑或存储介质的。在国内的服务账号被封杀也很常见，封杀之后，相关的资料就找不回来了。还有种不常见的情况是全部服务中止，例如Yahoo mail 在中国的服务停止了，没有及时备份资料下来，停止后资料就永久丢失了。</p>
+<h4 id="病毒木马">病毒木马</h4>
+<p>有时被病毒木马入侵，也可能导致资料的挂失，一是病毒本身的破坏，二是入侵者人为的操作。</p>
+<h4 id="远程操作软件">远程操作软件</h4>
+<p>很多远程操作软件不会被杀毒软件报告为病毒，如果你的电脑被别人接触过，别人在里面安装远程监控软件，就可以实行全面的控制。</p>
+<h3 id="账户的攻击方式">账户的攻击方式</h3>
+<h4 id="穷举">穷举</h4>
+<p>也叫暴力拆解，就是用庞大的密码库对特定的账户进行逐一验证，从而找出弱口令的密码，如仅由几个数字或常见单词组成的密码。不过现在一般网络服务会在几次尝试后要求使用验证码，提高了攻击的难度。</p>
+<h4 id="钓鱼">钓鱼</h4>
+<p>这种方式最常见，便如，在一封Gmail中，说你的系统账号检测到异常，要求你再次输入账号密码验证，如果你在这里输入账号密码，账号密码就会被发送到一个服务器或邮箱存储起来，别人很可以获取。另外，也经常会有人假冒银行或购物网站，诱人上当。国内常见的就是在支付宝买东西，支付的时候给你另一个链接，钱支付到别的网站了。这很有效，我监测过有司的一个钓鱼后台，攻击对象有144个邮箱，获得到12个邮箱的密码，其中就包括了赵连海。无论如何，任何时候要求再输入密码，都要万分警惕。</p>
+<h4 id="木马">木马</h4>
+<p>木马非常常见，主要寄身于一些非法软件下载网站的软件中，这一类木马，杀毒软件会有报告，不易得逞。针对特定人土的，现在主要通过邮箱附件的方式，主要有PPT和DOC等格式，有时针对特定对象还拟定特定文本的邮件，例如像是熟人或朋友所寄送。这类木马针对性较强，且杀毒软件有时候并不报警。这些木马通过系统的漏洞起作用，不下载附件只用线上服务浏览附件，经常升级安装补丁，安装杀毒软件，可以防御。</p>
+<h4 id="远程控制">远程控制</h4>
+<p>一般是被熟悉的人或冒充熟悉的人接触你的电脑后安装，要避免这种情况的出现。有些国内的朋友有时突然发现上不去网，只好找来宽带的服务商解决问题，这时，有司就能假冒服务商的工作人员，接触到你的电脑，置入木马、远程控制软件，或直接扫瞄电脑的敏感资料。</p>
+<h4 id="系统漏洞">系统漏洞</h4>
+<p>这种情况不大常见，但极难防备，例如Adobe Flash在去年就曾经出现漏洞，装有这个插件的浏览器，访问Gmail时会导致Gmail自动授权给特定账号，这个漏洞还是我发现的。出现这种情况，只能听天由命了。=</p>
+<h3 id="应对措施">应对措施</h3>
+<h4 id="一般安全指引">一般安全指引</h4>
+<p>●不要让别人接触自己的电脑或移动终端●不在陌生的电脑上登陆重要账号●不打开未经确认的附件●重要文档及信息要多渠道确认●其他渠道约定密码</p>
+<p>●不点击邮件中陌生网站的链接●不安装未经确认来源的软件</p>
+<p>●使用加密链接的网站服务、产品及手机应用●不要开放手机通讯录及相册权限给不熟悉的应用程序●只换手机卡不能防追踪，要同时换手机●尽量不使用国内的服务</p>
+<p>●尽量不使用国内的服务或工具说敏感的事●不保存聊天记录</p>
+<p>●两步验证（Gmail、Dropbox、Facebook）●不直接接入公网</p>
+<h4 id="账户及文档分级管理">账户及文档分级管理</h4>
+<p>由高到低，按以下序列设置密码∶本地系统&gt;密码管理器&gt;主要邮箱&gt;网银应用&gt;一般应用&gt;国内服务。密码需要定期更换.</p>
+<h4 id="资料及账号信息多重备份">资料及账号信息多重备份</h4>
+<p>分不同介质，如光盘刻录、移动硬盘及优盘等；不同时空，备份的东西要放在不同的地方；线下线下，同时做互联网的云端备份和线下介质的备份。</p>
+<p>分级分时备份，就是要把资料和信息按重要程序与否进行分级，越重要的备份时间周期越短，备份要求越高，例如线下线下多介质不同地点每隔一天备份一次；比较不重要的，可单一个质较长时间备份一次。自己进行分级分时的备份管理。</p>
+<h4 id="及时安装系统补丁">及时安装系统补丁</h4>
+<p>正版的操作系统，开启系统自动更新即可，自动更新间隔时间不要太长，一般应少于一周。非正版软件，可以考虑用QQ管家进行补丁更新，但这种软件也不大安全，甚至有副作用，可在每一次更新补丁后删除。</p>
+<h4 id="防毒防木马">防毒防木马</h4>
+<p>一是优选是购买或安装没有（罕见）病毒木马的操作系统，如苹果的iOS系统，或是基于于linux的操作系统，如Ubuntu。二是安装杀毒软件防火墙，杀毒软件可以用Avast，免费注册可用一年，基本够用。三是不要直接接入公网，例如把网络服务商的电缆先接到一个路由，通过路由再接到自己的电脑里，可大大降低被攻击的可能。</p>
+<h4 id="信息及人际网络的矩阵化">信息及人际网络的矩阵化</h4>
+<p>不要把人际网络建立在单一的社交平台上，尽可能矩阵化，例如脸书与推特相结合，尽可能线上线下结合，万一某个平台失控，还可以保证人际关系的维持。</p>
+<h4 id="我的gmail安全吗">我的GMAIL安全吗</h4>
+<p>至少需要检查以下几项，确认自己的Gmail是否安全∶</p>
+<p>●访问来源，有无异常来源?●转发设置，有无被转发至其他邮箱?</p>
+<p>● POP/IMAP设置，自己没有开启的情况下，是否被开启?●过滤设置，是否被设置了过滤条件并将部分邮件转发至其他邮箱?●授权设置，是否将账号授权给其他邮箱?</p>
+<h3 id="紧急措施">紧急措施</h3>
+<h4 id="丢失电脑">丢失电脑</h4>
+<p>更改所有在此电脑上使用过的账号密码，通知此电脑保存资料可能涉及到的特别是有可能造成损失的相关人士。</p>
+<h4 id="丢失资料">丢失资料</h4>
+<p>更改所有在此资料中涉及的账号密码，通知此资料可能涉及到的特别是有可能造成损失的相关人士。</p>
+<h4 id="丢失账户">丢失账户</h4>
+<p>更改与此账户关联的其他账户密码及信息，例如∶用这个邮箱注册的所有服务的联系邮箱及密码；争取一切办法联系服务商取回账户，通知此账户联系人及保存资料可能涉及到的特别是有可能造成损失的相关人士。</p>
+<h3 id="推荐一些工具及服务">推荐一些工具及服务</h3>
+<p>● Gmail及谷歌的系列产品</p>
+<p>● Gtalk（SSL连接）&gt;Skype（国际版，慎用TOM版）&gt;QQ</p>
+<p>● Whatsapp&gt;微信</p>
+<p>● Dropbox、BitTorrent Sync、Wuala（有穿墙能力的网盘）、Emule（电驴，http∶//www.emule-project.net，穿墙下载或发布）</p>
+<p>● Firefox 或Chrome 浏览器</p>
+<p>●Recuva或Final Data（恢复误删数据）</p>
+<p>● Ccleaner（安全删除）</p>
+<p>● Twitter、Facebook、Google Plus</p>
+<h4 id="国内朋友可参考的几个问答">国内朋友可参考的几个问答</h4>
+<h5 id="做传唤笔录怎么办">做传唤笔录怎么办</h5>
+<p>拒绝口头传唤，只接受书面传唤；不做证人笔录，至少不在证人笔录上签名；做嫌疑人笔录开始时一定要让对方写清楚案由及写清楚有没有挨打挨骂；尽量少提供信息，不回答与案由无关的问题。</p>
+<h5 id="被喝茶怎么办">被喝茶怎么办</h5>
+<p>自己的事不记得；别人的事不清楚；特定事件不了解没看法。</p>
+<h5 id="他们问你密码怎么办">他们问你密码怎么办?</h5>
+<p>我刚告诉境外朋友把我密码改掉了，我现在还不知道新密码。</p>
+<h3 id="一点建议">一点建议</h3>
+<p>●至少掌握一种电脑系统恢复办法</p>
+<p>●国内的朋友掌握两种或以上的翻墙方式</p>
+<p>●每天花上几分钟留意最新的翻墙及安全信息</p>
+<p>●多留意这个网站https://blog.csdn.net/m0_60571990/article/details/127187373?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-127187373-blog-108734144.pc_relevant_vip_default&amp;spm=1001.2101.3001.4242.1&amp;utm_relevant_index=4</p>
+</div><div id="comments"><div id="gitalk" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
+            </noscript><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/liushu258/" target="_blank">小刘呀の博客</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.css"><link rel="stylesheet" href="/liushu258/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"gitalk":{"admin":["liushu258"],"clientID":"230bf542e8439454bd83","clientSecret":"4537b88097fca04d102286d0408c1a7e0df2c355","id":"2022-11-27T22:21:01+08:00","owner":"liushu258","repo":"liushu-comment","title":"信息安全"},"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"YO492AG2ZO","algoliaIndex":"myblog","algoliaSearchKey":"06e45ad02e5f0d96e92124cd691a0cef","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/liushu258/js/theme.min.js"></script></body>
+</html>
