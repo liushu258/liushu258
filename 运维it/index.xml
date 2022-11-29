@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>运维ITs on 小刘呀の博客 - 归来仍是少年</title>
+    <link>https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/</link>
+    <description>Recent content in 运维ITs on 小刘呀の博客 - 归来仍是少年</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
+    <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 29 Nov 2022 22:10:05 +0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自动化运维架构笔记 架构</title>
+      <link>https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-%E6%9E%B6%E6%9E%84/</link>
+      <pubDate>Tue, 29 Nov 2022 22:10:05 +0800</pubDate>
+      <author>liuhaotian258@gmail.com (小刘呀の博客)</author>
+      <guid>https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-%E6%9E%B6%E6%9E%84/</guid>
+      <description>自动化运维架构笔记 中小型企业运维的特点 自动化运维的好处 及时的监控报警 持续可迭代的项目集成 运维数据的处理、统计和分析 批量服务管理 架构图 第一层A</description>
+    </item>
+    
+  </channel>
+</rss>
