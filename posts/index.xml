@@ -5,12 +5,12 @@
         <description>所有文章 | 小刘呀の博客 - 归来仍是少年</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
             <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 29 Nov 2022 13:50:14 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>New</title>
-    <link>https://liushu258.github.io/liushu258/new/</link>
+    <title>公司电脑同步git代码</title>
+    <link>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5git%E4%BB%A3%E7%A0%81/</link>
     <pubDate>Tue, 29 Nov 2022 13:50:14 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
-    <guid>https://liushu258.github.io/liushu258/new/</guid>
-    <description><![CDATA[！试一下新的电脑]]></description>
+    <guid>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5git%E4%BB%A3%E7%A0%81/</guid>
+    <description><![CDATA[公司电脑同步github代码 以前都是用svn的，github的同步还是不会啊 下载hugo的expended插件 安装GIT 创建新的SSH，gi]]></description>
 </item>
 <item>
     <title>每周猎奇</title>
