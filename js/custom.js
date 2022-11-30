@@ -14,9 +14,9 @@ if(window.console) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-		  "./images/background/1.jpg",
-		  "./images/background/10.jpg",
-		  "./images/background/11.jpg"
+		  "/liushu258/images/background/3.jpg",
+		  "/liushu258/images/background/2.jpg",
+		  "/liushu258/images/background/1.jpg"
 	], { duration: 6000, fade: 1500 });
 });
 
