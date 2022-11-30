@@ -3,10 +3,10 @@ if(window.console) {
 	var cons = console;
 	if(cons) {
 		cons.group("O(∩_∩)O哈喽！");
-		cons.info("这位看代码的童鞋，不如留下你的友链来一起玩耍吧！8==D https://lewky.cn/friends/");
-		cons.log("%cYulin Lewis's Blog", "background-image: linear-gradient(#063053, #395873, #5c7c99);font-size: 2rem;");
+		cons.info("");
+		cons.log("");
 		cons.info("==============================此乃分界线==============================");
-		cons.log("  █████▒█    ██  ▄████▄   ██ ▄█▀       ██████╗ ██╗   ██╗ ██████╗\n▓██   ▒ ██  ▓██▒▒██▀ ▀█   ██▄█▒        ██╔══██╗██║   ██║██╔════╝\n▒████ ░▓██  ▒██░▒▓█    ▄ ▓███▄░        ██████╔╝██║   ██║██║  ███╗\n░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║\n░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝\n ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝\n ░     ░░▒░ ░ ░   ░  ▒   ░ ░▒ ▒░\n ░ ░    ░░░ ░ ░ ░        ░ ░░ ░\n          ░     ░ ░      ░  ░\n")
+		cons.log("")
 		cons.groupEnd();
 	}
 }
@@ -14,10 +14,10 @@ if(window.console) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-		  "/images/background/1.jpg",
-		  "/images/background/10.jpg",
-		  "/images/background/11.jpg"
-	], { duration: 60000, fade: 1500 });
+		  "./images/background/1.jpg",
+		  "./images/background/10.jpg",
+		  "./images/background/11.jpg"
+	], { duration: 6000, fade: 1500 });
 });
 
 /* 返回随机颜色 */
@@ -75,15 +75,6 @@ jQuery(document).ready(function($) {
     });
 });
 
-/* 轮播背景图片 */
-$(function () {
-	$.backstretch([
-		  $cdnPrefix + "/images/background/saber1.jpg",
-		  $cdnPrefix + "/images/background/saber2.jpg",
-		  $cdnPrefix + "/images/background/wlop.jpg"
-	], { duration: 60000, fade: 1500 });
-});
-
 /* 拉姆蕾姆回到顶部或底部按钮 */
 $(function() {
 	$("#lamu img").eq(0).click(function() {
@@ -97,13 +88,13 @@ $(function() {
 });
 
 /* 后置加载页面组件的背景图片 */
-$(function() {
-	/* 首页头像div加载GitHub Chart作为背景图片 */
-	$("div.home-avatar").attr('style', "background: url(https://ghchart.rshah.org/FFA500/lewky);background-repeat: no-repeat;background-position: center;background-size: auto 7.5rem;");
+// $(function() {
+// 	/* 首页头像div加载GitHub Chart作为背景图片 */
+// 	$("div.home-avatar").attr('style', "background: url(https://ghchart.rshah.org/FFA500/lewky);background-repeat: no-repeat;background-position: center;background-size: auto 7.5rem;");
 
-	/* 评论框加载背景图片 */
-	$(".v[data-class=v] .veditor").attr('style', "background-image: url(" + $cdnPrefix + "/images/common/valinebg.webp) !important;");
-});
+// 	/* 评论框加载背景图片 */
+// 	$(".v[data-class=v] .veditor").attr('style', "background-image: url(" + $cdnPrefix + "/images/common/valinebg.webp) !important;");
+// });
 
 function getCurrentDateString() {
 	var now = new Date();
@@ -121,7 +112,7 @@ window.onload = function() {
     if(document.hidden) {
       $('[rel="icon"]').attr('href', "/failure.ico");
       $('[rel="shortcut icon"]').attr('href', "/failure.ico");
-      document.title = '喔唷，崩溃啦！';
+      document.title = '咦，页面崩溃啦！';
       clearTimeout(titleTime);
     } else {
       $('[rel="icon"]').attr('href', "/favicon-32x32.png");
@@ -138,7 +129,7 @@ window.onload = function() {
 function runtime() {
 	window.setTimeout("runtime()", 1000);
 	/* 请修改这里的起始时间 */
-    let startTime = new Date('04/24/2018 15:00:00');
+    let startTime = new Date('11/20/2022 15:00:00');
     let endTime = new Date();
     let usedTime = endTime - startTime;
     let days = Math.floor(usedTime / (24 * 3600 * 1000));
