@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>自动化运维架构笔记 Ansible - 小刘呀の博客 - 归来仍是少年</title><meta name="Description" content="My Blog"><meta property="og:title" content="自动化运维架构笔记 Ansible" />
+<meta property="og:description" content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" /><meta property="article:section" content="运维IT" />
+<meta property="article:published_time" content="2022-11-30T20:30:18+08:00" />
+<meta property="article:modified_time" content="2022-11-30T20:30:18+08:00" /><meta property="og:site_name" content="小刘呀の博客" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="自动化运维架构笔记 Ansible"/>
+<meta name="twitter:description" content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软"/>
+<meta name="application-name" content="小刘呀の博客">
+<meta name="apple-mobile-web-app-title" content="小刘呀の博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" /><link rel="prev" href="https://liushu258.github.io/liushu258/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-%E6%9E%B6%E6%9E%84/" /><link rel="stylesheet" href="/liushu258/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "自动化运维架构笔记 Ansible",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/liushu258.github.io\/liushu258\/%E8%BF%90%E7%BB%B4it\/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible\/"
+        },"image": ["https:\/\/liushu258.github.io\/images\/Apple-Devices-Preview.png"],"genre": "运维IT","keywords": "运维","wordcount":  1588 ,
+        "url": "https:\/\/liushu258.github.io\/liushu258\/%E8%BF%90%E7%BB%B4it\/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible\/","datePublished": "2022-11-30T20:30:18+08:00","dateModified": "2022-11-30T20:30:18+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "https:\/\/liushu258.github.io\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "小刘呀の博客"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/liushu258/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/liushu258/posts/"> 所有文章 </a><a class="menu-item" href="/liushu258/tags/"> 标签 </a><a class="menu-item" href="/liushu258/categories/"> 分类 </a><a class="menu-item" href="/liushu258/categories/documentation/"> 文档 </a><a class="menu-item" href="/liushu258/about"> 关于 </a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/liushu258/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/liushu258/posts/" title="">所有文章</a><a class="menu-item" href="/liushu258/tags/" title="">标签</a><a class="menu-item" href="/liushu258/categories/" title="">分类</a><a class="menu-item" href="/liushu258/categories/documentation/" title="">文档</a><a class="menu-item" href="/liushu258/about" title="">关于</a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">自动化运维架构笔记 Ansible</h1><div class="content" id="content"><h1 id="ansible">Ansible</h1>
+<h2 id="什么是ansible">什么是Ansible</h2>
+<ul>
+<li>IT自动化工具</li>
+<li>依赖于现有的操作系统凭证来发个控制远程服务器</li>
+<li>简单易用 安全可靠</li>
+</ul>
+<p>Ansible可以完成哪些任务</p>
+<ul>
+<li>配置系统</li>
+<li>开发软件</li>
+<li>编排高级的IT任务</li>
+</ul>
+<p>特点</p>
+<ul>
+<li>轻量级（命令行）</li>
+<li>易学习（中文文档）</li>
+<li>操作灵活</li>
+</ul>
+<p>执行流程</p>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130203712362.png"
+        title="image-20221130203712362" /></p>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130204138368.png"
+        title="image-20221130204138368" /></p>
+<p>安装配置</p>
+<p>pip装（编译依赖的开发库可能出错）</p>
+<p>sudo pip install ansible</p>
+<p>软件源(可能有跨平台的问题)：</p>
+<ul>
+<li>配置Host连接主机：/etc/ansible/hosts(vim进入  ：wq退出)
+<ul>
+<li>[test]</li>
+<li>192.168.1.1</li>
+</ul>
+</li>
+<li>配置SSH
+<ul>
+<li>添加公钥到远程主机：ssh-copy-id -i  ~/.ssh/id_rsa.pub <a href="mailto:root@192.168.1.1" rel="">root@192.168.1.1</a></li>
+<li>测试 ssh <a href="mailto:root@192.168.1.1" rel="">root@192.168.1.1</a></li>
+</ul>
+</li>
+<li>连通测试
+<ul>
+<li>运行命令：ansible 192.168.1.39 all -m ping &ndash;user=root</li>
+</ul>
+</li>
+</ul>
+<h2 id="ansible-ad-hoc">Ansible Ad-hoc</h2>
+<p>​	命令行工具	适用于业务快速变更（区别playbook）</p>
+<p>​	所见即所得</p>
+<p>​	Ansible help message</p>
+<ul>
+<li>普通可选参数</li>
+<li>链接目标主机相关参数</li>
+<li>权限控制相关参数</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">列出目标主机目录
+</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ls /root&#34; --user=root
+</span></span><span class="line"><span class="cl">目标主机登陆需要密码
+</span></span><span class="line"><span class="cl">ssh root@192.168.1.1
+</span></span><span class="line"><span class="cl">vim .ssh/authorized_keys
+</span></span><span class="line"><span class="cl">(#注释掉)
+</span></span><span class="line"><span class="cl">ssh登陆失败
+</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ls /root&#34; --user=root --ask-pass
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ansible help</p>
+<ul>
+<li>-f并发</li>
+<li>-m 指定模块使用</li>
+<li>-i 改变默认行为</li>
+<li>连接参数</li>
+</ul>
+<h2 id="ansible-inventory">Ansible Inventory</h2>
+<h3 id="定义主机关系的文件">定义主机关系的文件</h3>
+<p>默认路径：/etc/ansible/hosts</p>
+<p>文件内容格式位ini</p>
+<h3 id="inventory主机组">Inventory主机组：</h3>
+<ul>
+<li>192.168.1.1</li>
+<li>【组名】</li>
+<li>192.168.1.2</li>
+<li>192.168.1.3</li>
+</ul>
+<h3 id="inventory主机别名">Inventory主机别名</h3>
+<p>test ansible_ssh_port=22 ansible_ssh_host=192.168.1.1 annsible_ssh_user=root</p>
+<p>也可以分组</p>
+<h3 id="inventory链接参数">Inventory链接参数</h3>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130212130885.png"
+        title="image-20221130212130885" /></p>
+<h3 id="inventory批量主机组">Inventory批量主机组</h3>
+<p>【webservers】</p>
+<p>www[01:50].example.com</p>
+<p>[databases]</p>
+<p>db-[a:f].example.com</p>
+<h2 id="ansible基本使用实战">Ansible基本使用实战</h2>
+<p>了解Ansible使用</p>
+<p>了解Ansible模块查找使用方法</p>
+<p><strong>实战需求：</strong></p>
+<ul>
+<li>安装MySQL到测试机</li>
+<li>管理测试机的MySQL服务</li>
+</ul>
+<p><strong>需要：</strong></p>
+<ul>
+<li>一条测试机器：client</li>
+<li>配置好ansible环境：master</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ansible test -m yum -a &#34;name=mariadb-server state=latest&#34;
+</span></span><span class="line"><span class="cl">ansible test -m systemd -a &#34;name=mariadb state=stopped&#34;
+</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ps -ef|grep mysql|grep -v grep&#34;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="什么是ansible-playbook">什么是Ansible Playbook</h2>
+<ul>
+<li>是一门编程语言</li>
+<li>命令集合</li>
+<li>yaml格式</li>
+</ul>
+<h4 id="功能列表">功能列表：</h4>
+<ul>
+<li>声明配置</li>
+<li>编排复杂任务</li>
+<li>控制任务执行</li>
+</ul>
+<h4 id="与adhoc关系">与Adhoc关系</h4>
+<ul>
+<li>Playbook是对Adhoc的编排</li>
+<li>Adhoc适合简单快速的任务</li>
+<li>Playbook适合做一些复杂的任务</li>
+</ul>
+<h4 id="支持的特性">支持的特性</h4>
+<ul>
+<li>变量定义</li>
+<li>顺序 Or 选择 Or 循环结构</li>
+</ul>
+<h3 id="ansible-playbook使用入门">Ansible Playbook使用入门</h3>
+<p>选定Host</p>
+<p>指定登陆用户</p>
+<p>使用Shell模块输出Hello World</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hosts：test
+</span></span><span class="line"><span class="cl">remote_user: root
+</span></span><span class="line"><span class="cl">tasks:
+</span></span><span class="line"><span class="cl">- name: Hello World
+</span></span><span class="line"><span class="cl">	shell: ls /root
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ansible-playbook test.yml
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="playbook变量">Playbook变量</h4>
+<ul>
+<li>以字母、数字、下划线组成</li>
+<li>始终应该以字母开头</li>
+</ul>
+<h4 id="变量位置">变量位置</h4>
+<ul>
+<li>Inventory</li>
+<li>Playbook(开头如果是大括号，就用双引号)</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224035967.png"
+        title="image-20221130224035967" /></p>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130223919612.png"
+        title="image-20221130223919612" /></p>
+<h4 id="系统变量">系统变量</h4>
+<h4 id="when语句">when语句</h4>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224320815.png"
+        title="image-20221130224320815" /></p>
+<h4 id="bool值">bool值</h4>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224336730.png"
+        title="image-20221130224336730" /></p>
+<h4 id="with-items循环语句">with-items循环语句</h4>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224422283.png"
+        title="image-20221130224422283" /></p>
+<h4 id="with_nested嵌套语句">with_nested嵌套语句</h4>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224505982.png"
+        title="image-20221130224505982" /></p>
+<h4 id="有条件的循环">有条件的循环</h4>
+<p><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224529064.png"
+        title="image-20221130224529064" /></p>
+<h2 id="ansible-zabbix安装">Ansible-Zabbix安装</h2>
+<ul>
+<li>需求分析
+<ul>
+<li>zabbix server安装</li>
+<li>Master和Client，Centos和Ubuntu各一个（保证最小集群）</li>
+<li>Zabbix进程正常启动</li>
+</ul>
+</li>
+<li>流程分析
+<ul>
+<li>确认安装方式</li>
+<li><img
+        class="lazyload"
+        src="/liushu258/svg/loading.min.svg"
+        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png"
+        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png 2x"
+        data-sizes="auto"
+        alt="../../images/自动化运维架构笔记-Ansible/image-20221130212720143.png"
+        title="image-20221130212720143" /></li>
+</ul>
+</li>
+</ul>
+<h3 id="shell版本">Shell版本</h3>
+<ul>
+<li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">rpm -ivh http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabix-release-3.4-2.el7.noarch.rpm
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">yum -y install zabbix-server-mysql
+</span></span><span class="line"><span class="cl">yum -y install zabbix-proxy-mysql
+</span></span><span class="line"><span class="cl">yum -y install zabbix-web-mysql
+</span></span><span class="line"><span class="cl">yum -y install mariadb-server
+</span></span><span class="line"><span class="cl">systemctl start mariadb
+</span></span><span class="line"><span class="cl">mysql -uroot -e &#34;create database zabbix&#34;
+</span></span><span class="line"><span class="cl">sed &#39;s/DBUser=zabbix/DBUser=root/g&#39; -i /etc/zabbix/zabbix_server.conf
+</span></span><span class="line"><span class="cl">zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.gz | mysql -uroot zabbix
+</span></span><span class="line"><span class="cl">setenforce 0
+</span></span><span class="line"><span class="cl">systemctl start zabbix-server
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>结果验证</p>
+</li>
+</ul>
+<p>scp centos7_install_zabbix.sh <a href="mailto:root@192.168.1.39" rel="">root@192.168.1.39</a>:~</p>
+<p>ssh <a href="mailto:root@192.168.1.39" rel="">root@192.168.1.39</a> &ldquo;bash centos7_install_zabbix.sh&rdquo;</p>
+<p>Shell脚本要写很多判断看是否与运行正常 	编写复杂 操作繁琐 跨平台问题</p>
+<h3 id="playbook版本">Playbook版本</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/ansible/hosts
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">centos ansible_ssh_port=22 ansible_ssh_host=192，168.1.39 ansible_ssh_user=root
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ubuntu ansible_ssh_port=22 ansible_ssh_host=13.94.42.159 ansible_ssh_user=simon
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[test]#分组
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">centos
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ubuntu
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">vim test.yml
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">hosts：test
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">become：true #使用root权限
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">tasks：
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    name: install zabbix rpm
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	yum:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		name:http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-re lease-3.4-2.el7.noarch.rpm
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: installed
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    name: download zabbix deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    get_url:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​        url:http://repo.zabbix.com/zabbix/3.4/ubuntu/pool/main/z/zabbi x-release/zabbix-release_3.4-1+xenial_all.deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​        dest:/tmp/zabbix.deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​        when: ansible_distribution == &#39;Ubuntu&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    name: install zabbix deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    apt:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​        name:/tmp/zabbix.deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​        state: installed
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	    when: ansible_distribution == &#39;Ubuntu&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    name: install zabbix deb
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	apt:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		deb:/tmp/zabbix.deb #从本地装
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name: install zabbix server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	yum:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		name:&#34;{{ item }}&#34;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: installed
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	with_items:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		-zabbix-server-mysql
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		-zabbix-proxy-mysql
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		-zabbix-web-mysql
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name: install zabbix agent
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	apt:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		name: zabbix-agent
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: installed
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​    name: config zabbix server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		replace:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​			path:/etc/zabbix/zabbix_server.conf
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​			regexp: DBUser=zabbix
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​			replace: DBUser=root
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name: import db format
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	shell: zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.g | mysql -uroot zabbix
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name:disable selinux
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	selinux:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: disabled
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name: start zabbix server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	systemd:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		name:zabbix-server
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: started
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	name: start zabbix agent
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​	systemd:
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		name:zabbix-agent
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		state: started
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">ansible-playbook test.yml
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div id="comments"><div id="gitalk" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
+            </noscript><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/liushu258/" target="_blank">小刘呀の博客</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.css"><link rel="stylesheet" href="/liushu258/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"gitalk":{"admin":["liushu258"],"clientID":"230bf542e8439454bd83","clientSecret":"4537b88097fca04d102286d0408c1a7e0df2c355","id":"2022-11-30T20:30:18+08:00","owner":"liushu258","repo":"liushu-comment","title":"自动化运维架构笔记 Ansible"},"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"serverURLs":"https://leancloud.hugoloveit.com","visitor":true}},"search":{"algoliaAppID":"YO492AG2ZO","algoliaIndex":"myblog","algoliaSearchKey":"06e45ad02e5f0d96e92124cd691a0cef","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/liushu258/js/theme.min.js"></script></body>
+</html>
