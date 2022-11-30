@@ -19,3 +19,57 @@ https://www.pseudoyu.com/zh/2022/05/29/deploy_your_blog_using_hugo_and_github_ac
 
 搜索，评论已经加上了，文章加密加密今天懒得搞了，可以参考这篇文章
 https://cloud.tencent.com/developer/article/1932812?cps_key=1d358d18a7a17b4a6df8d67a62fd3d3d
+
+{{< admonition tip >}}
+
+```
+{{< admonition >}}
+一个 **注意** 横幅
+{{< /admonition >}}
+
+{{< admonition abstract >}}
+一个 **摘要** 横幅
+{{< /admonition >}}
+
+{{< admonition info >}}
+一个 **信息** 横幅
+{{< /admonition >}}
+
+{{< admonition tip >}}
+一个 **技巧** 横幅
+{{< /admonition >}}
+
+{{< admonition success >}}
+一个 **成功** 横幅
+{{< /admonition >}}
+
+{{< admonition question >}}
+一个 **问题** 横幅
+{{< /admonition >}}
+
+{{< admonition warning >}}
+一个 **警告** 横幅
+{{< /admonition >}}
+
+{{< admonition failure >}}
+一个 **失败** 横幅
+{{< /admonition >}}
+
+{{< admonition danger >}}
+一个 **危险** 横幅
+{{< /admonition >}}
+
+{{< admonition bug >}}
+一个 **Bug** 横幅
+{{< /admonition >}}
+
+{{< admonition example >}}
+一个 **示例** 横幅
+{{< /admonition >}}
+
+{{< admonition quote >}}
+一个 **引用** 横幅
+{{< /admonition >}}
+```
+
+{{< /admonition >}}
