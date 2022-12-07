@@ -4,14 +4,30 @@
         <link>https://liushu258.github.io/liushu258/</link>
         <description>My Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
-            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Nov 2022 23:02:53 &#43;0800</lastBuildDate>
+            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 07 Dec 2022 11:39:08 &#43;0800</lastBuildDate>
             <atom:link href="https://liushu258.github.io/liushu258/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>2022年12月收藏</title>
+    <link>https://liushu258.github.io/liushu258/2022%E5%B9%B412%E6%9C%88%E6%94%B6%E8%97%8F/</link>
+    <pubDate>Wed, 07 Dec 2022 11:36:44 &#43;0800</pubDate>
+    <author>小刘呀の博客</author>
+    <guid>https://liushu258.github.io/liushu258/2022%E5%B9%B412%E6%9C%88%E6%94%B6%E8%97%8F/</guid>
+    <description><![CDATA[2022年12月1日 2022年12月2日 2022年12月3日 2022年12月4日 2022年12月5日 2022年12月6日 2022年12月7日]]></description>
+</item>
+<item>
     <title>公司电脑同步git代码</title>
     <link>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5git%E4%BB%A3%E7%A0%81/</link>
     <pubDate>Tue, 29 Nov 2022 13:50:14 &#43;0800</pubDate>
     <author>小刘呀の博客</author>
     <guid>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5git%E4%BB%A3%E7%A0%81/</guid>
+    <description><![CDATA[公司电脑同步github代码 以前都是用svn的，github的同步还是不会啊 下载hugo的expended插件 安装GIT 创建新的SSH，gi]]></description>
+</item>
+<item>
+    <title>公司电脑同步博客代码</title>
+    <link>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81/</link>
+    <pubDate>Tue, 29 Nov 2022 13:50:14 &#43;0800</pubDate>
+    <author>小刘呀の博客</author>
+    <guid>https://liushu258.github.io/liushu258/%E5%85%AC%E5%8F%B8%E7%94%B5%E8%84%91%E5%90%8C%E6%AD%A5%E5%8D%9A%E5%AE%A2%E4%BB%A3%E7%A0%81/</guid>
     <description><![CDATA[公司电脑同步github代码 以前都是用svn的，github的同步还是不会啊 下载hugo的expended插件 安装GIT 创建新的SSH，gi]]></description>
 </item>
 <item>

@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>化工 - 分类 - 小刘呀の博客 - 归来仍是少年</title>
-        <link>https://liushu258.github.io/liushu258/categories/%E5%8C%96%E5%B7%A5/</link>
-        <description>化工 - 分类 - 小刘呀の博客 - 归来仍是少年</description>
+        <title>可视化 - 标签 - 小刘呀の博客 - 归来仍是少年</title>
+        <link>https://liushu258.github.io/liushu258/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+        <description>可视化 - 标签 - 小刘呀の博客 - 归来仍是少年</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuhaotian258@gmail.com (小刘呀の博客)</managingEditor>
-            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Nov 2022 23:02:53 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/categories/%E5%8C%96%E5%B7%A5/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>liuhaotian258@gmail.com (小刘呀の博客)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 30 Nov 2022 23:02:53 &#43;0800</lastBuildDate><atom:link href="https://liushu258.github.io/liushu258/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/" rel="self" type="application/rss+xml" /><item>
     <title>数据可视化入门到精通1</title>
     <link>https://liushu258.github.io/liushu258/%E5%89%8D%E7%AB%AF%E8%8F%9C%E9%B8%9F/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A1/</link>
     <pubDate>Wed, 30 Nov 2022 23:02:53 &#43;0800</pubDate>
