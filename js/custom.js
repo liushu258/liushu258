@@ -14,9 +14,10 @@ if(window.console) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-		  "/liushu258/images/background/3.jpg",
-		  "/liushu258/images/background/2.jpg",
-		  "/liushu258/images/background/1.jpg"
+		//   "/liushu258/images/background/3.jpg",
+		//   "/liushu258/images/background/2.jpg",
+		//   "/liushu258/images/background/1.jpg",
+		  "/liushu258/images/background/vect.gif"
 	], { duration: 6000, fade: 1500 });
 });
 
@@ -112,12 +113,12 @@ window.onload = function() {
     if(document.hidden) {
       $('[rel="icon"]').attr('href', "/failure.ico");
       $('[rel="shortcut icon"]').attr('href', "/failure.ico");
-      document.title = '咦，页面崩溃啦！';
+      document.title = '你别走鸭 ಥ_ಥ';
       clearTimeout(titleTime);
     } else {
       $('[rel="icon"]').attr('href', "/favicon-32x32.png");
       $('[rel="shortcut icon"]').attr('href', "/favicon-32x32.png");
-      document.title = '咦，页面又好了！';
+      document.title = 'hi，你回来啦 Hi~ o(*￣▽￣*)ブ';
       titleTime = setTimeout(function() {
         document.title = OriginTitile;
       }, 2000);
