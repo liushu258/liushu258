@@ -14,10 +14,10 @@ if(window.console) {
 /* 轮播背景图片 */
 $(function () {
 	$.backstretch([
-		//   "/liushu258/images/background/3.jpg",
-		//   "/liushu258/images/background/2.jpg",
-		//   "/liushu258/images/background/1.jpg",
-		  "/liushu258/images/background/vect.gif"
+		"/liushu258/images/background/bulb.png",
+		"/liushu258/images/background/christmas.png",
+		"/liushu258/images/background/black-curve.png",
+		"/liushu258/images/background/binary.png",
 	], { duration: 6000, fade: 1500 });
 });
 
