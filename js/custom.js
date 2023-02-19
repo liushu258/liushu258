@@ -17,7 +17,7 @@ $(function () {
 		"/liushu258/images/background/bulb.png",
 		"/liushu258/images/background/christmas.png",
 		"/liushu258/images/background/black-curve.png",
-		"/liushu258/images/background/binary.png",
+		// "/liushu258/images/background/binary.png",
 	], { duration: 6000, fade: 1500 });
 });
 
