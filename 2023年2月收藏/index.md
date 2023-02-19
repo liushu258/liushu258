@@ -169,9 +169,15 @@ https://www.youtube.com/watch?app=desktop&v=_l8Rn6tPs6o&feature=youtu.be
 
 
 
+### Ai
 
+https://github.com/Daiyimo/Access-chatGPT-in-Siri (Siri快捷)
 
+https://github.com/f/awesome-chatgpt-prompts （Using Method）
 
+### 系统激活
+
+https://cmwtat.cloudmoe.com/cn.html
 
 ## 2023年2月20日
 
