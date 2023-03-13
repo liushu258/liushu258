@@ -300,11 +300,28 @@ Total Commander：是一款应用于Windows 平台的文件管理器，它包含
 Listary：用于Windows的文件搜索、定位的辅助软件，改善了常见文件管理器中文件夹切换的效率。
 Quicker：（强烈推荐）Windows效率神器。快速触发+ 自动化。
 {{< /admonition >}}
+
 ## 2023年2月21日
 
 ## 2023年2月22日
 
 ## 2023年2月23日
+
+### 有点用的话而已
+
+如何训练你的大脑：
+
+1.每天阅读
+2.写下想法
+3.每天锻炼
+4.离开你的舒适区
+5.写一个每日待办事项清单
+6.花时间冥想
+
+为什么有人思考问题一下就能抓住重点？ - 知乎
+https://www.zhihu.com/question/52801839
+
+
 
 ## 2023年2月24日
 
@@ -315,5 +332,19 @@ Quicker：（强烈推荐）Windows效率神器。快速触发+ 自动化。
 ## 2023年2月27日
 
 ## 2023年2月28日
+
+### 前端
+
+《JavaScript 权威指南》属于前端入门同学的必备书籍，其实很多时候看文章/视频教学不如看书来得系统化和深入，这本书第七版中英对照在线版，感觉还不错。
+
+https://js.okten.cn/
+
+**[MarkDown语法 超详细教程](https://forum-zh.obsidian.md/t/topic/435)**
+
+一个浏览器插件Glarity，基于 chatgpt 和 Youtube 字幕生成视频摘要，配合中文翻译，20 秒看完梗概，用来看外文视频（特别是 web3项目方更新）效率高到飞起。目前支持 chrome 和 Firefox
+
+https://glarity.app/google-summary
+
+原帖：https://twitter.com/starzqeth/status/1629995006214668293
 
 
