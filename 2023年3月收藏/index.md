@@ -5,13 +5,16 @@
 
 ### 前端 Github
 
-
+CSS Scan
+ (https://getcssscan.com/css-checkboxes-examples)65 个免费精美的 CSS 复选框，单击可以复制
 
 ## 2023年3月2日
 
-### 前端 Github
+### 工具箱
 
+工程师工具箱「IT Tools」, 提供加解密、常用转换、Web 处理工具、图片、开发、数学等常用顺手处理
 
+https://it-tools.tech/
 
 ## 2023年3月3日
 
@@ -49,10 +52,6 @@ https://github.com/ten-ltw/JavaScript-The-Definitive-Guide-7th-zh
 
 本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust，日常更新。https://github.com/doocs/leetcode
 
-
-
-
-
 ### 产品
 
 https://qima.feishu.cn/docs/doccnX2YXEjp4P9pvFtBgiWBOpd#
@@ -61,9 +60,9 @@ https://qima.feishu.cn/docs/doccnX2YXEjp4P9pvFtBgiWBOpd#
 
 ## 2023年3月8日
 
+### AI工具
 
-
-
+和文件交流：https://chatdoc.com/chatdoc/#/upload
 
 ## 2023年3月9日
 
@@ -146,11 +145,11 @@ https://search.freemdict.com/
 
 https://www.chatmind.tech/
 
-名称：3 分钟即可搭建一个 Web 演示网页
+**名称：3 分钟即可搭建一个 Web 演示网页**
 
 https://icloudnative.io/posts/build-chatgpt-web-using-laf/
 
-名称： Chat Youtube ，看到一个视频时候，直接把链接丢给它，十秒钟后就可以随便提问了。
+**名称： Chat Youtube ，看到一个视频时候，直接把链接丢给它，十秒钟后就可以随便提问了。**
 
 https://chatyoutube.com/
 
@@ -182,7 +181,7 @@ https://www.sysmini.com/
 
 ### 化工
 
-## CFDTool - MATLAB CFD Simulation GUI &Toolbox
+**CFDTool - MATLAB CFD Simulation GUI &Toolbox**
 
 https://www.mathworks.com/matlabcentral/fileexchange/72640-cfdtool-matlab-cfd-simulation-gui-toolbox?s_tid=mwa_osa_a
 
@@ -192,39 +191,98 @@ https://www.featool.com/doc/openfoam#install_of
 
 ## 2023年3月13日
 
+### 打卡
 
+```
+闪蒸对固态的支持
+```
 
 ## 2023年3月14日
 
+### 打卡
 
+```
+闪蒸对固态的支持
+```
 
 ## 2023年3月15日
 
+### 打卡
 
+```
+relief/simulator的Bug
+```
 
 ## 2023年3月16日
 
+### 打卡
 
+```
+.net后端代码混淆 EnConfuse的使用
+```
 
 ## 2023年3月17日
 
+### 打卡
 
+```
+交换机与路由器技术
+```
 
 ## 2023年3月18日
+
+### 打卡
+
+```
+交换机与路由器技术
+```
 
 
 
 ## 2023年3月19日
 
+### 打卡
 
+```
+石油化工工艺学1.2
+```
 
 ## 2023年3月20日
 
+### AI
 
+```
+- Awesome-ChatGPT (https://github.com/dalinvip/Awesome-ChatGPT) ChatGPT资料汇总学习
+- ChatGPT学习宝典 (https://gpt.candobear.com/) prompt大全，GPT工具箱以及学习资料分享
+- Awesome ChatGPT Prompts (https://prompts.chat/) chatGPT prompt大全
+- ChatGPT 桌面应用 https://github.com/lencx/ChatGPT/releases
+```
+
+### 工具
+
+```
+小红书图片批量去水印获取原图：https://www.52pojie.cn/thread-1760754-1-1.html
+
+```
+
+### 打卡
+
+```
+石油化工工艺学 3
+数值方法 C++与C#语言描述 1
+代码随想录 -- 移除元素（暴力+双指针）
+外刊
+网络安全 --STR
+```
 
 ## 2023年3月21日
 
+### 打卡
 
+```
+PRM端口映射
+
+```
 
 ## 2023年3月22日
 

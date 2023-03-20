@@ -184,8 +184,6 @@ https://www.zhixiu.net/
 
 # 2023年1月4日
 
-使用 ChatGPT 已经快 2 个月了，要将ChatGPT用得好，关键是学会输入清楚的指令Prompt。
-
 如何输入清楚的指令Prompt呢？一共有3个方法，
 1. 定义角色
 2. 定义目标
