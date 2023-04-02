@@ -237,8 +237,6 @@ relief/simulator的Bug
 交换机与路由器技术
 ```
 
-
-
 ## 2023年3月19日
 
 ### 打卡
@@ -281,45 +279,91 @@ relief/simulator的Bug
 
 ```
 PRM端口映射
-
 ```
 
 ## 2023年3月22日
 
+### 打开
 
+```
+
+```
 
 ## 2023年3月23日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月24日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月25日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月26日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月27日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月28日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月29日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月30日
 
+### 打卡
 
+```
+
+```
 
 ## 2023年3月31日
+
+### 工具
+
+```
+桌面图像实时转文字工具
+https://github.com/xksoft/OcrHelper
+https://github.com/hiroi-sora/Umi-OCR
+https://yibiao.fun/
+https://github.com/TheJoeFin/Text-Grab
+https://github.com/AlejandroAkbal/Image-to-Text-OCR
+```
 
 
