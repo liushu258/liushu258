@@ -133,3 +133,34 @@ function runtime() {
         + ((seconds < 10) ? '0' : '') + seconds + ' 绉?';
 }
 runtime();
+
+/* 标题字符点击切换背景色: 小=default, 刘=xiaogai.fun, 呀=纯黑，默认xiaogai.fun */
+(function() {
+    var homeTitle = document.querySelector('.home-title');
+    if (!homeTitle) return;
+    /* 默认背景 */
+    var defaultBg = 'bg-xiaogai';
+    document.body.classList.add(defaultBg);
+
+    function clearBg() {
+        document.body.classList.remove('bg-xiaogai', 'bg-black', 'bg-default');
+    }
+
+    homeTitle.addEventListener('click', function(e) {
+        var target = e.target;
+        if (!target || !target.classList.contains('home-title') && target.dataset.char) {
+            var ch = target.dataset.char;
+            clearBg();
+            if (ch === '小') {
+                /* 现在的背景: 深色渐变 + 格子纹 (bg-default) */
+                document.body.classList.add('bg-default');
+            } else if (ch === '刘') {
+                /* xiaogai.fun 背景: 暖色渐变 + 格子纹 */
+                document.body.classList.add('bg-xiaogai');
+            } else if (ch === '呀') {
+                /* 纯黑背景 */
+                document.body.classList.add('bg-black');
+            }
+        }
+    });
+})();
