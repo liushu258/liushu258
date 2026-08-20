@@ -1,0 +1,155 @@
+# 2024年3月电报收藏
+
+
+## 月度概览
+
+本月共整理 **106** 条频道消息，其中 **105** 条含正文，**2** 个媒体/附件引用（2 个唯一文件）。
+
+- 时间范围：2024-03-03 至 2024-03-28
+- 主要主题：编程与软件（63）、其他收藏（27）、学习与知识（7）、工程与职业（5）
+- 整理说明：长转发已缩写，保留可用链接；原始媒体未嵌入正文。
+
+## 主题笔记
+
+### AI 与效率工具
+
+- **03-06 11:51** **掘金**<br>[MySQL 查询优化：提速查询效率的13大秘籍（索引设计、查询优化、缓存策略、子查询优化以及定期表分析和优化）（中）](https://juejin.cn/post/7330147786678190091)<br>[2024 年值得关注的 8 个网页设计趋势，走起！](https://juejin.cn/post/7337869843915030563)<br>[【第二篇】SpringSecurity源码初探](https://juejin.cn/entry/7330181444101406746)<br>[Sora为何出自OpenAI？一线员工作息时间线揭秘：我们疯狂地卷](https://juejin.cn/entry/7337634165495119907)<br>[GitOps和AI：在将错误应用到K8S之前进行解释](https://juejin.cn/post/7337119485910810664)<br>[MySQL查询优化：提速查询效率的13大秘籍（合理使用索引合并、优化配置参数、使用分区优化性能、避免不必要的排序和group by操作）（下）](https://juejin.cn/post/7331626141806477348)<br>[CentOS7与Ubuntu防火墙管理命令操作总结](https://juejin.cn/post/7336533924321558538)<br>[Java……<br>补充链接：https://juejin.cn/post/7330203936287506458；https://juejin.cn/post/7335437804628164658；https://juejin.cn/post/7337597892402364427（内容较长，已压缩） （来源：小黄车分享）
+- **03-06 19:45** **掘金**<br>[Claude3真的超越GPT4了吗?](https://juejin.cn/post/7343132617967910964)<br>[梯度下降法与牛顿法在机器学习中的应用及对比](https://juejin.cn/post/7343137631893454875)<br>[使用langchain搭建本地知识库系统(新)](https://juejin.cn/post/7342349357385744410)<br>[好聪明的开发者！当AI搜索遇见Agent；Claude官方提示词库；AI+玄学科普长文；如何抓住AI带来的创业信号？痛苦的副业不干也罢 | ShowMeAI日报](https://juejin.cn/post/7342858918162874403)<br>[Claude3“闪击”GPT，OpenAI半天就更新了这？](https://juejin.cn/post/7342791123142410274)<br>[Claude3发布，ChatGPT-4 跌下神坛！兄弟相残？](https://juejin.cn/post/7342853206874095642)<br>[重温 Transformers 解码器](https://juejin.cn/post/7342815085029621786)<br>[古茗是如何将小程序编译速度提升3倍的| 掘金一周 3.6](https://juejin.cn/post/7343138429860216873)<br>[⚡……<br>补充链接：https://juejin.cn/post/7342787949250396194；https://juejin.cn/post/7342834104448729103（内容较长，已压缩） （来源：小黄车分享）
+
+### 网络与安全
+
+- **03-27 19:19** **博客园_首页**<br>[C# 优雅的处理TCP数据（心跳，超时，粘包断包，SSL加密 ，数据处理等） - BruceNeter](https://www.cnblogs.com/qwqwQAQ/p/18087456)<br>[R语言数据质量分析 - xunnan](https://www.cnblogs.com/stayme/p/18087436) （来源：小黄车分享）
+
+### 编程与软件
+
+- **03-03 23:14** **掘金**<br>[云计算 - 负载均衡SLB方案全解与实战](https://juejin.cn/post/7333416709121474596)<br>[成为高级工程师的必经之路——一网打尽前端正则表达式常用知识点](https://juejin.cn/post/7333986476029444106) （来源：小黄车分享）
+- **03-05 19:15** **掘金**<br>[轻松上手：＜Android Studio笔记应用开发＞（三）笔记可再编辑](https://juejin.cn/post/7333986476029673482)<br>[从源码看vue3的watchEffect为什么不应该传入异步函数](https://juejin.cn/post/7333144462225752098)<br>[死磕前端之——编译工具链](https://juejin.cn/post/7333421776460759049)<br>[搞定浏览器缓存，解决前端面试](https://juejin.cn/post/7333986476029542410)<br>[sql sever 屎山代码 ？存储过程怎么找 存储过程内容](https://juejin.cn/post/7333525949923491890)<br>[为啥建议用MapperStruct，不建议用BeanUtils.copyProperties拷贝数据？](https://juejin.cn/post/7333458486435987494) （来源：小黄车分享）
+- **03-05 19:25** **掘金**<br>[主从延迟如何解决](https://juejin.cn/post/7334311273339813903)<br>[Linux find命令详解](https://juejin.cn/post/7325642452820099084)<br>[Linux grep命令搜索神器详解](https://juejin.cn/post/7334929489196515378)<br>[Rust 学习笔记 - 变量声明与使用](https://juejin.cn/post/7334929489196384306)<br>[情人节即分手，FreeNginx 来了](https://juejin.cn/post/7335089578321854498)<br>[告别网络请求难题，你绝对想不到的神秘武器！](https://juejin.cn/post/7335463274619551794) （来源：小黄车分享）
+- **03-05 19:30** **掘金**<br>[点播降本增效中的播放器策略](https://juejin.cn/post/7325310788507402303)<br>[会员购交易系统架构演进](https://juejin.cn/post/7330512499174129705)<br>[Web 终极拦截技巧（全是骚操作）](https://juejin.cn/post/7331949219883646987)<br>[@Configuration 使用与原理](https://juejin.cn/post/7333019950955872291)<br>[Spring事务实现原理](https://juejin.cn/post/7336093196353732627)<br>[H5、小程序高度变化的轮播图如何实现](https://juejin.cn/post/7335067315451559945)<br>[深度学习下的人体遮挡物体重建：挑战、最新研究与代码实例](https://juejin.cn/post/7332836966352404495)<br>[从架构的角度看 webpack5 的编译主流程](https://juejin.cn/post/7336014826336190464)<br>[vue3的宏到底是什么东西？](https://juejin.cn/post/7335721246931189795)<br>补充链接：https://juejin.cn/post/7336055070507679784（内容较长，已压缩） （来源：小黄车分享）
+- **03-05 19:32** **博客园_首页**<br>[软件架构模式之第五章：事件驱动架构 - 阳光底下没有秘密](https://www.cnblogs.com/areswien/p/18017006) （来源：小黄车分享）
+- **03-05 19:35** **博客园_首页**<br>[关于代码性能优化的总结 - 程序员不帅哥](https://www.cnblogs.com/Mr-Worlf/p/18020445) （来源：小黄车分享）
+- **03-05 19:40** **博客园_首页**<br>[《熬夜整理》保姆级系列教程-玩转Wireshark抓包神器教程(2)-Wireshark在Windows系统上安装部署 - 北京-宏哥](https://www.cnblogs.com/du-hong/p/17018558.html) （来源：小黄车分享）
+- **03-06 14:49** **掘金**<br>[MySQL批量更新最佳实践](https://juejin.cn/post/7338262742817161268)<br>[人工神经网络是什么，其应用有哪些？](https://juejin.cn/post/7338332141611253770) （来源：小黄车分享）
+- **03-06 14:50** **博客园_首页**<br>[机器学习策略篇：详解为什么是ML策略？（Why ML Strategy?） - Oten](https://www.cnblogs.com/oten/p/18028725)<br>[代码+案例，实战解析BeautifulSoup4 - 华为云开发者联盟](https://www.cnblogs.com/huaweiyun/p/18028710) （来源：小黄车分享）
+- **03-06 14:51** **博客园_首页**<br>[Redis分布式锁的正确使用姿势 - wenbochang](https://www.cnblogs.com/wenbochang/p/18028302) （来源：小黄车分享）
+- **03-06 15:04** **博客园_首页**<br>[揭秘一线大厂Redis面试高频考点（3万字长文、吐血整理） - 江-小北](https://www.cnblogs.com/jiang-xiao-bei/p/18030540) （来源：小黄车分享）
+- **03-06 15:04** **掘金**<br>[金三银四充电宝：《前端开发核心知识进阶》](https://juejin.cn/post/7338601378485960756) （来源：小黄车分享）
+- **03-06 15:09** **博客园_首页**<br>[前端树形Tree数据结构使用-‍♂️各种姿势总结 - 安木夕](https://www.cnblogs.com/anding/p/17625911.html) （来源：小黄车分享）
+- **03-06 15:12** **博客园_首页**<br>[Docker安装MS SQL Server并使用Navicat远程连接 - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18032421) （来源：小黄车分享）
+- **03-06 15:16** **博客园_首页**<br>[细聊ASP.NET Core WebAPI格式化程序 - yi念之间](https://www.cnblogs.com/wucy/p/18025196/aspnetcore_webapi_formatter) （来源：小黄车分享）
+- **03-06 15:19** **掘金**<br>[笔记：useMemo vs computed & useEffect vs watch](https://juejin.cn/post/7339470312662941722)<br>[如何使用Sora？Sora案例、效果和原理介绍](https://juejin.cn/post/7338994082860548122)<br>[我是如何利用ChatGPT划水的](https://juejin.cn/post/7339042131468451880)<br>[自定义神经网络四之编写自定义神经网络](https://juejin.cn/post/7339364757385789476)<br>[自定义神经网络三之梯度和损失函数激活函数](https://juejin.cn/post/7338808893529243659)<br>[自定义神经网络二之模型训练推理](https://juejin.cn/post/7339104098898280511)<br>[自定义神经网络一之Tensor和神经网络](https://juejin.cn/post/7339035831402561572)<br>[OpenAI Sora的全面解读和使用教程](https://juejin.cn/post/7338778403553706018)<br>[FlatBuffers使用与原理解析](https://juejin.cn/post/7339364757386412068)<br>补充链接：https://juejin.cn/post/7339085241176129586（内容较长，已压缩） （来源：小黄车分享）
+- **03-06 15:19** **掘金**<br>[总结一些面试遇到的一些手撕题](https://juejin.cn/post/7339470312663171098)<br>[字符串功能性函数](https://juejin.cn/post/7339364757386297380)<br>[2024 高频前端面试题汇总之CSS篇（一）](https://juejin.cn/post/7339470312663105562)<br>[Docsify 全攻略](https://juejin.cn/post/7339475385762611210) （来源：小黄车分享）
+- **03-06 15:20** **博客园_首页**<br>[从零开始写 Docker(二)---优化：使用匿名管道传递参数 - 探索云原生](https://www.cnblogs.com/KubeExplorer/p/18034095) （来源：小黄车分享）
+- **03-06 15:26** **掘金**<br>[解决一个MYSQL的主从延迟问题](https://juejin.cn/post/7339552755156615222)<br>[通过 vue3 学习响应系统的设计思想](https://juejin.cn/post/7339743984099835945)<br>[JVM跨代垃圾如何回收？](https://juejin.cn/post/7339560770459287552) （来源：小黄车分享）
+- **03-06 15:28** **博客园_首页**<br>[推荐10款C#开源好用的Windows软件 - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18035760) （来源：小黄车分享）
+- **03-06 15:31** **博客园_首页**<br>[C#程序全局异常处理—WPF和Web API两种模式 - 奔四的大龄码农](https://www.cnblogs.com/huangqian/p/18036541) （来源：小黄车分享）
+- **03-06 15:35** **掘金**<br>[写了将近一年的Web,总结一些收获到的知识点](https://juejin.cn/post/7340107906404925490)<br>[Nodejs 第四十六章（redis持久化）](https://juejin.cn/post/7339905802072195098)<br>[将任何网页变成桌面应用，全平台支持 | 开源日报 No.184](https://juejin.cn/post/7340167256268390436) （来源：小黄车分享）
+- **03-06 15:39** **掘金**<br>[关于前端实现文件下载功能](https://juejin.cn/post/7340240633998278665)<br>[[译] 快速探索 Rust 中的 trait 对象](https://juejin.cn/post/7340481613144260627)<br>[React + antd Upload组件弹出文件框前进行检查](https://juejin.cn/post/7340177530153713704)<br>[面试官：“请你说说深拷贝和浅拷贝”，如何脱颖而出](https://juejin.cn/post/7340275706499547176)<br>[2024 AI & 前端：回首展望，光芒未至，破晓之前！| 掘金一周 2.28](https://juejin.cn/post/7340462380336676874)<br>[JS：如何实现对象的拷贝](https://juejin.cn/post/7340475659317231650)<br>[vue工程通过加载js文件的方式引入公共组件](https://juejin.cn/post/7340240633998082057)<br>[proxy和reflect](https://juejin.cn/post/7340295754245324809)<br>[地图定位问题](https://juejin.cn/post/7340278606392115219)<br>补充链接：https://juejin.cn/post/7340278606391001107（内容较长，已压缩） （来源：小黄车分享）
+- **03-06 15:41** **博客园_首页**<br>[使用ConfuserEx代码混淆工具保护你的.NET应用程序 - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18042386) （来源：小黄车分享）
+- **03-06 15:44** **掘金**<br>[Websockt断线重连和心跳机制](https://juejin.cn/post/7340588838096306226)<br>[缓存击穿、穿透、雪崩](https://juejin.cn/post/7340865231379513353)<br>[LeetCode-数组-滑动窗口-中等难度](https://juejin.cn/post/7340854234893926412)<br>[在FastAPI中进行数据请求](https://juejin.cn/post/7340909611098046505)<br>[uniapp+node.js前后端做帖子模块：发布帖子（社区管理平台的小程序）](https://juejin.cn/post/7340830470462537766)<br>[【微服务】微服务架构包含哪些组件、各个组件又承担什么职责呢？](https://juejin.cn/post/7340856664754602011)<br>[OpenWrt-Eclipse环境搭建](https://juejin.cn/post/7340834858275045428)<br>[2024程序员容器化上云之旅-第5集-Ubuntu-WSL2-Windows11版：上云之路](https://juejin.cn/post/7340843990759587867)<br>[手把手教学，SpringCloud使用Consul作为配置中心实战](https://juejin.cn/entry/7340676808437661715)<br>补充链接：https://juejin.cn/post/7340843990759489563（内容较长，已压缩） （来源：小黄车分享）
+- **03-06 15:51** **掘金**<br>[2024最新版：前端性能优化方案汇总](https://juejin.cn/post/7341267497428025344)<br>[实用干货：分享一款全能且免费的画图神器！](https://juejin.cn/post/7341282461202890786) （来源：小黄车分享）
+- **03-06 15:54** **博客园_首页**<br>[.NET开源功能强大的串口调试工具 - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18050045) （来源：小黄车分享）
+- **03-06 15:54** **掘金**<br>[你写的代码真的符合RESTful风格的设计吗？](https://juejin.cn/post/7341391477014560804)<br>[Redis 的缓存过期策略](https://juejin.cn/post/7341408996598579219)<br>[Go语言中常见100问题-#13 你在项目中创建utils包了吗？](https://juejin.cn/post/7341401110632267828)<br>[平台工程: 用Backstage构建开发者门户 - 2](https://juejin.cn/post/7341416970939187237)<br>[Redis缓存示例【一篇看懂数据库缓存的技术redis】](https://juejin.cn/post/7341323705023053865)<br>[ART虚拟机GC 全貌](https://juejin.cn/post/7341652882112872511)<br>[《Spring Security 简易速速上手小册》第10章 未来趋势与高级话题 （2024 最新版）](https://juejin.cn/post/7341315113159671823)<br>[Nacos环境搭建 -- 服务注册与发现](https://juejin.cn/post/7341416970939072549)<br>[Redis中的ZSet数据结构原理剖析](https://juejin.cn/post/7341401110631940148)<br>补充链接：https://juejin.cn/post/7341368001202339875（内容较长，已压缩） （来源：小黄车分享）
+- **03-07 10:25** **博客园_首页**<br>[用几张图实战讲解MySQL主从复制 - 华为云开发者联盟](https://www.cnblogs.com/huaweiyun/p/18058171) （来源：小黄车分享）
+- **03-08 14:38** 附件：《@MatlabOnline_Neural_Networks_and_Learning_Algorithms_in_MATLAB.pdf》 （来源：Matlab projects in chemical engineering 💻🌈）
+- **03-14 14:13** **掘金**<br>[NestJS中的守卫-常用于实现授权的Guard](https://juejin.cn/post/7343138804483112960)<br>[原生SpringCloud组件应用学习笔记V1.0](https://juejin.cn/post/7343160798171578378)<br>[你真的了解CSS中的包含块吗？| 使用定位属性需留意](https://juejin.cn/post/7343243882027237391)<br>[速存，详细罗列香橙派AIpro外设接口样例大全（附源码）](https://juejin.cn/post/7343153834532454426)<br>[Python 教程-配置 Python 运行环境（Anaconda）](https://juejin.cn/post/7343162622178410496)<br>[简单搭建MySQL主从复制](https://juejin.cn/post/7343162626322530316)<br>[[MySQL]数据库原理2——喵喵期末不挂科](https://juejin.cn/post/7343160828173402127)<br>[config组件统一配置的使用](https://juejin.cn/post/7343162622177656832)<br>[Sharding-JDBC源码解析与vivo的定制开发](https://juejin.cn/post/7343161077062991882)<br>补充链接：https://juejin.cn/post/7343161077062778890（内容较长，已压缩） （来源：小黄车分享）
+- **03-26 21:33** **掘金**<br>[系统架构：Kubernetes集中式微服务架构分析](https://juejin.cn/post/7325320955729821748) （来源：小黄车分享）
+- **03-26 21:34** **掘金**<br>[小浣熊的🔥社招跳槽国企（必问）面试题top10解析✅](https://juejin.cn/post/7325353198590623783)<br>[华为跟 Android 说再见，解读鸿蒙应用全部虚拟机化](https://juejin.cn/post/7325271065831915520)<br>[来聊聊session与token的区别](https://juejin.cn/post/7325320955729903668)<br>[上期2D子弹跟随大受欢迎，想要个3D版本的？](https://juejin.cn/post/7325353198590378023) （来源：小黄车分享）
+- **03-27 09:08** **博客园_首页**<br>[神经网络优化篇：详解Adam 优化算法(Adam optimization algorithm) - Oten](https://www.cnblogs.com/oten/p/17974000) （来源：小黄车分享）
+- **03-27 11:58** **博客园_首页**<br>[这才是你应该了解的Redis数据结构！ - lyxlucky](https://www.cnblogs.com/lyxlucky/p/17972955) （来源：小黄车分享）
+- **03-27 12:01** **掘金**<br>[记录我的NestJS探究历程（十五）——利用线程上下文改善日志设计](https://juejin.cn/post/7325213878157950991)<br>[遇到分布式事务，这四种方案可以让你眉开眼笑~](https://juejin.cn/post/7325132148578484234)<br>[来聊聊大厂常问的SPI工作原理](https://juejin.cn/post/7324931319268360227)<br>[裁员下的重生](https://juejin.cn/post/7325495635456049162)<br>[Nest框架之IOC](https://juejin.cn/post/7325246256459710499)<br>[工作中用Redis最多的10种场景](https://juejin.cn/post/7325132133168971813)<br>[微信小程序实现实时录音音频强度输出](https://juejin.cn/post/7325246251460460596)<br>[Dart VM 线程池剖析](https://juejin.cn/post/7325132165263704090)<br>[Flutter为什么不需要子线程——Dart IO源码剖析（下）](https://juejin.cn/post/7325132211311738906)<br>补充链接：https://juejin.cn/post/7325495640053415962（内容较长，已压缩） （来源：小黄车分享）
+- **03-27 14:07** **博客园_首页**<br>[使用C#创建服务端Web API - 葡萄城技术团队](https://www.cnblogs.com/powertoolsteam/p/18059215)<br>[将MindSpore运行结果输出到log文件 - DECHIN](https://www.cnblogs.com/dechinphy/p/18065403/ouput-to-log)<br>[Python 在Word中创建表格并填入数据、图片 - E-iceblue](https://www.cnblogs.com/Yesi/p/18065520) （来源：小黄车分享）
+- **03-27 14:10** **掘金**<br>[服务端渲染](https://juejin.cn/post/7344571968174702644)<br>[接口防止重复调用方案](https://juejin.cn/post/7344536653464191013)<br>[visionOS 应用图标设计](https://juejin.cn/post/7344653866199285814)<br>[NestJS设计模式深度解析：构建高效、可维护的服务端应用](https://juejin.cn/post/7344571324306604095)<br>[10 个解放双手的 IDEA插件，少些冤枉代码（第三弹）](https://juejin.cn/post/7344710026853138466)<br>[前端中的观察者和发布订阅设计模式的区别和应用](https://juejin.cn/post/7344567669893038120)<br>[深入理解 JavaScript 中的 Object.assign() 方法](https://juejin.cn/post/7344598656144588863)<br>[TypeScript中的satisfies关键字，比as更准确，比`:Type`类型定义更简洁](https://juejin.cn/post/7344573755644330038)<br>[小程序从入门到入坑：事件系统](https://juejin.cn/post/7344573755644018742)<br>补充链接：https://juejin.cn/post/7344536653463650341（内容较长，已压缩） （来源：小黄车分享）
+- **03-27 17:18** **博客园_首页**<br>[Redis稳定性之战：AOF日志支撑数据持久化 - Hello-Brand](https://www.cnblogs.com/wzh2010/p/18049659) （来源：小黄车分享）
+- **03-27 17:51** **掘金**<br>[three-mesh-bvh 源码阅读(1) 合批处理成静态几何体-StaticGeometryGenerator](https://juejin.cn/post/7345134591483396105)<br>[Flutter之使用Competer做防抖](https://juejin.cn/post/7345076635609776154)<br>[字节跳动安全范儿技术沙龙*第13期：漏洞攻防安全](https://juejin.cn/post/7345129748005503010)<br>[前端接口请求——常用的一些总结](https://juejin.cn/post/7345105989682020391)<br>[CSS grid布局｜怎么样基于线来摆放元素？](https://juejin.cn/post/7345071638202171444)<br>[（08）Header 组件开发——⑧ 热门搜索“换一换”功能实现 | React.js 项目实战：PC 端“简书”开发](https://juejin.cn/post/7345076635609448474)<br>[大大提高开发效率的10个JavaScript技巧](https://juejin.cn/post/7345280197908398080)<br>[linux Shell 命令行-06-flow control 流程控制](https://juejin.cn/post/7345071716681613312)<br>[linux Shell 命令行-05-test……<br>补充链接：https://juejin.cn/post/7345071716681580544；https://juejin.cn/post/7345025297140744202（内容较长，已压缩） （来源：小黄车分享）
+- **03-27 17:51** **掘金**<br>[前端性能优化之旅：理解和实践防抖](https://juejin.cn/post/7345111272172732443)<br>[前端知识点查缺补漏之JavaScript基础提升（二）](https://juejin.cn/post/7345098611695124517)<br>[FastAPI流式接口开发演示](https://juejin.cn/post/7345121873598955571)<br>[Mybatis源码 - sqlSessionFactory.openSession()方法解析 创建事务对象 装饰器模式创建执行器](https://juejin.cn/post/7345105976934629395)<br>[总说上下文切换耗性能，那他到底耗了多少性能？](https://juejin.cn/post/7345105976934776851) （来源：小黄车分享）
+- **03-27 18:16** **博客园_首页**<br>[如何在数据库中存储小数：FLOAT、DECIMAL还是BIGINT？ - 菜鸟额](https://www.cnblogs.com/chenjiazhan/p/18071468) （来源：小黄车分享）
+- **03-27 18:17** **掘金**<br>[Redis 八种常用数据类型详解](https://juejin.cn/post/7345726691510911012)<br>[在springboot中如何实现数据脱敏](https://juejin.cn/post/7345758899305349172)<br>[看看 Deno 官方博客，Deno 官方年度总结](https://juejin.cn/post/7345727329410383884)<br>[【Redis性能瓶颈揭秘】「调优系列」深入分析热Key的排查策略和解决方案](https://juejin.cn/post/7345727975734460431) （来源：小黄车分享）
+- **03-27 18:24** **博客园_首页**<br>[前后端分离之Ajax入门 - 烫烫烫烫烫烫烫](https://www.cnblogs.com/namenana/p/18073356) （来源：小黄车分享）
+- **03-27 18:55** **博客园_首页**<br>[.NET集成DeveloperSharp操作Sql Server数据库 - 高级梦想家](https://www.cnblogs.com/digital-college/p/18079750)<br>[基于C#的自动校时器 - 开源研究系列文章 - lzhdim](https://www.cnblogs.com/lzhdim/p/18074382)<br>[Python实践：基于Matplotlib实现某产品全年销量数据可视化 - 华为云开发者联盟](https://www.cnblogs.com/huaweiyun/p/18079742) （来源：小黄车分享）
+- **03-27 19:05** **掘金**<br>[Docker部署MySql主从详细教程](https://juejin.cn/post/7347910678097215529)<br>[ubuntu 如何使用阿里云盘](https://juejin.cn/post/7347911052170117156) （来源：小黄车分享）
+- **03-27 19:09** **博客园_首页**<br>[为什么延迟删除可以保证MYSQL 与redis的一致性？ - 蓝胖子的编程梦](https://www.cnblogs.com/hobbybear/p/18084904) （来源：小黄车分享）
+- **03-27 19:10** **博客园_首页**<br>[Redis数据库安装与使用总结 - CSMrDong](https://www.cnblogs.com/cs-songbai/p/18084979) （来源：小黄车分享）
+- **03-27 19:13** **博客园_首页**<br>[MySQL varchar详解 - LvLaoTou](https://www.cnblogs.com/lvlaotou/p/18085750) （来源：小黄车分享）
+- **03-27 19:25** **博客园_首页**<br>[前端优化 之 preload - chester·chen](https://www.cnblogs.com/chenyishi/p/18086748) （来源：小黄车分享）
+- **03-27 20:31** **掘金**<br>[实战指南：封装axios并增加loading效果](https://juejin.cn/post/7349087888049618979)<br>[开源的数据可视化平台 Kibana 日志可视化 mac 安装笔记](https://juejin.cn/post/7349052422059376676)<br>[性能提升技巧：使用Set和数组方法优化JavaScript代码](https://juejin.cn/post/7349083937643692072) （来源：小黄车分享）
+- **03-28 18:52** **技术头条**<br>[sqlite并发读写的演进之路 (www.codedump.info)](https://blogread.cn/news/go.php?idItem=16114&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20220904-weekly-24%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F)<br>[从存储模型聊一聊时序数据库的应用场景 (www.codedump.info)](https://blogread.cn/news/go.php?idItem=16113&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20220211-weekly-5%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F)<br>[Lamport时钟介绍 (www.codedump.info)](https://blogread.cn/news/go.php?idItem=16112&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20220703-weekly-21%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F)<br>[网状的思考，线性的写作……<br>补充链接：https://blogread.cn/news/go.php?idItem=16111&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20220612-weekly-18%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16110&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20220710-weekly-22%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16109&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20210701-memcached%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16108&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20191206-gameserver-hot-refresh%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16107&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20200522-sgfap-softirq%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16106&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20200615-btree-2%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F；https://blogread.cn/news/go.php?idItem=16105&url=https%3A%2F%2Fwww.codedump.info%2Fpost%2F20200609-btree-1%2F%3Fcomefrom%3Dhttps%253A%252F%252Fblogread.cn%252Fnews%252F（内容较长，已压缩） （来源：小黄车分享；重复收藏 2 次，末次 03-28）
+- **03-28 21:49** **掘金**<br>[echarts 如何制作杜邦图（树结构函数表达式）](https://juejin.cn/post/7349829638887718950)<br>[Spring Boot集成JSch快速入门demo](https://juejin.cn/post/7350111452952887306)<br>[Chrome 插件打包发布](https://juejin.cn/post/7349835041994080290)<br>[【C++干货基地】C++入门篇：输入输出流 | 缺省函数 | 函数重载](https://juejin.cn/post/7350094390436986919)<br>[Android 离线加载落地](https://juejin.cn/post/7349880999260553253)<br>[RN针对苹果手机刘海屏的处理](https://juejin.cn/post/7350123870671847475) （来源：小黄车分享）
+- **03-28 21:50** **掘金**<br>[超级干干干干货！丝滑的 iOS 进度条解锁交互到底是怎么制作的？](https://juejin.cn/post/7349835041993916450)<br>[iOS 如何调试 Push 和 Notification Service Extension](https://juejin.cn/post/7349588906910990388)<br>[彻底了解Promise的所有方法](https://juejin.cn/post/7350118996438269990)<br>[requestIdleCallback详解+手动实现](https://juejin.cn/post/7350140783548956683)<br>[android13#settings#reset options](https://juejin.cn/post/7349880999259897893)<br>[【Android 13源码分析】窗口显示第二步:relayoutWindow -1](https://juejin.cn/post/7349863595730550819)<br>[ECharts 十万级+……<br>补充链接：https://juejin.cn/post/7350152569756680227；https://juejin.cn/post/7349936384499220480；https://juejin.cn/post/7349551248516284453；https://juejin.cn/post/7350124562481414159（内容较长，已压缩） （来源：小黄车分享）
+- **03-28 21:52** **掘金**<br>[关于二次封装element-plus table的一些归纳总结（1）](https://juejin.cn/post/7350089511291174927)<br>[TTS通用播放库技术设计](https://juejin.cn/post/7350141010904907788)<br>[Swift 定制 Core Data 迁移](https://juejin.cn/post/7350143110495207474)<br>[CI/CD时代的前端工程部署实践](https://juejin.cn/post/7350141012309803071) （来源：小黄车分享）
+- **03-28 21:53** **掘金**<br>[Rust资讯： 新版本 1.77.0 发布](https://juejin.cn/post/7350141010905333772)<br>[Cookie、sessionStorage和localStorage的区别详解](https://juejin.cn/post/7350143110495518770)<br>[深入探讨Maven打包：打造精致的Zip包](https://juejin.cn/post/7350167062365519898) （来源：小黄车分享）
+- **03-28 21:54** **掘金**<br>[数据库备份工具（实现数据定时覆盖）](https://juejin.cn/post/7350152569758089251) （来源：小黄车分享）
+- **03-28 21:55** **掘金**<br>[准实时前端监控探索](https://juejin.cn/post/7350228838150520872)<br>[从0到1上线一个Web项目](https://juejin.cn/post/7350181789530652723)<br>[浏览器的进程模型](https://juejin.cn/post/7350263296269762570)<br>[在 CentOS 上安装 Node 记解决一些场景问题](https://juejin.cn/post/7350143110495862834)<br>[kubernetes Service-01 基本用法](https://juejin.cn/post/7350168797636509696)<br>[自建内网穿透服务器 | Coder 小站](https://juejin.cn/post/7350256387161915429)<br>[一杯 Java 与 一杯 Mocha 的故事 ☕](https://juejin.cn/post/7350181789531504691)<br>[效率工具JsonFormat](https://juejin.cn/post/7350143110495813682)<br>[反向代理在抓包中的实践](https://juejin.cn/post/7350152569757483043)<br>补充链接：https://juejin.cn/post/7350204432108683316（内容较长，已压缩） （来源：小黄车分享）
+- **03-28 21:55** **博客园_首页**<br>[关于SQL Server数据库中的用户权限和角色管理 - 酒笙匿清栀](https://www.cnblogs.com/libo962464/p/18095980) （来源：小黄车分享）
+- **03-28 21:56** **掘金**<br>[Chrome 插件各模块之间的消息传递](https://juejin.cn/post/7350233011671597067)<br>[架构-计算机基础](https://juejin.cn/post/7350199693752975411)<br>[Python 容器编排Docker Compose 与 Kubernetes 的比较与实践](https://juejin.cn/post/7350227491992305664)<br>[深入解析Python下的分布式日志系统构建指南](https://juejin.cn/post/7350263296270385162)<br>[告别混乱布局：用CSS盒子模型为你的网页穿上完美外衣！](https://juejin.cn/post/7350199693752778803)<br>[我是如何用GPT优化vue组件库的（下）](https://juejin.cn/post/7350233011671564299)<br>[Chrome 插件各模块使用 Fetch 进行接口请求](https://juejin.cn/post/7350228838150963240)<br>[Token无感知刷新，让流畅成为常态](https://juejin.cn/post/7350226744051925042)<br>[想在小程序中实现一个计算属性来监控表单的必填属性，失败了](https://juejin.cn/post/7350140676615716904)<br>补充链接：https://juejin.cn/post/7350233011671253003（内容较长，已压缩） （来源：小黄车分享）
+- **03-28 22:06** **掘金**<br>[leetcode | 手写Promise.all()函数（第一天）](https://juejin.cn/post/7350876924394209318)<br>[利用Python进行微服务架构的监控与日志分析](https://juejin.cn/post/7350876924394143782)<br>[LC:841 钥匙和房间](https://juejin.cn/post/7350824272322265126)<br>[线程池经典问题-任务异常处理](https://juejin.cn/post/7350889978576945162) （来源：小黄车分享）
+- **03-28 22:09** **博客园_首页**<br>[消息队列的七种经典应用场景 - 勇哥编程游记](https://www.cnblogs.com/makemylife/p/18101509) （来源：小黄车分享）
+
+### 工程与职业
+
+- **03-05 19:19** **博客园_首页**<br>[TCP和UDP面试题提问 - Qt历险记](https://www.cnblogs.com/Qt9527/p/18015578) （来源：小黄车分享）
+- **03-06 14:01** **博客园_首页**<br>[4.1k Star！全面的C#/.NET/.NET Core学习、工作、面试指南 - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18027117) （来源：小黄车分享）
+- **03-06 15:37** **掘金**<br>[给公司搭建一个智能客服](https://juejin.cn/post/7340295754245308425)<br>[从 0 到 1 搭建亿级商品 ES 搜索引擎](https://juejin.cn/post/7340229050235928630)<br>[KaiwuDB 拿下 “物联之星” 双项殊荣](https://juejin.cn/post/7340301649767301161)<br>[一念生花，Coze 结合VisActor 文生图实战总结](https://juejin.cn/post/7340307383505436712)<br>[一文熟悉Ajax](https://juejin.cn/post/7340295754245111817) （来源：小黄车分享）
+- **03-27 14:09** **博客园_首页**<br>[机器学习面试中常见问题整理 - wang_yb](https://www.cnblogs.com/wang_yb/p/18065847) （来源：小黄车分享）
+- **03-28 22:04** **博客园_首页**<br>[技术人员如何有效进行各种职场排挤、防止被排挤？ - 通用C#系统架构](https://www.cnblogs.com/jirigala/p/18099472) （来源：小黄车分享）
+
+### 学习与知识
+
+- **03-05 19:32** **博客园_首页**<br>[多线程系列(一) -线程技术入门知识讲解 - 程序员志哥](https://www.cnblogs.com/dxflqm/p/18019511) （来源：小黄车分享）
+- **03-05 19:43** **博客园_首页**<br>[神经网络优化篇：详解深度学习框架（Deep Learning frameworks） - Oten](https://www.cnblogs.com/oten/p/18024514) （来源：小黄车分享）
+- **03-06 13:48** **掘金**<br>[最详细HTTP缓存知识总结和落地实践，请帮点亮小铃铛！](https://juejin.cn/post/7337957655191404578) （来源：小黄车分享）
+- **03-06 15:02** **博客园_首页**<br>[【学习笔记】 - 基础数据结构 ：Link-Cut Tree - Vsinger_洛天依](https://www.cnblogs.com/Vsinger-LuoTianYi/p/18029661) （来源：小黄车分享）
+- **03-06 15:16** **博客园_首页**<br>[上周热点回顾（2.19-2.25） - 博客园团队](https://www.cnblogs.com/cmt/p/18033702)<br>[机器学习策略篇：详解正交化（Orthogonalization） - Oten](https://www.cnblogs.com/oten/p/18033684) （来源：小黄车分享）
+- **03-08 14:30** 神经网络关键技术图解 | [论文地址](https://openreview.net/pdf?id=RyZB4qXEgt) | [github](https://github.com/vtabbott/Neural-Circuit-Diagrams) | #机器学习<br>作者把机器学习和神经网络领域的重要技术，都做成了神经回路图（Neural Circuit Diagrams，作者自研的图形语言），目的是展示神经网络架构的细节，便于学习和理解 （来源：黑洞资源笔记）
+- **03-28 22:06** **博客园_首页**<br>[如何构建一台机器学习服务器 - NeoNexus](https://www.cnblogs.com/NeoNexus/p/18099946) （来源：小黄车分享）
+
+### 资源与生活
+
+- **03-28 21:54** **BlogHub**<br>[2024最流行的网站架构----边缘平台架构：概念与产品](https://bloghub.fun/articles/www.ruanyifeng.com-1li1gsq) （来源：小黄车分享）
+
+### 其他收藏
+
+- **03-05 19:08** **博客园_首页**<br>[C++——异常处理模块笔记 - 战争热诚](https://www.cnblogs.com/wj-1314/p/17958395) （来源：小黄车分享）
+- **03-05 19:20** **掘金**<br>[Web Components，启动！](https://juejin.cn/post/7334623638115647499) （来源：小黄车分享）
+- **03-05 19:42** **掘金**<br>[什么,你还不会WebSocket 的异步 close 方法?](https://juejin.cn/post/7337269117970612262)<br>[掘友和我说：尤雨溪推荐ref](https://juejin.cn/post/7337534871369990156) （来源：小黄车分享）
+- **03-06 13:48** **掘金**<br>[物联网中websocket的使用](https://juejin.cn/post/7337941065020833833) （来源：小黄车分享）
+- **03-06 13:51** **博客园_首页**<br>[.Net Core Entity Framework Core 的基础封装 - 我只吃饭不洗碗](https://www.cnblogs.com/INetIMVC/p/18027155) （来源：小黄车分享）
+- **03-06 14:47** **博客园_首页**<br>[《优化接口设计的思路》系列：第八篇—分页接口的设计和优化 - sum墨](https://www.cnblogs.com/wlovet/p/18027307)<br>[2024初三年后集训模拟测试4 - 卡布叻_周深](https://www.cnblogs.com/Charlieljk/p/18027801) （来源：小黄车分享）
+- **03-06 14:50** **博客园_首页**<br>[解决VMware与win10无法共享目录 - 咚..咚](https://www.cnblogs.com/ddcoder/p/18028985) （来源：小黄车分享）
+- **03-06 15:22** **博客园_首页**<br>[.NET高级调试之sos命令输出看不懂怎么办 - 一线码农](https://www.cnblogs.com/huangxincheng/p/18034164) （来源：小黄车分享）
+- **03-06 15:28** **博客园_首页**<br>[ASP.NET Core MVC应用模型的构建[2]: 定制应用模型 - Artech](https://www.cnblogs.com/artech/p/18031077/mvc_app_model_2) （来源：小黄车分享）
+- **03-06 15:34** **博客园_首页**<br>[【八股总结】至今为止遇到的八股（上半） - dayceng](https://www.cnblogs.com/DAYceng/p/18037696) （来源：小黄车分享）
+- **03-06 15:35** **博客园_首页**<br>[ASP.NET Core MVC应用模型的构建[3]: Controller的收集 - Artech](https://www.cnblogs.com/artech/p/18031075/mvc_app_model_3) （来源：小黄车分享）
+- **03-06 15:36** **博客园_首页**<br>[【八股总结】至今为止遇到的八股（下半） - dayceng](https://www.cnblogs.com/DAYceng/p/18039077) （来源：小黄车分享）
+- **03-06 15:41** **博客园_首页**<br>[ASP.NET Core MVC应用模型的构建[4]: Action的选择 - Artech](https://www.cnblogs.com/artech/p/18031074/mvc_app_model_4) （来源：小黄车分享）
+- **03-06 15:54** **博客园_首页**<br>[计网（网络层） - 风归去](https://www.cnblogs.com/N-lim/p/18050083) （来源：小黄车分享）
+- **03-06 15:57** **博客园_首页**<br>[这波操作看麻了！十亿行数据，从71s到1.7s的优化之路。 - why技术](https://www.cnblogs.com/thisiswhy/p/18051585) （来源：小黄车分享）
+- **03-07 10:19** **博客园_首页**<br>[Advanced .Net Debugging 3：基本调试任务（上） - 可均可可](https://www.cnblogs.com/PatrickLiu/p/18036453) （来源：小黄车分享）
+- **03-14 14:13** **博客园_首页**<br>[.NET集成DeveloperSharp实现数据分页 - 高级梦想家](https://www.cnblogs.com/digital-college/p/18058476) （来源：小黄车分享）
+- **03-27 18:19** **博客园_首页**<br>[缓存把我坑惨了.. - 程序员老猫](https://www.cnblogs.com/kdaddy/p/18072326) （来源：小黄车分享）
+- **03-27 18:36** **掘金**<br>[全栈项目？那你说说你的token怎么实现的吧](https://juejin.cn/post/7346430299490189348) （来源：小黄车分享）
+- **03-27 18:45** **掘金**<br>[RN封装的model弹出层组件](https://juejin.cn/post/7346517673376940059) （来源：小黄车分享）
+- **03-27 18:56** **博客园_首页**<br>[为什么ASP.NET Core的路由处理器可以使用一个任意类型的Delegate - Artech](https://www.cnblogs.com/artech/p/18075406/delgate_as_route_handler) （来源：小黄车分享）
+- **03-27 18:57** **博客园_首页**<br>[深入解析C#中的第三方库NPOI：Excel和Word文件处理的利器 - 承蒙_关照](https://www.cnblogs.com/Z1000W/p/18080019) （来源：小黄车分享）
+- **03-28 21:50** **博客园_首页**<br>[浅谈分布式任务调度系统Celery的设计与实现 - ThankCAT](https://www.cnblogs.com/thankcat/p/18094849) （来源：小黄车分享）
+- **03-28 21:52** **博客园_首页**<br>[C#调用C++ （使用C++/CLI） - 咸鱼翻身？](https://www.cnblogs.com/mchao/p/18094607) （来源：小黄车分享）
+- **03-28 21:53** **掘金**<br>[实现带并发限制的异步调度器 Scheduler](https://juejin.cn/post/7350123500936478770) （来源：小黄车分享）
+- **03-28 21:54** **博客园_首页**<br>[.NET分布式Orleans - 4 - 计时器和提醒 - chester·chen](https://www.cnblogs.com/chenyishi/p/18094375)<br>[五种分布式事务解决方案（图文总结） - Hello-Brand](https://www.cnblogs.com/wzh2010/p/18031227)<br>[使用systemd部署r-nacos - 拾玄](https://www.cnblogs.com/shizioo/p/18095750) （来源：小黄车分享）
+- **03-28 22:05** **博客园_首页**<br>[Csharp中表达式树 - 飘雨的河](https://www.cnblogs.com/wenlong-4613615/p/18084777) （来源：小黄车分享）
+
+## 日期索引
+
+- 2024-03-03：1 条
+- 2024-03-05：12 条
+- 2024-03-06：40 条
+- 2024-03-07：2 条
+- 2024-03-08：2 条
+- 2024-03-14：2 条
+- 2024-03-26：2 条
+- 2024-03-27：25 条
+- 2024-03-28：20 条
+
+---
+
+*按 Telegram 频道消息时间整理。*
+
