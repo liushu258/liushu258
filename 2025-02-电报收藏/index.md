@@ -1,90 +1,64 @@
-# 2025年2月电报收藏
+# 2025年2月收藏
 
-
-## 月度概览
-
-本月共整理 **44** 条频道消息，其中 **42** 条含正文，**8** 个媒体/附件引用（8 个唯一文件）。
-
-- 时间范围：2025-02-08 至 2025-02-27
-- 主要主题：编程与软件（19）、其他收藏（10）、AI 与效率工具（9）、学习与知识（4）
-- 整理说明：长转发已缩写，保留可用链接；原始媒体未嵌入正文。
 
 ## 主题笔记
 
 ### AI 与效率工具
 
-- **02-08 00:23** **博客园_首页**<br>[RocketMQ实战—5.消息重复+乱序+延迟的处理 - 东阳马生架构](https://www.cnblogs.com/mjunz/p/18701914)<br>[VSCODE接入DeepSeek R1实现AI完成自动化脚本实战开发 - 久曲健](https://www.cnblogs.com/longronglang/p/18701906) （来源：小黄车分享）
-- **02-16 00:38** **博客园_首页**<br>[揭秘 Sdcb Chats 如何解析 DeepSeek-R1 思维链 - .NET骚操作](https://www.cnblogs.com/sdcb/p/18709107/20250210-think-tag-parse-in-chats)<br>[0帧起手将腾讯混元大模型集成到Spring AI的全过程解析 - 努力的小雨](https://www.cnblogs.com/guoxiaoyu/p/18691707) （来源：小黄车分享）
-- **02-16 22:43** **博客园_首页**<br>[一分钟搞定！CentOS 7.9上用Ansible自动化部署SQL Server 2019 - 桦仔](https://www.cnblogs.com/lyhabc/p/18706042/centos-7-9-install-sql-server-2019-using-ansible) （来源：小黄车分享）
-- **02-17 21:24** DeepSeek 官方提示词网站。<br>https://api-docs.deepseek.com/zh-cn/prompt-library （来源：互联网从业者充电站）
-- **02-20 23:56** DeepSeek官方提示词库： https://api-docs.deepseek.com/zh-cn/prompt-library （来源：互联网从业者充电站）
-- **02-21 00:00** ChatGPT 对“最小化最大后悔”决策框架的解释，用于在不确定选项中比较最坏遗憾。 （来源：互联网从业者充电站）
-- **02-21 00:00** 写了一个给自己用的Prompt<br>我把它命名为“不确定世界中的理性决策”<br>实测非常好用。<br>推荐使用o1 pro/o1，也可使用o3-mini或deepseek r1平替。<br>下面是提示词:<br>背景：这里输入你的背景<br>目标：这里输入你的目标<br>我们即将帮助用户在**不确定世界中做理性决策**，希望进行一个 Minimax Regret 分析。<br>在接收到该prompt后，请遵循下列的步骤<br>1.向用户提问，收集足够的信息（内容较长，已压缩） （来源：互联网从业者充电站）
-- **02-21 15:14** **博客园_首页**<br>[五分钟搞定！Linux平台上用Ansible自动化部署SQL Server AlwaysOn集群 - 桦仔](https://www.cnblogs.com/lyhabc/p/18701054/ansible-automated-deployment-sql-server-alwayson-cluster-rhel) （来源：小黄车分享）
-- **02-27 13:24** 如何寻找自己需要的AI工具：<br>1。 豆包：查资料、聊天、写文章、翻译等，功能特别全。<br>2。 Kimi：处理长文章，能看懂也能写！<br>3。 海豚配音：有300+种适合自媒体的声音。<br>4。 FishAudio：快速复制声音，操作简单。<br>5。 iSlide：一句话就能做出PPT。<br>6。 可灵：能把文字和图片变成视频。<br>7。 即梦：只要简单描述，就能生成图片。<br>8。 有言：3D数字人，能代替真人出镜。<br>9。 迅捷OCR文字识别：精准提取图片和文档里的文字，识别又快又准。（内容较长，已压缩） （来源：💎AI资源◆大模型💯人工智能◆Github开源资源💥创业创意社*AI智能体Agent）
+- **02-08 00:23** **博客园_首页**<br>[RocketMQ实战—5.消息重复+乱序+延迟的处理 - 东阳马生架构](https://www.cnblogs.com/mjunz/p/18701914)<br>[VSCODE接入DeepSeek R1实现AI完成自动化脚本实战开发 - 久曲健](https://www.cnblogs.com/longronglang/p/18701906)
+- **02-16 00:38** **博客园_首页**<br>[揭秘 Sdcb Chats 如何解析 DeepSeek-R1 思维链 - .NET骚操作](https://www.cnblogs.com/sdcb/p/18709107/20250210-think-tag-parse-in-chats)<br>[0帧起手将腾讯混元大模型集成到Spring AI的全过程解析 - 努力的小雨](https://www.cnblogs.com/guoxiaoyu/p/18691707)
+- **02-16 22:43** **博客园_首页**<br>[一分钟搞定！CentOS 7.9上用Ansible自动化部署SQL Server 2019 - 桦仔](https://www.cnblogs.com/lyhabc/p/18706042/centos-7-9-install-sql-server-2019-using-ansible)
+- **02-17 21:24** DeepSeek 官方提示词网站。<br>https://api-docs.deepseek.com/zh-cn/prompt-library
+- **02-20 23:56** DeepSeek官方提示词库： https://api-docs.deepseek.com/zh-cn/prompt-library
+- **02-21 00:00** ChatGPT 对“最小化最大后悔”决策框架的解释，用于在不确定选项中比较最坏遗憾。
+- **02-21 00:00** 写了一个给自己用的Prompt<br>我把它命名为“不确定世界中的理性决策”<br>实测非常好用。<br>推荐使用o1 pro/o1，也可使用o3-mini或deepseek r1平替。<br>下面是提示词:<br>背景：这里输入你的背景<br>目标：这里输入你的目标<br>我们即将帮助用户在**不确定世界中做理性决策**，希望进行一个 Minimax Regret 分析。<br>在接收到该prompt后，请遵循下列的步骤<br>1.向用户提问，收集足够的信息（内容较长，已压缩）
+- **02-21 15:14** **博客园_首页**<br>[五分钟搞定！Linux平台上用Ansible自动化部署SQL Server AlwaysOn集群 - 桦仔](https://www.cnblogs.com/lyhabc/p/18701054/ansible-automated-deployment-sql-server-alwayson-cluster-rhel)
+- **02-27 13:24** 如何寻找自己需要的AI工具：<br>1。 豆包：查资料、聊天、写文章、翻译等，功能特别全。<br>2。 Kimi：处理长文章，能看懂也能写！<br>3。 海豚配音：有300+种适合自媒体的声音。<br>4。 FishAudio：快速复制声音，操作简单。<br>5。 iSlide：一句话就能做出PPT。<br>6。 可灵：能把文字和图片变成视频。<br>7。 即梦：只要简单描述，就能生成图片。<br>8。 有言：3D数字人，能代替真人出镜。<br>9。 迅捷OCR文字识别：精准提取图片和文档里的文字，识别又快又准。（内容较长，已压缩）
 
 ### 编程与软件
 
-- **02-08 00:31** **掘金**<br>[3.3作用域与存储类别](https://juejin.cn/post/7468315428169039881)<br>[Java 模块化（JPMS）解析](https://juejin.cn/post/7468295286244589608)<br>[mysql主从复制，初体验](https://juejin.cn/post/7468278444638142515)<br>[helm k8s包管理器常用指南](https://juejin.cn/post/7468492959672549376)<br>[从零开始：CentOS 7系统中Docker的安装与卸载全记录](https://juejin.cn/post/7468310288288661531)<br>[久等了，2024年下半年前端专业学习记录](https://juejin.cn/post/7468484524901613622)<br>[Volcano v1.11 重磅发布！开启AI与大数据的云原生调度新纪元](https://juejin.cn/post/7468484524901482550)<br>[如何使用 local 声明变量](https://juejin.cn/post/7468257787510308891)<br>[vue高级面试题](https://juejin.cn/post/7468477933150781476)<br>补充链接：https://juejin.cn/post/7468245412772954124（内容较长，已压缩） （来源：小黄车分享）
-- **02-08 17:05** ◼️مجموعه کدهای متلب برای شبکه‌های عصبی:<br>▪️ANFIS<br>▪️Associative neural network<br>▪️Auto Associative Neural Network<br>▪️Cascading neural networks<br>▪️CNN<br>▪️Dynamic neural networks<br>▪️Echo state network<br>▪️Enhanced_NN_TIA_Code<br>▪️GMDH<br>补充链接：https://t.me/matlab_for_alll（内容较长，已压缩） （来源：MATLAB FOR ALL）
-- **02-10 08:34** 《[系统设计面试：内幕指南（中文翻译）](https://github.com/Admol/SystemDesign)》系统设计面试的宝典，帮助求职者掌握大厂面试必备的系统设计知识，从基础到实战案例一应俱全 | #指南 （来源：黑洞资源笔记）
-- **02-10 08:35** 将Shell脚本编译成静态二进制文件的工具，让脚本运行更快、更安全，还能跨平台使用<br>[Bunster](https://github.com/yassinebenaid/bunster) | #工具 （来源：黑洞资源笔记）
-- **02-16 00:17** **掘金**<br>[DeepSeek冲击下，奥特曼刚刚给出对AGI的「三个观察」，包括成本速降](https://juejin.cn/post/7469691502642479123)<br>[人大刘勇团队「慢思考」机理分析：从雪球误差到正确推理概率](https://juejin.cn/post/7469631147322064915)<br>[如何优化测试时计算？解决「元强化学习」问题](https://juejin.cn/post/7469631147322048531)<br>[飞书接入DeepSeek-R1后，用一次顶一万次，而且再也不「服务器繁忙」了](https://juejin.cn/post/7469631147322032147)<br>[CRDT宝典 - SpreadSheet](https://juejin.cn/post/7469630633536897024)<br>[一文了解 kotlin 与 C++的区别](https://juejin.cn/post/7469619471508914191)<br>[为什么校招面试官都这么爱问原型链❓❓❓](https://juejin.cn/post/7469670270123393060)<br>[DeepSeek：从入门到精通](https://juejin.cn/post/7469634123671502857)<br>[React-router 常用组件及hook整理总结](https://juejin.cn/post/7469644713873801242)<br>补充链接：https://juejin.cn/post/7469594725433475108（内容较长，已压缩） （来源：小黄车分享）
-- **02-16 11:37** **博客园_首页**<br>[在线客服的独立产品之路：如何将复杂的 .NET 系统打包到 Docker 镜像，使之能一键上线 - 升讯威在线客服系统](https://www.cnblogs.com/sheng_chao/p/18711288) （来源：小黄车分享）
-- **02-17 13:25** **博客园_首页**<br>[超详细，DeepSeep 接入PyCharm实现AI编程！（支持本地部署DeepSeek及官方DeepSeek接入），建议收藏！ - 狂师](https://www.cnblogs.com/jinjiangongzuoshi/p/18714724) （来源：小黄车分享）
-- **02-17 13:28** **博客园_首页**<br>[.NET 8.0 + Linux 香橙派，实现高效的 IoT 数据采集与控制解决方案 - 小码编匠](https://www.cnblogs.com/1312mn/p/18655859) （来源：小黄车分享）
-- **02-17 13:28** **掘金**<br>[初创公司使用 AI “码农” Devin 一个月的体验](https://juejin.cn/post/7471044704639107126)<br>[DeepSeek + Dify ：零成本搭建企业级本地私有化知识库保姆级教程 | 掘金一周 2.3](https://juejin.cn/post/7471044704646397993)<br>[21道关于Vue3的面试题及其解析](https://juejin.cn/post/7470848139169398847)<br>[Vue 项目中 CDN 引入的利弊及解决方案](https://juejin.cn/post/7470863703174447131)<br>[NodeJs 第二十二章 (注册接口)](https://juejin.cn/post/7470893331515375616)<br>[云上玩转DeepSeek系列之二：PAI+DeepSeek，打造智能问答助手](https://juejin.cn/post/7470904819948371983)<br>[DeepSeek 大爆发，带来了哪些新希望？](https://juejin.cn/post/7470858779263614991)<br>[Three.js 进阶(灯光阴影关系和设置、平行光、阴影相机)](https://juejin.cn/post/7470831128104042531)<br>[《手把手教你》系列技巧篇（六十四）-java+ selenium自动化测试 - cookie……<br>补充链接：https://juejin.cn/post/7470815693921976359；https://juejin.cn/post/7470894921588080667（内容较长，已压缩） （来源：小黄车分享）
-- **02-17 13:30** **掘金**<br>[超强大且免费的DeepSeek R1 Vscode插件来了！](https://juejin.cn/post/7470922331894382602)<br>[Java轻量级代码工程](https://juejin.cn/post/7470911916950749224)<br>[ICLR25 重新思考长尾识别中的分类器再训练：标签过平滑可以实现平衡](https://juejin.cn/post/7470904819949240335)<br>[GPT-4.5与GPT-5来袭，AI世界风云变幻？](https://juejin.cn/post/7470865996153389066)<br>[面向 Data+AI 的新一代智能数仓平台](https://juejin.cn/post/7470907674542276643)<br>[一夜爆肝！我用AI助手7小时做出了《哪吒2》百亿票房监控网站](https://juejin.cn/post/7470819965014425619)<br>[《从零开始DeepSeek R1搭建本地知识库问答系统》三：基于LangChain构建本地知识库问答RAG应用](https://juejin.cn/post/7470807715898212406)<br>[【Cursor 进阶指南】老规则系统说拜拜!手把手带你玩转 .cursor/rules……<br>补充链接：https://juejin.cn/post/7471044704647053353；https://juejin.cn/post/7470848139170005055；https://juejin.cn/post/7470838364830007305（内容较长，已压缩） （来源：小黄车分享）
-- **02-19 20:19** **掘金**<br>[1秒响应、90%决策准确率！京东商家智能助手的技术探索](https://juejin.cn/post/7471150465453031465)<br>[DeepSeek缝合Claude，比单用R1/o1效果都好！GitHub揽星3k](https://juejin.cn/post/7471151798893051923)<br>[百度决定背叛闭源大模型，李彦宏重新拥抱开源](https://juejin.cn/post/7471157491692617782)<br>[用三行代码将DeepSeek 接入小程序| 腾讯云开发官方指南](https://juejin.cn/post/7471109069899792399)<br>[用Jest和Vue Test Utils给Vue组件写单测](https://juejin.cn/post/7471121223931494427)<br>[让 LLM 来评判 | 奖励模型相关内容](https://juejin.cn/post/7471136285035233289)<br>[玩转DeepSeek,那些具体好玩的使用场景](https://juejin.cn/post/7471136285035200521)<br>[MongoDB面试题答案解析](https://juejin.cn/post/7471103404435603468)<br>[cesium热力图曲面简单实现,使用heatmap](https://juejin.cn/post/7471109890871541787)<br>补充链接：https://juejin.cn/post/7471121223931232283（内容较长，已压缩） （来源：小黄车分享）
-- **02-20 23:23** **掘金**<br>[八股只问vue，代码题考js🫣「Momenta一面」](https://juejin.cn/post/7282691800858853413)<br>[Threejs 中秋佳节感受闽南名俗 | 中秋博饼🥮🥮🥮](https://juejin.cn/post/7282692942713389117)<br>[Web Component入门教程](https://juejin.cn/post/7282698569840443392)<br>[Docker启动前端：从零到英雄，你只需要这样做！](https://juejin.cn/post/7282752001901068322)<br>[退款-记账](https://juejin.cn/post/7282936141127794746)<br>[超越内存限制：深入探索内存池的工作原理与实现](https://juejin.cn/post/7282936141127598138)<br>[华为云API Explorer重磅推出API编排，开发者0代码高效构建工作流](https://juejin.cn/post/7282733743910928441)<br>[域名-DDNS-内网穿透-端口转发-DNS的一些小常识](https://juejin.cn/post/7282758586107478016)<br>[Nginx实现Java服务API接口的开发阶段高可用](https://juejin.cn/post/7282890157253214242)<br>补充链接：https://juejin.cn/post/7282889267029344317（内容较长，已压缩） （来源：小黄车分享）
-- **02-22 00:00** **博客园_首页**<br>[探秘Transformer系列之（2）---总体架构 - 罗西的思考](https://www.cnblogs.com/rossiXYZ/p/18706134)<br>[11. Docker 微服务实战(将项目打包生成镜像，在 Docker 当中作为容器实例运行) - Rainbow-Sea](https://www.cnblogs.com/TheMagicalRainbowSea/p/18716528) （来源：小黄车分享）
-- **02-22 08:39** **掘金**<br>[前端开发使用装饰器和Reflect,开始不一样的开发体验](https://juejin.cn/post/7471263029986361394)<br>[算法中的二叉树](https://juejin.cn/post/7471396696489574411)<br>[使用MeshLine在Three.js中创建动态线条](https://juejin.cn/post/7471270241009795126)<br>[新手快速安装部署本地DeepSeek](https://juejin.cn/post/7471287706729480227)<br>[Transformer 模型在 征程 6 平台上的高效支持](https://juejin.cn/post/7471270241009549366)<br>[[Outline平台设置及其与Python集成指南]](https://juejin.cn/post/7471304401333305379)<br>[如何在Oracle Cloud Infrastructure (OCI) 上集成LangChain进行生成式AI应用](https://juejin.cn/post/7471304401333125155)<br>[本地大模型编程实战(14)初探智能体Agent(1)](https://juejin.cn/post/7471287706728824867)<br>[【Deepseek】手把手教你使用vscode实现平民版AI……<br>补充链接：https://juejin.cn/post/7471353450752868361；https://juejin.cn/post/7471304401333092387（内容较长，已压缩） （来源：小黄车分享）
-- **02-22 08:54** **博客园_首页**<br>[使用 Git 命令和 Github 前须了解的知识 - dawnkylin](https://www.cnblogs.com/dawnkylin/p/18717383) （来源：小黄车分享）
-- **02-26 19:41** **博客园_首页**<br>[面试官：你项目是如何实现读写分离的？ - 磊哥|www.javacn.site](https://www.cnblogs.com/vipstone/p/18738421) （来源：小黄车分享）
-- **02-27 17:22** **博客园_首页**<br>[Redis高可用部署：3台服务器打造哨兵集群 - sowler](https://www.cnblogs.com/sowler/p/18734796) （来源：小黄车分享）
-- **02-27 23:37** **博客园_首页**<br>[Windows 提权-SeBackupPrivilege 特权 - 扛枪的书生](https://www.cnblogs.com/kqdssheng/p/18741609) （来源：小黄车分享）
-- **02-27 23:40** **掘金**<br>[让 LLM 来评判 | 设计你自己的评估 prompt](https://juejin.cn/post/7475982149687640064)<br>[Linux 下使用tracepath进行网络诊断分析](https://juejin.cn/post/7475978280840232996)<br>[探秘Transformer系列之（7）--- embedding](https://juejin.cn/post/7475936034779709490)<br>[深入浅出Webpack：从入门到工程化实践](https://juejin.cn/post/7475754150790168610)<br>[鸿蒙轻内核A核源码分析系列四（1）虚拟内存进程空间编号](https://juejin.cn/post/7475922443431362597)<br>[ipsec vpn over kube-ovn eip](https://juejin.cn/post/7475922443431264293)<br>[算法系列之动态规划](https://juejin.cn/post/7475973902658142219)<br>[程序员最大的悲哀是什么？](https://juejin.cn/post/7475960553027518479)<br>[HarmonyOS鸿蒙的装饰器有哪些及其作用？](https://juejin.cn/post/7475974420877115402)<br>补充链接：https://juejin.cn/post/7475976951091347456（内容较长，已压缩） （来源：小黄车分享）
+- **02-08 00:31** **掘金**<br>[3.3作用域与存储类别](https://juejin.cn/post/7468315428169039881)<br>[Java 模块化（JPMS）解析](https://juejin.cn/post/7468295286244589608)<br>[mysql主从复制，初体验](https://juejin.cn/post/7468278444638142515)<br>[helm k8s包管理器常用指南](https://juejin.cn/post/7468492959672549376)<br>[从零开始：CentOS 7系统中Docker的安装与卸载全记录](https://juejin.cn/post/7468310288288661531)<br>[久等了，2024年下半年前端专业学习记录](https://juejin.cn/post/7468484524901613622)<br>[Volcano v1.11 重磅发布！开启AI与大数据的云原生调度新纪元](https://juejin.cn/post/7468484524901482550)<br>[如何使用 local 声明变量](https://juejin.cn/post/7468257787510308891)<br>[vue高级面试题](https://juejin.cn/post/7468477933150781476)<br>补充链接：https://juejin.cn/post/7468245412772954124（内容较长，已压缩）
+- **02-08 17:05** ◼️مجموعه کدهای متلب برای شبکه‌های عصبی:<br>▪️ANFIS<br>▪️Associative neural network<br>▪️Auto Associative Neural Network<br>▪️Cascading neural networks<br>▪️CNN<br>▪️Dynamic neural networks<br>▪️Echo state network<br>▪️Enhanced_NN_TIA_Code<br>▪️GMDH<br>补充链接：https://t.me/matlab_for_alll（内容较长，已压缩）
+- **02-10 08:34** 《[系统设计面试：内幕指南（中文翻译）](https://github.com/Admol/SystemDesign)》系统设计面试的宝典，帮助求职者掌握大厂面试必备的系统设计知识，从基础到实战案例一应俱全 | #指南
+- **02-10 08:35** 将Shell脚本编译成静态二进制文件的工具，让脚本运行更快、更安全，还能跨平台使用<br>[Bunster](https://github.com/yassinebenaid/bunster) | #工具
+- **02-16 00:17** **掘金**<br>[DeepSeek冲击下，奥特曼刚刚给出对AGI的「三个观察」，包括成本速降](https://juejin.cn/post/7469691502642479123)<br>[人大刘勇团队「慢思考」机理分析：从雪球误差到正确推理概率](https://juejin.cn/post/7469631147322064915)<br>[如何优化测试时计算？解决「元强化学习」问题](https://juejin.cn/post/7469631147322048531)<br>[飞书接入DeepSeek-R1后，用一次顶一万次，而且再也不「服务器繁忙」了](https://juejin.cn/post/7469631147322032147)<br>[CRDT宝典 - SpreadSheet](https://juejin.cn/post/7469630633536897024)<br>[一文了解 kotlin 与 C++的区别](https://juejin.cn/post/7469619471508914191)<br>[为什么校招面试官都这么爱问原型链❓❓❓](https://juejin.cn/post/7469670270123393060)<br>[DeepSeek：从入门到精通](https://juejin.cn/post/7469634123671502857)<br>[React-router 常用组件及hook整理总结](https://juejin.cn/post/7469644713873801242)<br>补充链接：https://juejin.cn/post/7469594725433475108（内容较长，已压缩）
+- **02-16 11:37** **博客园_首页**<br>[在线客服的独立产品之路：如何将复杂的 .NET 系统打包到 Docker 镜像，使之能一键上线 - 升讯威在线客服系统](https://www.cnblogs.com/sheng_chao/p/18711288)
+- **02-17 13:25** **博客园_首页**<br>[超详细，DeepSeep 接入PyCharm实现AI编程！（支持本地部署DeepSeek及官方DeepSeek接入），建议收藏！ - 狂师](https://www.cnblogs.com/jinjiangongzuoshi/p/18714724)
+- **02-17 13:28** **博客园_首页**<br>[.NET 8.0 + Linux 香橙派，实现高效的 IoT 数据采集与控制解决方案 - 小码编匠](https://www.cnblogs.com/1312mn/p/18655859)
+- **02-17 13:28** **掘金**<br>[初创公司使用 AI “码农” Devin 一个月的体验](https://juejin.cn/post/7471044704639107126)<br>[DeepSeek + Dify ：零成本搭建企业级本地私有化知识库保姆级教程 | 掘金一周 2.3](https://juejin.cn/post/7471044704646397993)<br>[21道关于Vue3的面试题及其解析](https://juejin.cn/post/7470848139169398847)<br>[Vue 项目中 CDN 引入的利弊及解决方案](https://juejin.cn/post/7470863703174447131)<br>[NodeJs 第二十二章 (注册接口)](https://juejin.cn/post/7470893331515375616)<br>[云上玩转DeepSeek系列之二：PAI+DeepSeek，打造智能问答助手](https://juejin.cn/post/7470904819948371983)<br>[DeepSeek 大爆发，带来了哪些新希望？](https://juejin.cn/post/7470858779263614991)<br>[Three.js 进阶(灯光阴影关系和设置、平行光、阴影相机)](https://juejin.cn/post/7470831128104042531)<br>[《手把手教你》系列技巧篇（六十四）-java+ selenium自动化测试 - cookie……<br>补充链接：https://juejin.cn/post/7470815693921976359；https://juejin.cn/post/7470894921588080667（内容较长，已压缩）
+- **02-17 13:30** **掘金**<br>[超强大且免费的DeepSeek R1 Vscode插件来了！](https://juejin.cn/post/7470922331894382602)<br>[Java轻量级代码工程](https://juejin.cn/post/7470911916950749224)<br>[ICLR25 重新思考长尾识别中的分类器再训练：标签过平滑可以实现平衡](https://juejin.cn/post/7470904819949240335)<br>[GPT-4.5与GPT-5来袭，AI世界风云变幻？](https://juejin.cn/post/7470865996153389066)<br>[面向 Data+AI 的新一代智能数仓平台](https://juejin.cn/post/7470907674542276643)<br>[一夜爆肝！我用AI助手7小时做出了《哪吒2》百亿票房监控网站](https://juejin.cn/post/7470819965014425619)<br>[《从零开始DeepSeek R1搭建本地知识库问答系统》三：基于LangChain构建本地知识库问答RAG应用](https://juejin.cn/post/7470807715898212406)<br>[【Cursor 进阶指南】老规则系统说拜拜!手把手带你玩转 .cursor/rules……<br>补充链接：https://juejin.cn/post/7471044704647053353；https://juejin.cn/post/7470848139170005055；https://juejin.cn/post/7470838364830007305（内容较长，已压缩）
+- **02-19 20:19** **掘金**<br>[1秒响应、90%决策准确率！京东商家智能助手的技术探索](https://juejin.cn/post/7471150465453031465)<br>[DeepSeek缝合Claude，比单用R1/o1效果都好！GitHub揽星3k](https://juejin.cn/post/7471151798893051923)<br>[百度决定背叛闭源大模型，李彦宏重新拥抱开源](https://juejin.cn/post/7471157491692617782)<br>[用三行代码将DeepSeek 接入小程序| 腾讯云开发官方指南](https://juejin.cn/post/7471109069899792399)<br>[用Jest和Vue Test Utils给Vue组件写单测](https://juejin.cn/post/7471121223931494427)<br>[让 LLM 来评判 | 奖励模型相关内容](https://juejin.cn/post/7471136285035233289)<br>[玩转DeepSeek,那些具体好玩的使用场景](https://juejin.cn/post/7471136285035200521)<br>[MongoDB面试题答案解析](https://juejin.cn/post/7471103404435603468)<br>[cesium热力图曲面简单实现,使用heatmap](https://juejin.cn/post/7471109890871541787)<br>补充链接：https://juejin.cn/post/7471121223931232283（内容较长，已压缩）
+- **02-20 23:23** **掘金**<br>[八股只问vue，代码题考js🫣「Momenta一面」](https://juejin.cn/post/7282691800858853413)<br>[Threejs 中秋佳节感受闽南名俗 | 中秋博饼🥮🥮🥮](https://juejin.cn/post/7282692942713389117)<br>[Web Component入门教程](https://juejin.cn/post/7282698569840443392)<br>[Docker启动前端：从零到英雄，你只需要这样做！](https://juejin.cn/post/7282752001901068322)<br>[退款-记账](https://juejin.cn/post/7282936141127794746)<br>[超越内存限制：深入探索内存池的工作原理与实现](https://juejin.cn/post/7282936141127598138)<br>[华为云API Explorer重磅推出API编排，开发者0代码高效构建工作流](https://juejin.cn/post/7282733743910928441)<br>[域名-DDNS-内网穿透-端口转发-DNS的一些小常识](https://juejin.cn/post/7282758586107478016)<br>[Nginx实现Java服务API接口的开发阶段高可用](https://juejin.cn/post/7282890157253214242)<br>补充链接：https://juejin.cn/post/7282889267029344317（内容较长，已压缩）
+- **02-22 00:00** **博客园_首页**<br>[探秘Transformer系列之（2）---总体架构 - 罗西的思考](https://www.cnblogs.com/rossiXYZ/p/18706134)<br>[11. Docker 微服务实战(将项目打包生成镜像，在 Docker 当中作为容器实例运行) - Rainbow-Sea](https://www.cnblogs.com/TheMagicalRainbowSea/p/18716528)
+- **02-22 08:39** **掘金**<br>[前端开发使用装饰器和Reflect,开始不一样的开发体验](https://juejin.cn/post/7471263029986361394)<br>[算法中的二叉树](https://juejin.cn/post/7471396696489574411)<br>[使用MeshLine在Three.js中创建动态线条](https://juejin.cn/post/7471270241009795126)<br>[新手快速安装部署本地DeepSeek](https://juejin.cn/post/7471287706729480227)<br>[Transformer 模型在 征程 6 平台上的高效支持](https://juejin.cn/post/7471270241009549366)<br>[[Outline平台设置及其与Python集成指南]](https://juejin.cn/post/7471304401333305379)<br>[如何在Oracle Cloud Infrastructure (OCI) 上集成LangChain进行生成式AI应用](https://juejin.cn/post/7471304401333125155)<br>[本地大模型编程实战(14)初探智能体Agent(1)](https://juejin.cn/post/7471287706728824867)<br>[【Deepseek】手把手教你使用vscode实现平民版AI……<br>补充链接：https://juejin.cn/post/7471353450752868361；https://juejin.cn/post/7471304401333092387（内容较长，已压缩）
+- **02-22 08:54** **博客园_首页**<br>[使用 Git 命令和 Github 前须了解的知识 - dawnkylin](https://www.cnblogs.com/dawnkylin/p/18717383)
+- **02-26 19:41** **博客园_首页**<br>[面试官：你项目是如何实现读写分离的？ - 磊哥|www.javacn.site](https://www.cnblogs.com/vipstone/p/18738421)
+- **02-27 17:22** **博客园_首页**<br>[Redis高可用部署：3台服务器打造哨兵集群 - sowler](https://www.cnblogs.com/sowler/p/18734796)
+- **02-27 23:37** **博客园_首页**<br>[Windows 提权-SeBackupPrivilege 特权 - 扛枪的书生](https://www.cnblogs.com/kqdssheng/p/18741609)
+- **02-27 23:40** **掘金**<br>[让 LLM 来评判 | 设计你自己的评估 prompt](https://juejin.cn/post/7475982149687640064)<br>[Linux 下使用tracepath进行网络诊断分析](https://juejin.cn/post/7475978280840232996)<br>[探秘Transformer系列之（7）--- embedding](https://juejin.cn/post/7475936034779709490)<br>[深入浅出Webpack：从入门到工程化实践](https://juejin.cn/post/7475754150790168610)<br>[鸿蒙轻内核A核源码分析系列四（1）虚拟内存进程空间编号](https://juejin.cn/post/7475922443431362597)<br>[ipsec vpn over kube-ovn eip](https://juejin.cn/post/7475922443431264293)<br>[算法系列之动态规划](https://juejin.cn/post/7475973902658142219)<br>[程序员最大的悲哀是什么？](https://juejin.cn/post/7475960553027518479)<br>[HarmonyOS鸿蒙的装饰器有哪些及其作用？](https://juejin.cn/post/7475974420877115402)<br>补充链接：https://juejin.cn/post/7475976951091347456（内容较长，已压缩）
 
 ### 学习与知识
 
-- **02-08 00:21** **博客园_首页**<br>[如何利用cursor+deepseek来最大程度减少组件库的学习成本！ - 方帅](https://www.cnblogs.com/fangsmile/p/18701281) （来源：小黄车分享）
-- **02-16 00:33** **博客园_首页**<br>[C# 深度学习：对抗生成网络(GAN)训练头像生成模型 - 痴者工良](https://www.cnblogs.com/whuanle/p/18708861) （来源：小黄车分享）
-- **02-16 11:37** **V2EX**<br>[[分享创造] 使用 cursor+deepseek 做了一个壁纸小程序](https://www.v2ex.com/t/1110910#reply0)<br>[[职场话题] 没什么业务的时候人事的作用就体现出来了?](https://www.v2ex.com/t/1110909#reply0)<br>[[问与答] 关于学习写作是否有必要报培训班](https://www.v2ex.com/t/1110908#reply1)<br>[[投资] 有没有可以看到最近 3 年甚至更久的黄金金价的 APP 或网站？](https://www.v2ex.com/t/1110907#reply1) （来源：小黄车分享）
-- **02-20 23:58** 一个AI学习群看到的👍<br>分享一个驯服 Code Agent 的实用技巧！<br>在用 Cline/Cursor/Windsurf 处理大型需求时，与 AI 的多轮对话会遇到两个问题：<br>- 上下文积累导致：<br>- AI 效果变差<br>- token 用量暴涨，费用激增 💸<br>- 历史错误内容污染后续对话<br>经过实践，我总结了一套"双文档"方案：<br>1. 准备两个文档（直接让 AI 生成）：<br>- 任务文档：记录需求和整体规划（内容较长，已压缩） （来源：互联网从业者充电站）
+- **02-08 00:21** **博客园_首页**<br>[如何利用cursor+deepseek来最大程度减少组件库的学习成本！ - 方帅](https://www.cnblogs.com/fangsmile/p/18701281)
+- **02-16 00:33** **博客园_首页**<br>[C# 深度学习：对抗生成网络(GAN)训练头像生成模型 - 痴者工良](https://www.cnblogs.com/whuanle/p/18708861)
+- **02-16 11:37** **V2EX**<br>[[分享创造] 使用 cursor+deepseek 做了一个壁纸小程序](https://www.v2ex.com/t/1110910#reply0)<br>[[职场话题] 没什么业务的时候人事的作用就体现出来了?](https://www.v2ex.com/t/1110909#reply0)<br>[[问与答] 关于学习写作是否有必要报培训班](https://www.v2ex.com/t/1110908#reply1)<br>[[投资] 有没有可以看到最近 3 年甚至更久的黄金金价的 APP 或网站？](https://www.v2ex.com/t/1110907#reply1)
+- **02-20 23:58** 一个AI学习群看到的👍<br>分享一个驯服 Code Agent 的实用技巧！<br>在用 Cline/Cursor/Windsurf 处理大型需求时，与 AI 的多轮对话会遇到两个问题：<br>- 上下文积累导致：<br>- AI 效果变差<br>- token 用量暴涨，费用激增 💸<br>- 历史错误内容污染后续对话<br>经过实践，我总结了一套"双文档"方案：<br>1. 准备两个文档（直接让 AI 生成）：<br>- 任务文档：记录需求和整体规划（内容较长，已压缩）
 
 ### 资源与生活
 
-- **02-10 08:34** 《System Design Interview: An Insider's Guide》中文目录，涵盖限流、键值存储、唯一 ID、短链接、通知、信息流、聊天、搜索补全、YouTube 和 Google Drive。 （来源：黑洞资源笔记）
-- **02-21 00:04** #自媒体运营频道 #[@yunying23](https://t.me/yunying23)<br>最近在思考一个问题🤔<br>1️⃣ 在一个系统里呆久了，很容易会开始习惯依附于这个系统的资源/平台，leverage做的很多事情会自带曝光和流量加成，因此很难评估个体到底在整个系统中获得了哪些能力和成绩，以及哪些能力是切实能够被带走的。能在一个系统/平台中清醒的意识到如何整合资源，与各方合作，同时还能意识到，离开这个系统，回归独立个体，自己还拥有什么。本身就需要平衡和智慧。<br>2️⃣ 在离开系统后，如何把能力复用，或者在原有基础上迭代。并观察不同的人的应对方式。也会是有意思的切口。<br>3️⃣ 能在一个系统中持续生存，并且和系统共生。其实也是一种选择。<br>「任何时候，有选择都是最大的自由」<br>「大部分事务都适用80%的SOP➕20%的定制化，在很多项目场景中都适用。」<br>今天一场饭听到了一位朋友聊到在日本是如何签大客户的，瞠目结舌。但是又觉理所当然。<br>销售资源驱动的打法真的很不一样。但是两相结合才是最大的赢家。 （来源：互联网从业者充电站）
+- **02-10 08:34** 《System Design Interview: An Insider's Guide》中文目录，涵盖限流、键值存储、唯一 ID、短链接、通知、信息流、聊天、搜索补全、YouTube 和 Google Drive。
+- **02-21 00:04** #自媒体运营频道 #[@yunying23](https://t.me/yunying23)<br>最近在思考一个问题🤔<br>1️⃣ 在一个系统里呆久了，很容易会开始习惯依附于这个系统的资源/平台，leverage做的很多事情会自带曝光和流量加成，因此很难评估个体到底在整个系统中获得了哪些能力和成绩，以及哪些能力是切实能够被带走的。能在一个系统/平台中清醒的意识到如何整合资源，与各方合作，同时还能意识到，离开这个系统，回归独立个体，自己还拥有什么。本身就需要平衡和智慧。<br>2️⃣ 在离开系统后，如何把能力复用，或者在原有基础上迭代。并观察不同的人的应对方式。也会是有意思的切口。<br>3️⃣ 能在一个系统中持续生存，并且和系统共生。其实也是一种选择。<br>「任何时候，有选择都是最大的自由」<br>「大部分事务都适用80%的SOP➕20%的定制化，在很多项目场景中都适用。」<br>今天一场饭听到了一位朋友聊到在日本是如何签大客户的，瞠目结舌。但是又觉理所当然。<br>销售资源驱动的打法真的很不一样。但是两相结合才是最大的赢家。
 
 ### 其他收藏
 
-- **02-08 12:02** **博客园_首页**<br>[DeepSeek-R1 技术全景解析：从原理到实践的“炼金术配方” ——附多阶段训练流程图与核心误区澄清 - 遇健李的幸运](https://www.cnblogs.com/li-jian-Lee/p/18703414) （来源：小黄车分享）
-- **02-16 00:23** **博客园_首页**<br>[爆改xxl-job：websocket版本的改造方案 - 狂盗一枝梅](https://www.cnblogs.com/kuangdaoyizhimei/p/18708895) （来源：小黄车分享）
-- **02-16 11:59** **博客园_首页**<br>[C#/.NET/.NET Core技术前沿周刊 | 第 25 期（2025年2.1-2.9） - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18711384) （来源：小黄车分享）
-- **02-17 13:27** **博客园_首页**<br>[.NET中 泛型 + 依赖注入 的实现与应用 - chester·chen](https://www.cnblogs.com/chenyishi/p/18714657) （来源：小黄车分享）
-- **02-21 00:17** 分享一个域名优惠，在spaceship上使用优惠码COM67购买.com域名可以获得差不多六折的优惠，到手价只需要5.87<br>我已经没忍住剁手了一个🤓 （来源：互联网从业者充电站）
-- **02-21 00:19** 还要什么自行车？ （来源：互联网从业者充电站）
-- **02-25 22:50** **博客园_首页**<br>[用 C# 插值字符串处理器写一个 sscanf - hez2010](https://www.cnblogs.com/hez2010/p/18718386/csharp-interpolated-string-sscanf) （来源：小黄车分享）
-- **02-27 23:32** **博客园_首页**<br>[001.GItLab介绍及云原生部署 - 木二](https://www.cnblogs.com/itzgr/p/18740745) （来源：小黄车分享）
-- **02-27 23:33** **博客园_首页**<br>[SQL SERVER日常运维巡检系列之-性能 - 格瑞趋势技术团队](https://www.cnblogs.com/zhuancloud/p/18740836) （来源：小黄车分享）
-- **02-27 23:38** **博客园_首页**<br>[Trae和Cursor小斗法 - ！win ！](https://www.cnblogs.com/xwwin/p/18741773) （来源：小黄车分享）
-
-## 日期索引
-
-- 2025-02-08：5 条
-- 2025-02-10：3 条
-- 2025-02-16：8 条
-- 2025-02-17：6 条
-- 2025-02-19：1 条
-- 2025-02-20：3 条
-- 2025-02-21：6 条
-- 2025-02-22：3 条
-- 2025-02-25：1 条
-- 2025-02-26：1 条
-- 2025-02-27：7 条
-
----
-
-*按 Telegram 频道消息时间整理。*
+- **02-08 12:02** **博客园_首页**<br>[DeepSeek-R1 技术全景解析：从原理到实践的“炼金术配方” ——附多阶段训练流程图与核心误区澄清 - 遇健李的幸运](https://www.cnblogs.com/li-jian-Lee/p/18703414)
+- **02-16 00:23** **博客园_首页**<br>[爆改xxl-job：websocket版本的改造方案 - 狂盗一枝梅](https://www.cnblogs.com/kuangdaoyizhimei/p/18708895)
+- **02-16 11:59** **博客园_首页**<br>[C#/.NET/.NET Core技术前沿周刊 | 第 25 期（2025年2.1-2.9） - 追逐时光者](https://www.cnblogs.com/Can-daydayup/p/18711384)
+- **02-17 13:27** **博客园_首页**<br>[.NET中 泛型 + 依赖注入 的实现与应用 - chester·chen](https://www.cnblogs.com/chenyishi/p/18714657)
+- **02-21 00:17** 分享一个域名优惠，在spaceship上使用优惠码COM67购买.com域名可以获得差不多六折的优惠，到手价只需要5.87<br>我已经没忍住剁手了一个🤓
+- **02-21 00:19** 还要什么自行车？
+- **02-25 22:50** **博客园_首页**<br>[用 C# 插值字符串处理器写一个 sscanf - hez2010](https://www.cnblogs.com/hez2010/p/18718386/csharp-interpolated-string-sscanf)
+- **02-27 23:32** **博客园_首页**<br>[001.GItLab介绍及云原生部署 - 木二](https://www.cnblogs.com/itzgr/p/18740745)
+- **02-27 23:33** **博客园_首页**<br>[SQL SERVER日常运维巡检系列之-性能 - 格瑞趋势技术团队](https://www.cnblogs.com/zhuancloud/p/18740836)
+- **02-27 23:38** **博客园_首页**<br>[Trae和Cursor小斗法 - ！win ！](https://www.cnblogs.com/xwwin/p/18741773)
 

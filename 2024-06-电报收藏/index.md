@@ -1,25 +1,9 @@
-# 2024年6月电报收藏
+# 2024年6月收藏
 
-
-## 月度概览
-
-本月共整理 **1** 条频道消息，其中 **1** 条含正文，**0** 个媒体/附件引用（0 个唯一文件）。
-
-- 时间范围：2024-06-14 至 2024-06-14
-- 主要主题：工程与职业（1）
-- 整理说明：长转发已缩写，保留可用链接；原始媒体未嵌入正文。
 
 ## 主题笔记
 
 ### 工程与职业
 
-- **06-14 18:47** #valve #piping<br>**🔴 انواع شيرها**<br>**🔷 Types of Valves for Pipings**<br>┄┄┄┅┅❅❅❅┅┅┄┄┄<br>🌍 كانال تلگرام:<br>**🆔**[@Chem_Eng_World](https://t.me/Chem_Eng_World)<br>🌍 گروه تلگرام:<br>**🆔**[@Chem_Eng_World20](https://t.me/Chem_Eng_World20) （来源：Chemical Engineering World / دنياى مهندسى شيمى）
-
-## 日期索引
-
-- 2024-06-14：1 条
-
----
-
-*按 Telegram 频道消息时间整理。*
+- **06-14 18:47** #valve #piping<br>**🔴 انواع شيرها**<br>**🔷 Types of Valves for Pipings**<br>┄┄┄┅┅❅❅❅┅┅┄┄┄<br>🌍 كانال تلگرام:<br>**🆔**[@Chem_Eng_World](https://t.me/Chem_Eng_World)<br>🌍 گروه تلگرام:<br>**🆔**[@Chem_Eng_World20](https://t.me/Chem_Eng_World20)
 
