@@ -1,8 +1,3 @@
-# 电脑同步博客代码
-
-
-
-
 # 电脑同步github代码
 
 以前都是用svn的，github的同步还是不会啊
@@ -86,5 +81,3 @@ git push
 Git克隆、拉取最新代码、上传代码到远程仓库参考文章：
 https://blog.csdn.net/m0_45234510/article/details/120181503?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-120181503-blog-125799413.pc_relevant_vip_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-120181503-blog-125799413.pc_relevant_vip_default&utm_relevant_index=1
 ```
-
-

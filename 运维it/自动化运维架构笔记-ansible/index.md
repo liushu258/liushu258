@@ -1,6 +1,3 @@
-# 自动化运维架构笔记 Ansible
-
-
 # Ansible
 
 ## 什么是Ansible
@@ -384,5 +381,3 @@ tasks：
 
 ansible-playbook test.yml
 ```
-
-

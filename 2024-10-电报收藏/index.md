@@ -1,6 +1,3 @@
-# 2024年10月收藏
-
-
 ## 主题笔记
 
 ### 编程与软件
@@ -40,4 +37,3 @@
 - **10-31 21:36** **博客园_首页**<br>[在C#中使用适配器Adapter模式和扩展方法解决面向的对象设计问题 - dax.net](https://www.cnblogs.com/daxnet/p/18346121)
 - **10-31 21:55** **博客园_首页**<br>[cf2009 Codeforces Round 971 (Div. 4) - 跳岩](https://www.cnblogs.com/vivaldi370/p/18455355)<br>[.NET云原生应用实践（一）：从搭建项目框架结构开始 - dax.net](https://www.cnblogs.com/daxnet/p/18172088)
 - **10-31 21:56** **博客园_首页**<br>[C#|.net core 基础 - 删除字符串最后一个字符的七大类N种实现方式 - IT规划师](https://www.cnblogs.com/hugogoos/p/18453906)
-

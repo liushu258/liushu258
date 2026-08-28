@@ -1,6 +1,3 @@
-# 2022年10月收藏
-
-
 ## 主题笔记
 
 ### 学习与知识
@@ -10,4 +7,3 @@
 ### 资源与生活
 
 - **10-04 13:28** **🔥Telegram 使用教程（保姆级）<br>***[Telegram 解除+86注册用户私聊限制办法](https://t.me/hao12news/472)*****[Telegram +86注册禁止私聊？](https://t.me/Hao12News/2564)*****[Telegram 汉化/中文语言包](https://t.me/hao12news/1989)*****[Telegram iOS 客户端无法进入/查看开车群的方法](https://t.me/hao12news/529)*****[Telegram 已知的 Telegram 的限制](https://t.me/Hao12News/3675)*****[Telegram 电脑版多开/登录多账号](https://t.me/Hao12News/3782)*****[Telegram 贴纸包合集](https://t.me/hao12news/1937)*****[Telegram 两步验证](https://t.me/hao12news/474)*****[Telegram 设置两步验证密码](https://t.me/Hao12News/3053)*****[Telegram 两步验证密码忘记怎么办](https://t.me/Hao12News/3172)*****[Telegram 被拉入陌生群组](https://t.me/hao12news/486)*****[Telegram 官方处罚](https://t.me/hao12news/489)*****[Telegram……<br>补充链接：https://t.me/hao12news/489)*****[Telegram；https://t.me/hao12news/527)*****[Telegram；https://t.me/hao12news/528)*****[Telegram；https://t.me/hao12news/530)*****[Telegram；https://t.me/hao12news/531)*****[Telegram；https://t.me/hao12news/596)*****[Telegram；https://t.me/hao12news/979)*****[Telegram；https://t.me/hao12news/1003)*****[Telegram；另有 30 个链接（内容较长，已压缩）
-

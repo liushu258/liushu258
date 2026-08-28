@@ -1,6 +1,3 @@
-# Modbus
-
-
 Modbus RTU通讯协议
 
 Modbus全球最早用于工业现场的总线规约，Modbus通信协议具有多个变种，其具有支持串口（主要是RS-485 总线），以太网多个版本，其中最著名的是Modbus RTU，Modbus ASCI和Modbus TCP三种。其中Modbus RTU与Modbus ASCII均为支持RS-485总线的通信协议，其中Modbus RTU由于其采用二进制表现形式以及紧数据结构，通信效率较高，应用比较广泛。
@@ -18,4 +15,3 @@ Modbus RTU通讯协议和TCP/UDP协议的区别
 2、Modbus协议是一种已广泛应用于当今工业控制领域的通用通讯协议。通过此协议，控制器相互之间、或控制器经由网络（如以太网）可以和其它设备之间进行通信。Modbus协议使用的是主从通讯技术，即由主设备主动查询和操作从设备。一般将主控设备方所使用的协议称为Modbus Master，从设备方使用的协议称为Modbus Slave。典型的主设备包括工控机和工业控制器等；典型的从设备如PLC可编程控制器等。Modbus通讯物理接口可以选用串口（包括RS232和RS485），也可以选择以太网口。
 
 3、而Modbus TCP协议则是在RTU协议上加一个MBAP报文头，由于TCP是基于可靠连接的服务，RTU协议中的CRC校验码就不再需要，所以在Modbus TCP协议中是没有CRC校验码，用一句比较通俗的话说就是∶Modbus TCP协议就是Modbus RTU协议在前面加上五个0以及一个6，然后去掉两个CRC校验码字节就OK.虽然这句话说得不是特别准确，但是也基本上把RTU与TCP之间的区别说得比较清楚了。
-

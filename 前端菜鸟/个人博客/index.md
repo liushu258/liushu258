@@ -1,5 +1,3 @@
-# 个人博客
-
 入门靠了这篇文章，简单的布置了自己的博客
 https://pingfan.me/posts/cs/create_blog_with_zero_experience/
 

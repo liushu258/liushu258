@@ -1,73 +1,30 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>自动化运维架构笔记 Ansible - 小刘呀の博客 - 归来仍是少年</title><meta name="Description" content="小刘呀的笔记：技术、运维、随想。归来仍是少年。"><meta property="og:title" content="自动化运维架构笔记 Ansible" />
-<meta property="og:description" content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" /><meta property="article:section" content="运维IT" />
-<meta property="article:published_time" content="2022-11-30T20:30:18+08:00" />
-<meta property="article:modified_time" content="2022-11-30T20:30:18+08:00" /><meta property="og:site_name" content="小刘呀の博客" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="自动化运维架构笔记 Ansible"/>
-<meta name="twitter:description" content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软"/>
-<meta name="application-name" content="小刘呀の博客">
-<meta name="apple-mobile-web-app-title" content="小刘呀の博客"><meta name="theme-color" content="#f3ebe0"><meta name="msapplication-TileColor" content="#c45a24"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b45309"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" /><link rel="prev" href="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-%E6%9E%B6%E6%9E%84/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script src="/js/home-bg-boot.js"></script><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "自动化运维架构笔记 Ansible",
-        "inLanguage": "zh-CN",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/blog.simliu.com\/%E8%BF%90%E7%BB%B4it\/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible\/"
-        },"image": ["https:\/\/blog.simliu.com\/images\/Apple-Devices-Preview.png"],"genre": "运维IT","keywords": "运维","wordcount":  1588 ,
-        "url": "https:\/\/blog.simliu.com\/%E8%BF%90%E7%BB%B4it\/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible\/","datePublished": "2022-11-30T20:30:18+08:00","dateModified": "2022-11-30T20:30:18+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
-            "@type": "Organization",
-            "name": "xxxx","logo": "https:\/\/blog.simliu.com\/images\/avatar.png"},"author": {
-                "@type": "Person",
-                "name": "小刘呀の博客"
-            },"description": ""
+<!DOCTYPE html><html lang="zh-CN" class="astro-37fxchfa" style="--highlightColor: hsl(var(--primary) / var(--un-text-opacity));"> <head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover" name="viewport"><meta content="IE=edge" http-equiv="X-UA-Compatible"><title>自动化运维架构笔记 Ansible · 小刘呀の博客</title><link rel="icon" type="image/png" href="/favicon.png"><link rel="shortcut icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/favicon.png"><style>@font-face{font-family:Satoshi-9613b77c75735b12;src:url("/_astro/fonts/b372976faae541b1.woff2") format("woff2");font-display:swap;font-weight:400;font-style:normal;}@font-face{font-family:Satoshi-9613b77c75735b12;src:url("/_astro/fonts/20878e2d8370077a.woff2") format("woff2");font-display:swap;font-weight:400;font-style:italic;}@font-face{font-family:Satoshi-9613b77c75735b12;src:url("/_astro/fonts/8b39278bc39e0777.woff2") format("woff2");font-display:swap;font-weight:500;font-style:normal;}@font-face{font-family:Satoshi-9613b77c75735b12;src:url("/_astro/fonts/3d991eebd114d582.woff2") format("woff2");font-display:swap;font-weight:500;font-style:italic;}@font-face{font-family:"Satoshi-9613b77c75735b12 fallback: Arial";src:local("Arial");font-display:swap;font-weight:400;font-style:normal;size-adjust:98.9231%;ascent-override:102.0995%;descent-override:24.2613%;line-gap-override:10.1089%;}@font-face{font-family:"Satoshi-9613b77c75735b12 fallback: Arial";src:local("Arial");font-display:swap;font-weight:400;font-style:italic;size-adjust:98.9231%;ascent-override:102.0995%;descent-override:24.2613%;line-gap-override:10.1089%;}@font-face{font-family:"Satoshi-9613b77c75735b12 fallback: Arial";src:local("Arial");font-display:swap;font-weight:500;font-style:normal;size-adjust:98.9231%;ascent-override:102.0995%;descent-override:24.2613%;line-gap-override:10.1089%;}@font-face{font-family:"Satoshi-9613b77c75735b12 fallback: Arial";src:local("Arial");font-display:swap;font-weight:500;font-style:italic;size-adjust:98.9231%;ascent-override:102.0995%;descent-override:24.2613%;line-gap-override:10.1089%;}:root{--font-satoshi:Satoshi-9613b77c75735b12,"Satoshi-9613b77c75735b12 fallback: Arial",sans-serif;}</style><link rel="canonical" href="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/"><meta content="自动化运维架构笔记 Ansible · 小刘呀の博客" name="title"><meta content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软件 编排高级的IT任务 特点 轻量级（命令行） 易学习（中文文档） 操作灵活 执行流程 安装配置 pip装（编译依赖的开发库可能出错" name="description"><meta content="小刘呀" name="author"><meta name="color-scheme" content="light dark"><meta content="article" property="og:type"><meta content="自动化运维架构笔记 Ansible" property="og:title"><meta content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软件 编排高级的IT任务 特点 轻量级（命令行） 易学习（中文文档） 操作灵活 执行流程 安装配置 pip装（编译依赖的开发库可能出错" property="og:description"><meta content="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" property="og:url"><meta content="小刘呀の博客" property="og:site_name"><meta content="zh_CN" property="og:locale"><meta content="https://blog.simliu.com/images/avatar.png" property="og:image"><meta content="1200" property="og:image:width"><meta content="630" property="og:image:height"><meta content="小刘呀" property="article:author"><meta content="2022-11-30T12:30:18.000Z" property="article:published_time"><meta content="summary_large_image" property="twitter:card"><meta content="https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/" property="twitter:url"><meta content="自动化运维架构笔记 Ansible" property="twitter:title"><meta content="Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软件 编排高级的IT任务 特点 轻量级（命令行） 易学习（中文文档） 操作灵活 执行流程 安装配置 pip装（编译依赖的开发库可能出错" property="twitter:description"><meta content="https://blog.simliu.com/images/avatar.png" property="twitter:image"><link href="/sitemap-index.xml" rel="sitemap"><link rel="alternate" type="application/rss+xml" title="小刘呀の博客" href="https://blog.simliu.com/index.xml"><meta content="Astro v6.2.1" name="generator"><script type="module">console.log("%c Astro Theme Pure %c https://github.com/cworld1/astro-theme-pure/","color:#fff;background:linear-gradient(90deg,#448bff,#44e9ff);padding:5px 0;","color:#000;background:linear-gradient(90deg,#44e9ff,#ffffff);padding:5px 10px 5px 0px;");</script><script>
+  function simpleSetTheme() {
+    let theme = localStorage.getItem('theme')
+    // If undefined or 'system', get from system
+    if (!theme || theme === 'system') {
+      theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
     }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-        <script src="/js/home-bg-boot.js"></script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/" title="全部文章"><i class='far fa-feather-alt fa-fw' aria-hidden='true'></i> 文章 </a><a class="menu-item" href="/tags/" title="标签云"><i class='fas fa-tags fa-fw' aria-hidden='true'></i> 标签 </a><a class="menu-item" href="/categories/" title="分类浏览"><i class='far fa-folder-open fa-fw' aria-hidden='true'></i> 分类 </a><a class="menu-item" href="/about" title="关于"><i class='far fa-user fa-fw' aria-hidden='true'></i> 关于 </a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a></div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title="小刘呀の博客 - 归来仍是少年"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>小刘呀の博客</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="全部文章"><i class='far fa-feather-alt fa-fw' aria-hidden='true'></i>文章</a><a class="menu-item" href="/tags/" title="标签云"><i class='fas fa-tags fa-fw' aria-hidden='true'></i>标签</a><a class="menu-item" href="/categories/" title="分类浏览"><i class='far fa-folder-open fa-fw' aria-hidden='true'></i>分类</a><a class="menu-item" href="/about" title="关于"><i class='far fa-user fa-fw' aria-hidden='true'></i>关于</a><a class="menu-item" href="https://github.com/liushu258" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a></div>
-    </div>
-</header><main class="main">
-                <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">自动化运维架构笔记 Ansible</h1><div class="content" id="content"><h1 id="ansible">Ansible</h1>
-<h2 id="什么是ansible">什么是Ansible</h2>
+    document.documentElement.classList.toggle('dark', theme === 'dark')
+    document
+      .querySelector('meta[name="theme-color"]')
+      ?.setAttribute('content', theme === 'dark' ? '#0B0B10' : '#FCFCFD')
+  }
+  simpleSetTheme()
+  document.addEventListener('astro:page-load', () => simpleSetTheme())
+</script><script type="module" src="/_astro/ThemeProvider.astro_astro_type_script_index_0_lang.suZL6u-L.js"></script><link rel="stylesheet" href="/_astro/BaseLayout.TuUYQSAo.css">
+<link rel="stylesheet" href="/_astro/_..D74lC5fn.css">
+<style>.post-preview:where(.astro-f2bql6hi){--preview-highlight-final: var( --preview-highlight, hsl(var(--primary) / var(--un-text-opacity, 1)) )}.post-preview:where(.astro-f2bql6hi):hover{>a:where(.astro-f2bql6hi),.tag-list:where(.astro-f2bql6hi) a:where(.astro-f2bql6hi){background-color:var( --preview-highlight-bg, hsl(var(--muted) / var(--un-bg-opacity, 1)))!important}>a:where(.astro-f2bql6hi),.tag-list:where(.astro-f2bql6hi) a:where(.astro-f2bql6hi):hover{color:var(--preview-highlight-final)!important}>a:where(.astro-f2bql6hi) .preview-redirect:where(.astro-f2bql6hi){stroke:var(--preview-highlight-final)!important}}.cover-image:where(.astro-f2bql6hi){-webkit-mask-image:-webkit-linear-gradient(left,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);-webkit-mask-image:linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);mask-image:linear-gradient(to right,#0000,#000)}@media(max-width:768px){.cover-image:where(.astro-f2bql6hi){-webkit-mask-image:-webkit-linear-gradient(bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);mask-image:linear-gradient(to top,#0000,#000)}}
+</style>
+<link rel="stylesheet" href="/_astro/ui.CXOjeUv_.css"><script type="module" src="/_astro/page.CcE5jMMM.js"></script></head> <body class="flex justify-center bg-background text-foreground astro-37fxchfa" class="astro-scuu7fyy" style="--highlightColor: hsl(var(--primary) / var(--un-text-opacity));"> <div id="highlight-gradient" class="pointer-events-none absolute start-0 top-0 z-0 h-screen w-full opacity-25 astro-37fxchfa" style="background-image:linear-gradient(hsl(var(--primary) / var(--un-text-opacity)),transparent); --highlightColor: hsl(var(--primary) / var(--un-text-opacity));"></div> <div id="main-container" class="w-full max-w-[70rem] min-h-[100dvh] flex flex-col justify-between astro-37fxchfa" style="--highlightColor: hsl(var(--primary) / var(--un-text-opacity));"> <header-component class="group sticky top-4 z-50 max-md:z-30 mb-12 flex items-center justify-between rounded-xl border border-transparent max-sm:py-1 sm:rounded-2xl astro-3ef6ksr2"> <a class="z-30 text-xl font-medium group-[.not-top]:ms-2 sm:group-[.not-top]:ms-3 astro-3ef6ksr2" style="transition:margin-inline 0.3s" href="/" aria-label="Brand">小刘呀の博客</a> <div class="flex items-center gap-x-2 astro-3ef6ksr2">  <div id="headerExpandContent" class="end-0 start-0 top-12 grid border border-transparent group-[.not-top]:rounded-xl group-[.expanded]:opacity-100 dark:group-[.expanded.not-top]:bg-muted max-sm:absolute max-sm:opacity-0 max-sm:group-[.not-top]:border-border max-sm:group-[.expanded.not-top]:bg-background max-sm:group-[.not-top]:px-4 max-sm:group-[.not-top]:py-2 sm:grid-rows-1 astro-3ef6ksr2"> <div class="flex flex-col items-center justify-center overflow-hidden sm:flex-row astro-3ef6ksr2"> <a href="/posts/" class="w-full flex-none grow py-2 text-right font-medium transition-none hover:text-primary sm:w-fit sm:px-3 astro-3ef6ksr2" data-astro-prefetch> 文章 </a><a href="/tags/" class="w-full flex-none grow py-2 text-right font-medium transition-none hover:text-primary sm:w-fit sm:px-3 astro-3ef6ksr2" data-astro-prefetch> 标签 </a><a href="/categories/" class="w-full flex-none grow py-2 text-right font-medium transition-none hover:text-primary sm:w-fit sm:px-3 astro-3ef6ksr2" data-astro-prefetch> 分类 </a><a href="/about/" class="w-full flex-none grow py-2 text-right font-medium transition-none hover:text-primary sm:w-fit sm:px-3 astro-3ef6ksr2" data-astro-prefetch> 关于 </a> <div class="flex w-full grow flex-row justify-end gap-x-3 sm:w-fit sm:gap-x-5 astro-3ef6ksr2"> <a class="px-1 py-2 transition-none sm:px-2 astro-3ef6ksr2" href="/search/" title="搜索"> <span class="sr-only astro-3ef6ksr2">搜索</span> <svg aria-hidden="true" class="size-5 astro-3ef6ksr2 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M5 10a5 5 0 1 1 10 0a5 5 0 0 1-10 0m5-7a7 7 0 1 0 4.192 12.606l5.1 5.101a1 1 0 0 0 1.415-1.414l-5.1-5.1A7 7 0 0 0 10 3"/></g></svg> </a> </div> </div> </div>  <div class="z-30 flex gap-x-4 group-[.not-top]:gap-x-2 astro-3ef6ksr2" style="transition:gap 0.3s"> <button id="toggleDarkMode" class="group/dark box-content size-5 rounded-md border p-1.5 transition-colors hover:bg-border sm:group-[.not-top]:rounded-xl astro-3ef6ksr2"> <span class="sr-only astro-3ef6ksr2">Dark Theme</span> <svg aria-hidden="true" class="system size-5 group-hover/dark:text-primary astro-3ef6ksr2 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" fill-rule="nonzero" d="M19 3a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-4v1h1a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h1v-1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm-6 15h-2v1h2zm6-13H5v11h14z"/></g></svg> <svg aria-hidden="true" class="light hidden size-5 group-hover/dark:text-primary astro-3ef6ksr2 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 19a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1m6.364-2.05l.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414m-12.728 0a1 1 0 0 1 1.497 1.32l-.083.094l-.707.707a1 1 0 0 1-1.497-1.32l.083-.094zM12 6a6 6 0 1 1 0 12a6 6 0 0 1 0-12m0 2a4 4 0 1 0 0 8a4 4 0 0 0 0-8m-8 3a1 1 0 0 1 .117 1.993L4 13H3a1 1 0 0 1-.117-1.993L3 11zm17 0a1 1 0 1 1 0 2h-1a1 1 0 1 1 0-2zM4.929 4.929a1 1 0 0 1 1.32-.083l.094.083l.707.707a1 1 0 0 1-1.32 1.497l-.094-.083l-.707-.707a1 1 0 0 1 0-1.414m14.142 0a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1"/></g></svg> <svg aria-hidden="true" class="dark hidden size-5 group-hover/dark:text-primary astro-3ef6ksr2 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12.477 4.546a1.01 1.01 0 0 1 1.097-1.409A9 9 0 0 1 12 21c-4.434 0-8.118-3.206-8.863-7.426a1.01 1.01 0 0 1 1.409-1.097a6 6 0 0 0 7.931-7.931m2.404 1.072a8 8 0 0 1-9.263 9.263A7.002 7.002 0 0 0 19 12.001a7 7 0 0 0-4.12-6.383ZM5.565 7.716l.064.14a3.26 3.26 0 0 0 1.237 1.363l.1.059a.068.068 0 0 1 0 .118l-.1.058a3.26 3.26 0 0 0-1.237 1.364l-.064.14a.071.071 0 0 1-.13 0l-.064-.14a3.26 3.26 0 0 0-1.237-1.364l-.1-.058a.068.068 0 0 1 0-.118l.1-.059A3.26 3.26 0 0 0 5.37 7.855l.064-.14a.071.071 0 0 1 .13 0Zm2.832-4.859c.04-.09.166-.09.206 0l.102.222a5.2 5.2 0 0 0 1.97 2.172l.157.092a.108.108 0 0 1 0 .189l-.158.092a5.2 5.2 0 0 0-2.07 2.394a.113.113 0 0 1-.207 0l-.102-.222a5.2 5.2 0 0 0-1.97-2.172l-.158-.092a.108.108 0 0 1 0-.189l.158-.092a5.2 5.2 0 0 0 1.97-2.172z"/></g></svg> </button> <button id="toggleMenu" class="rounded-md border p-1.5 transition-colors hover:bg-border sm:hidden sm:group-[.not-top]:rounded-xl astro-3ef6ksr2"> <span class="sr-only astro-3ef6ksr2">Menu</span> <svg aria-hidden="true" class="size-5 astro-3ef6ksr2 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M20 18a1 1 0 0 1 .117 1.993L20 20H4a1 1 0 0 1-.117-1.993L4 18zm0-7a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2zm0-7a1 1 0 1 1 0 2H4a1 1 0 0 1 0-2z"/></g></svg> </button> </div> </div> </header-component>  <script>
+  const toggleDarkModeElement = document.getElementById('toggleDarkMode')
+  if (toggleDarkModeElement) {
+    toggleDarkModeElement.dataset.theme = localStorage.getItem('theme') || 'system'
+  }
+</script> <script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.DzwrlLey.js"></script> <div class="flex-1 w-full astro-37fxchfa" style="--highlightColor: hsl(var(--primary) / var(--un-text-opacity));">  <a class="group inline-flex items-center gap-x-1 rounded-lg bg-muted border px-2 py-1 text-sm text-muted-foreground transition-all hover:bg-card no-underline astro-scuu7fyy" href="/posts/" data-astro-prefetch="true">  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="stroke-muted-foreground group-hover:stroke-primary"> <line x1="19" y1="12" x2="5" y2="12" class="translate-x-3 scale-x-0 transition-all duration-300 ease-in-out group-hover:translate-x-0 group-hover:scale-x-100"></line> <polyline points="12 19 5 12 12 5" class="translate-x-1 transition-all duration-300 ease-in-out group-hover:translate-x-0"></polyline> </svg>   <p class="my-0">返回</p>     </a> <main class="mt-6 items-start gap-x-10 md:flex astro-scuu7fyy">  <aside class="animate top-20 min-w-48 basis-60 overflow-y-scroll max-md:hidden z-40 fixed md:sticky md:order-2 lg:shrink-0 max-md:border max-md:px-4 max-md:py-3 max-md:bg-muted max-md:rounded-xl astro-scuu7fyy" style="height:calc(100vh - 7rem);" id="sidebar"> <toc-heading class=" astro-mmcgqrmu" slot="sidebar"> <h2 class="font-medium astro-mmcgqrmu">TABLE OF CONTENTS</h2> <ul class="mt-4 astro-mmcgqrmu"> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#ansible">Ansible</a> </div> <ul> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 什么是Ansible" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#什么是ansible">什么是Ansible</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible Ad-hoc" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#ansible-ad-hoc">Ansible Ad-hoc</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible Inventory" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#ansible-inventory">Ansible Inventory</a> </div> <ul> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 定义主机关系的文件" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#定义主机关系的文件">定义主机关系的文件</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Inventory主机组：" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#inventory主机组">Inventory主机组：</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Inventory主机别名" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#inventory主机别名">Inventory主机别名</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Inventory链接参数" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#inventory链接参数">Inventory链接参数</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Inventory批量主机组" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#inventory批量主机组">Inventory批量主机组</a> </div>  </li> </ul> </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible基本使用实战" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#ansible基本使用实战">Ansible基本使用实战</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 什么是Ansible Playbook" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#什么是ansible-playbook">什么是Ansible Playbook</a> </div> <ul> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 功能列表：" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#功能列表">功能列表：</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 与Adhoc关系" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#与adhoc关系">与Adhoc关系</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 支持的特性" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#支持的特性">支持的特性</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible Playbook使用入门" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#ansible-playbook使用入门">Ansible Playbook使用入门</a> </div> <ul> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Playbook变量" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#playbook变量">Playbook变量</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 变量位置" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#变量位置">变量位置</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 系统变量" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#系统变量">系统变量</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: when语句" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#when语句">when语句</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: bool值" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#bool值">bool值</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: with-items循环语句" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#with-items循环语句">with-items循环语句</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: with_nested嵌套语句" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#with_nested嵌套语句">with_nested嵌套语句</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: 有条件的循环" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#有条件的循环">有条件的循环</a> </div>  </li> </ul> </li> </ul> </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Ansible-Zabbix安装" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted" href="#ansible-zabbix安装">Ansible-Zabbix安装</a> </div> <ul> <li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Shell版本" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#shell版本">Shell版本</a> </div>  </li><li> <div class="relative"> <span class="absolute top-[5%] w-[2px] rounded transition-colors duration-300 [&.highlight-bg]:bg-primary [&.is-read]:bg-border"></span> <a aria-label="Scroll to section: Playbook版本" class="toc-item line-clamp-2 px-3 py-1 ms-2 text-foreground/75 transition-all hover:text-foreground [&#38;.highlight]:font-medium [&#38;.highlight]:text-primary [&#38;.highlight-bg-translucent]:bg-muted ps-7" href="#playbook版本">Playbook版本</a> </div>  </li> </ul> </li> </ul> </li> </ul> </toc-heading> <script type="module">class l extends HTMLElement{constructor(){super(),this.headings=[],this.tocLinks=[],this.headingProgress={},this.updatePositionAndStyle=()=>{const t=window.innerHeight,r=window.scrollY-(document.querySelector("#content")?.offsetTop||0),o=(document.querySelector("#content")?.offsetHeight||0)+127;this.headings.forEach((e,n)=>{const h=this.headings[n+1]?.offsetTop||o,s=[e.offsetTop-r,h-r-e.offsetHeight],i=(t-s[0])/(s[1]-s[0]);this.headingProgress[e.id]={inView:s[0]<t&&s[1]>0,progress:Math.max(0,Math.min(1,i))}}),this.tocLinks.forEach(({element:e,progressBar:n,slug:h},s)=>{const{inView:i,progress:g}=this.headingProgress[h];this.headingProgress[h]&&(e.classList.toggle("highlight",i),e.classList.toggle("highlight-bg-translucent",i),e.classList.toggle("rounded-t-2xl",i&&(s===0||!this.headingProgress[this.tocLinks[s-1]?.slug].inView)),e.classList.toggle("rounded-b-2xl",i&&(s===this.tocLinks.length-1||!this.headingProgress[this.tocLinks[s+1]?.slug].inView)),n.classList.toggle("is-read",!i&&g===1),n.classList.toggle("highlight-bg",i),n.style.setProperty("height",`${g*90}%`))})},this.headings=Array.from(document.querySelectorAll("article h1, article h2, article h3, article h4, article h5, article h6")),this.tocLinks=Array.from(this.querySelectorAll('a[href^="#"]')).map(t=>({element:t,progressBar:t.previousElementSibling,slug:(t.getAttribute("href")||"").substring(1)}))}connectedCallback(){this.tocLinks.forEach(t=>{t.element.addEventListener("click",r=>{r.preventDefault();const o=this.headings.find(e=>e.id===t.slug);o?(history.pushState(null,o.textContent||"",t.element.getAttribute("href")),o.scrollIntoView({behavior:"smooth"})):console.warn(`No heading found for slug: ${t.slug}`)})}),setInterval(this.updatePositionAndStyle,100),window.addEventListener("scroll",this.updatePositionAndStyle)}}customElements.define("toc-heading",l);</script> </aside> <div id="sidebar-shade" class="fixed top-0 start-0 w-full h-full astro-scuu7fyy" style="display:none;background-color:#00000091;z-index:31"></div> <article class="min-w-0 grow astro-scuu7fyy" data-pagefind-body>  <div id="content-header" class="animate astro-scuu7fyy"> <div class="article-info max-lg:mx-auto astro-vva3ln22"> <div class="flex flex-wrap gap-x-4 gap-y-2 text-xs leading-6 text-muted-foreground astro-vva3ln22">  <div class="flex items-center gap-1 astro-vva3ln22"> <svg aria-hidden="true" class="size-5 astro-vva3ln22 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M16 3a1 1 0 0 1 1 1v1h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2V4a1 1 0 0 1 2 0v1h6V4a1 1 0 0 1 1-1M8 7H5v2h14V7h-3zm-3 4v8h14v-8zm2 2a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m1 2a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm3-2a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1m1 2a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2zm3-2a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2H16a1 1 0 0 1-1-1m1 2a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2z"/></g></svg> <span class="text-muted-foreground font-mono font-sans astro-vva3ln22"> <time datetime="2022-11-30T12:30:18.000Z"> 2022年11月30日 </time> </span> <div class="flex items-center gap-1 astro-vva3ln22"> <span class="astro-vva3ln22"> / </span> <span class="astro-vva3ln22">
+更新于
+<span class="text-muted-foreground font-mono font-sans astro-vva3ln22"> <time datetime="2022-11-30T12:30:18.000Z"> 2022年11月30日 </time> </span> </span> </div> </div>  <div class="flex items-center gap-1 astro-vva3ln22"> <svg aria-hidden="true" class="size-5 astro-vva3ln22 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 2a1 1 0 0 1 .993.883L13 7v4.586l2.707 2.707a1 1 0 0 1-1.32 1.497l-.094-.083l-3-3a1 1 0 0 1-.284-.576L11 12V7a1 1 0 0 1 1-1"/></g></svg> 5 min </div>  <span class="flex items-center gap-1 astro-vva3ln22"> <svg aria-hidden="true" class="size-5 astro-vva3ln22 astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M10.124 3.008a1 1 0 0 1 .868 1.116L10.508 8h3.984l.516-4.124a1 1 0 1 1 1.984.248L16.508 8H20a1 1 0 1 1 0 2h-3.742l-.5 4H19.5a1 1 0 1 1 0 2h-3.992l-.516 4.124a1 1 0 1 1-1.984-.248L13.492 16H9.508l-.516 4.124a1 1 0 1 1-1.984-.248L7.492 16H4.5a1 1 0 1 1 0-2h3.242l.5-4H5a1 1 0 0 1 0-2h3.492l.516-4.124a1 1 0 0 1 1.116-.868M13.742 14l.5-4h-3.984l-.5 4z"/></g></svg> <div class="astro-vva3ln22"> <a aria-label="View more blogs with the tag 运维" class="hover:underline hover:underline-offset-4 astro-vva3ln22" data-pagefind-filter="tag" href="/tags/%E8%BF%90%E7%BB%B4/"> 运维 </a>  </div> </span> </div> <h1 class="mt-4 text-2xl font-medium sm:mb-2 sm:mt-6 sm:text-3xl astro-vva3ln22"> 自动化运维架构笔记 Ansible </h1> <div class="mt-3 italic astro-vva3ln22"> <blockquote class="text-sm text-muted-foreground astro-vva3ln22"><q class="astro-vva3ln22">Ansible 什么是Ansible IT自动化工具 依赖于现有的操作系统凭证来发个控制远程服务器 简单易用 安全可靠 Ansible可以完成哪些任务 配置系统 开发软件 编排高级的IT任务 特点 轻量级（命令行） 易学习（中文文档） 操作灵活 执行流程 安装配置 pip装（编译依赖的开发库可能出错</q></blockquote>  <div class="mt-3 flex flex-wrap gap-3 text-sm not-italic"> <a href="/categories/%E8%BF%90%E7%BB%B4it/">运维IT</a> <a href="/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/index.md">查看 Markdown</a> </div>  </div> </div>  <div class="mt-4 w-1/2 border-t max-md:mx-auto sm:mt-6 sm:w-1/3 astro-vva3ln22"></div> <script type="module">const o=window.innerHeight,s=o/9,i=o*2/9,l=o*3/9,e=document.getElementById("blurImage");e&&window.addEventListener("scroll",()=>{const t=window.scrollY;t>=l?e.style.opacity="0.15":t>=i?e.style.opacity="0.3":t>=s&&(e.style.opacity="0.45")});</script> </div>  <div id="content" class="max-w-none animate mt-8 md:min-w-[45ch] overflow-x-hidden prose text-base astro-scuu7fyy">  <h1 id="ansible">Ansible<a class="anchor" href="#ansible">#</a></h1>
+<h2 id="什么是ansible">什么是Ansible<a class="anchor" href="#什么是ansible">#</a></h2>
 <ul>
 <li>IT自动化工具</li>
 <li>依赖于现有的操作系统凭证来发个控制远程服务器</li>
@@ -86,22 +43,8 @@
 <li>操作灵活</li>
 </ul>
 <p>执行流程</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130203712362.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130203712362.png"
-        title="image-20221130203712362" /></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130204138368.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130204138368.png"
-        title="image-20221130204138368" /></p>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130203712362.png" alt="image-20221130203712362" class="zoomable"></p>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130204138368.png" alt="image-20221130204138368" class="zoomable"></p>
 <p>安装配置</p>
 <p>pip装（编译依赖的开发库可能出错）</p>
 <p>sudo pip install ansible</p>
@@ -115,17 +58,17 @@
 </li>
 <li>配置SSH
 <ul>
-<li>添加公钥到远程主机：ssh-copy-id -i  ~/.ssh/id_rsa.pub <a href="mailto:root@192.168.1.1" rel="">root@192.168.1.1</a></li>
-<li>测试 ssh <a href="mailto:root@192.168.1.1" rel="">root@192.168.1.1</a></li>
+<li>添加公钥到远程主机：ssh-copy-id -i  ~/.ssh/id_rsa.pub root@192.168.1.1</li>
+<li>测试 ssh root@192.168.1.1</li>
 </ul>
 </li>
 <li>连通测试
 <ul>
-<li>运行命令：ansible 192.168.1.39 all -m ping &ndash;user=root</li>
+<li>运行命令：ansible 192.168.1.39 all -m ping —user=root</li>
 </ul>
 </li>
 </ul>
-<h2 id="ansible-ad-hoc">Ansible Ad-hoc</h2>
+<h2 id="ansible-ad-hoc">Ansible Ad-hoc<a class="anchor" href="#ansible-ad-hoc">#</a></h2>
 <p>​	命令行工具	适用于业务快速变更（区别playbook）</p>
 <p>​	所见即所得</p>
 <p>​	Ansible help message</p>
@@ -134,64 +77,54 @@
 <li>链接目标主机相关参数</li>
 <li>权限控制相关参数</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">列出目标主机目录
-</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ls /root&#34; --user=root
-</span></span><span class="line"><span class="cl">目标主机登陆需要密码
-</span></span><span class="line"><span class="cl">ssh root@192.168.1.1
-</span></span><span class="line"><span class="cl">vim .ssh/authorized_keys
-</span></span><span class="line"><span class="cl">(#注释掉)
-</span></span><span class="line"><span class="cl">ssh登陆失败
-</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ls /root&#34; --user=root --ask-pass
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Ansible help</p>
+<div class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><pre><code><span class="line"><span>列出目标主机目录</span></span>
+<span class="line"><span>ansible test -m shell -a "ls /root" --user=root</span></span>
+<span class="line"><span>目标主机登陆需要密码</span></span>
+<span class="line"><span>ssh root@192.168.1.1</span></span>
+<span class="line"><span>vim .ssh/authorized_keys</span></span>
+<span class="line"><span>(#注释掉)</span></span>
+<span class="line"><span>ssh登陆失败</span></span>
+<span class="line"><span>ansible test -m shell -a "ls /root" --user=root --ask-pass</span></span></code></pre><span class="language ps-1 pe-3 text-sm bg-muted text-muted-foreground">plaintext</span><button class="copy text-muted-foreground p-1 box-content border rounded-lg bg-card" aria-label="Copy code" data-code="列出目标主机目录
+ansible test -m shell -a &#x22;ls /root&#x22; --user=root
+目标主机登陆需要密码
+ssh root@192.168.1.1
+vim .ssh/authorized_keys
+(#注释掉)
+ssh登陆失败
+ansible test -m shell -a &#x22;ls /root&#x22; --user=root --ask-pass" onclick="
+          navigator.clipboard.writeText(this.dataset.code);
+          this.classList.add(&#x27;copied&#x27;);
+          setTimeout(() => this.classList.remove(&#x27;copied&#x27;), 2000)
+        "><div class="ready"><svg class="size-5"><use href="/icons/code.svg#mingcute-clipboard-line"></use></svg></div><div class="success hidden"><svg class="size-5"><use href="/icons/code.svg#mingcute-file-check-line"></use></svg></div></button></div>
+<p>Ansible help</p>
 <ul>
 <li>-f并发</li>
 <li>-m 指定模块使用</li>
 <li>-i 改变默认行为</li>
 <li>连接参数</li>
 </ul>
-<h2 id="ansible-inventory">Ansible Inventory</h2>
-<h3 id="定义主机关系的文件">定义主机关系的文件</h3>
+<h2 id="ansible-inventory">Ansible Inventory<a class="anchor" href="#ansible-inventory">#</a></h2>
+<h3 id="定义主机关系的文件">定义主机关系的文件<a class="anchor" href="#定义主机关系的文件">#</a></h3>
 <p>默认路径：/etc/ansible/hosts</p>
 <p>文件内容格式位ini</p>
-<h3 id="inventory主机组">Inventory主机组：</h3>
+<h3 id="inventory主机组">Inventory主机组：<a class="anchor" href="#inventory主机组">#</a></h3>
 <ul>
 <li>192.168.1.1</li>
 <li>【组名】</li>
 <li>192.168.1.2</li>
 <li>192.168.1.3</li>
 </ul>
-<h3 id="inventory主机别名">Inventory主机别名</h3>
+<h3 id="inventory主机别名">Inventory主机别名<a class="anchor" href="#inventory主机别名">#</a></h3>
 <p>test ansible_ssh_port=22 ansible_ssh_host=192.168.1.1 annsible_ssh_user=root</p>
 <p>也可以分组</p>
-<h3 id="inventory链接参数">Inventory链接参数</h3>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212130885.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130212130885.png"
-        title="image-20221130212130885" /></p>
-<h3 id="inventory批量主机组">Inventory批量主机组</h3>
+<h3 id="inventory链接参数">Inventory链接参数<a class="anchor" href="#inventory链接参数">#</a></h3>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130212130885.png" alt="image-20221130212130885" class="zoomable"></p>
+<h3 id="inventory批量主机组">Inventory批量主机组<a class="anchor" href="#inventory批量主机组">#</a></h3>
 <p>【webservers】</p>
 <p>www[01:50].example.com</p>
 <p>[databases]</p>
 <p>db-[a:f].example.com</p>
-<h2 id="ansible基本使用实战">Ansible基本使用实战</h2>
+<h2 id="ansible基本使用实战">Ansible基本使用实战<a class="anchor" href="#ansible基本使用实战">#</a></h2>
 <p>了解Ansible使用</p>
 <p>了解Ansible模块查找使用方法</p>
 <p><strong>实战需求：</strong></p>
@@ -204,138 +137,83 @@
 <li>一条测试机器：client</li>
 <li>配置好ansible环境：master</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ansible test -m yum -a &#34;name=mariadb-server state=latest&#34;
-</span></span><span class="line"><span class="cl">ansible test -m systemd -a &#34;name=mariadb state=stopped&#34;
-</span></span><span class="line"><span class="cl">ansible test -m shell -a &#34;ps -ef|grep mysql|grep -v grep&#34;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="什么是ansible-playbook">什么是Ansible Playbook</h2>
+<div class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><pre><code><span class="line"><span>ansible test -m yum -a "name=mariadb-server state=latest"</span></span>
+<span class="line"><span>ansible test -m systemd -a "name=mariadb state=stopped"</span></span>
+<span class="line"><span>ansible test -m shell -a "ps -ef|grep mysql|grep -v grep"</span></span></code></pre><span class="language ps-1 pe-3 text-sm bg-muted text-muted-foreground">plaintext</span><button class="copy text-muted-foreground p-1 box-content border rounded-lg bg-card" aria-label="Copy code" data-code="ansible test -m yum -a &#x22;name=mariadb-server state=latest&#x22;
+ansible test -m systemd -a &#x22;name=mariadb state=stopped&#x22;
+ansible test -m shell -a &#x22;ps -ef|grep mysql|grep -v grep&#x22;" onclick="
+          navigator.clipboard.writeText(this.dataset.code);
+          this.classList.add(&#x27;copied&#x27;);
+          setTimeout(() => this.classList.remove(&#x27;copied&#x27;), 2000)
+        "><div class="ready"><svg class="size-5"><use href="/icons/code.svg#mingcute-clipboard-line"></use></svg></div><div class="success hidden"><svg class="size-5"><use href="/icons/code.svg#mingcute-file-check-line"></use></svg></div></button></div>
+<h2 id="什么是ansible-playbook">什么是Ansible Playbook<a class="anchor" href="#什么是ansible-playbook">#</a></h2>
 <ul>
 <li>是一门编程语言</li>
 <li>命令集合</li>
 <li>yaml格式</li>
 </ul>
-<h4 id="功能列表">功能列表：</h4>
+<h4 id="功能列表">功能列表：<a class="anchor" href="#功能列表">#</a></h4>
 <ul>
 <li>声明配置</li>
 <li>编排复杂任务</li>
 <li>控制任务执行</li>
 </ul>
-<h4 id="与adhoc关系">与Adhoc关系</h4>
+<h4 id="与adhoc关系">与Adhoc关系<a class="anchor" href="#与adhoc关系">#</a></h4>
 <ul>
 <li>Playbook是对Adhoc的编排</li>
 <li>Adhoc适合简单快速的任务</li>
 <li>Playbook适合做一些复杂的任务</li>
 </ul>
-<h4 id="支持的特性">支持的特性</h4>
+<h4 id="支持的特性">支持的特性<a class="anchor" href="#支持的特性">#</a></h4>
 <ul>
 <li>变量定义</li>
 <li>顺序 Or 选择 Or 循环结构</li>
 </ul>
-<h3 id="ansible-playbook使用入门">Ansible Playbook使用入门</h3>
+<h3 id="ansible-playbook使用入门">Ansible Playbook使用入门<a class="anchor" href="#ansible-playbook使用入门">#</a></h3>
 <p>选定Host</p>
 <p>指定登陆用户</p>
 <p>使用Shell模块输出Hello World</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hosts：test
-</span></span><span class="line"><span class="cl">remote_user: root
-</span></span><span class="line"><span class="cl">tasks:
-</span></span><span class="line"><span class="cl">- name: Hello World
-</span></span><span class="line"><span class="cl">	shell: ls /root
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ansible-playbook test.yml
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h4 id="playbook变量">Playbook变量</h4>
+<div class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><pre><code><span class="line"><span>hosts：test</span></span>
+<span class="line"><span>remote_user: root</span></span>
+<span class="line"><span>tasks:</span></span>
+<span class="line"><span>- name: Hello World</span></span>
+<span class="line"><span>	shell: ls /root</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ansible-playbook test.yml</span></span></code></pre><span class="language ps-1 pe-3 text-sm bg-muted text-muted-foreground">plaintext</span><button class="copy text-muted-foreground p-1 box-content border rounded-lg bg-card" aria-label="Copy code" data-code="hosts：test
+remote_user: root
+tasks:
+- name: Hello World
+	shell: ls /root
+
+ansible-playbook test.yml" onclick="
+          navigator.clipboard.writeText(this.dataset.code);
+          this.classList.add(&#x27;copied&#x27;);
+          setTimeout(() => this.classList.remove(&#x27;copied&#x27;), 2000)
+        "><div class="ready"><svg class="size-5"><use href="/icons/code.svg#mingcute-clipboard-line"></use></svg></div><div class="success hidden"><svg class="size-5"><use href="/icons/code.svg#mingcute-file-check-line"></use></svg></div></button></div>
+<h4 id="playbook变量">Playbook变量<a class="anchor" href="#playbook变量">#</a></h4>
 <ul>
 <li>以字母、数字、下划线组成</li>
 <li>始终应该以字母开头</li>
 </ul>
-<h4 id="变量位置">变量位置</h4>
+<h4 id="变量位置">变量位置<a class="anchor" href="#变量位置">#</a></h4>
 <ul>
 <li>Inventory</li>
 <li>Playbook(开头如果是大括号，就用双引号)</li>
 </ul>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224035967.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224035967.png"
-        title="image-20221130224035967" /></p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130223919612.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130223919612.png"
-        title="image-20221130223919612" /></p>
-<h4 id="系统变量">系统变量</h4>
-<h4 id="when语句">when语句</h4>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224320815.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224320815.png"
-        title="image-20221130224320815" /></p>
-<h4 id="bool值">bool值</h4>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224336730.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224336730.png"
-        title="image-20221130224336730" /></p>
-<h4 id="with-items循环语句">with-items循环语句</h4>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224422283.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224422283.png"
-        title="image-20221130224422283" /></p>
-<h4 id="with_nested嵌套语句">with_nested嵌套语句</h4>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224505982.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224505982.png"
-        title="image-20221130224505982" /></p>
-<h4 id="有条件的循环">有条件的循环</h4>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130224529064.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130224529064.png"
-        title="image-20221130224529064" /></p>
-<h2 id="ansible-zabbix安装">Ansible-Zabbix安装</h2>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224035967.png" alt="image-20221130224035967" class="zoomable"></p>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130223919612.png" alt="image-20221130223919612" class="zoomable"></p>
+<h4 id="系统变量">系统变量<a class="anchor" href="#系统变量">#</a></h4>
+<h4 id="when语句">when语句<a class="anchor" href="#when语句">#</a></h4>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224320815.png" alt="image-20221130224320815" class="zoomable"></p>
+<h4 id="bool值">bool值<a class="anchor" href="#bool值">#</a></h4>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224336730.png" alt="image-20221130224336730" class="zoomable"></p>
+<h4 id="with-items循环语句">with-items循环语句<a class="anchor" href="#with-items循环语句">#</a></h4>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224422283.png" alt="image-20221130224422283" class="zoomable"></p>
+<h4 id="with_nested嵌套语句">with_nested嵌套语句<a class="anchor" href="#with_nested嵌套语句">#</a></h4>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224505982.png" alt="image-20221130224505982" class="zoomable"></p>
+<h4 id="有条件的循环">有条件的循环<a class="anchor" href="#有条件的循环">#</a></h4>
+<p><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130224529064.png" alt="image-20221130224529064" class="zoomable"></p>
+<h2 id="ansible-zabbix安装">Ansible-Zabbix安装<a class="anchor" href="#ansible-zabbix安装">#</a></h2>
 <ul>
 <li>需求分析
 <ul>
@@ -347,343 +225,426 @@
 <li>流程分析
 <ul>
 <li>确认安装方式</li>
-<li><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png"
-        data-srcset="../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png 1.5x, ../../images/%e8%87%aa%e5%8a%a8%e5%8c%96%e8%bf%90%e7%bb%b4%e6%9e%b6%e6%9e%84%e7%ac%94%e8%ae%b0-Ansible/image-20221130212720143.png 2x"
-        data-sizes="auto"
-        alt="../../images/自动化运维架构笔记-Ansible/image-20221130212720143.png"
-        title="image-20221130212720143" /></li>
+<li><img src="/images/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-Ansible/image-20221130212720143.png" alt="image-20221130212720143" class="zoomable"></li>
 </ul>
 </li>
 </ul>
-<h3 id="shell版本">Shell版本</h3>
+<h3 id="shell版本">Shell版本<a class="anchor" href="#shell版本">#</a></h3>
 <ul>
 <li>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">rpm -ivh http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabix-release-3.4-2.el7.noarch.rpm
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">yum -y install zabbix-server-mysql
-</span></span><span class="line"><span class="cl">yum -y install zabbix-proxy-mysql
-</span></span><span class="line"><span class="cl">yum -y install zabbix-web-mysql
-</span></span><span class="line"><span class="cl">yum -y install mariadb-server
-</span></span><span class="line"><span class="cl">systemctl start mariadb
-</span></span><span class="line"><span class="cl">mysql -uroot -e &#34;create database zabbix&#34;
-</span></span><span class="line"><span class="cl">sed &#39;s/DBUser=zabbix/DBUser=root/g&#39; -i /etc/zabbix/zabbix_server.conf
-</span></span><span class="line"><span class="cl">zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.gz | mysql -uroot zabbix
-</span></span><span class="line"><span class="cl">setenforce 0
-</span></span><span class="line"><span class="cl">systemctl start zabbix-server
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
+<div class="astro-code astro-code-themes github-light github-dark" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><pre><code><span class="line"><span>rpm -ivh http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabix-release-3.4-2.el7.noarch.rpm</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>yum -y install zabbix-server-mysql</span></span>
+<span class="line"><span>yum -y install zabbix-proxy-mysql</span></span>
+<span class="line"><span>yum -y install zabbix-web-mysql</span></span>
+<span class="line"><span>yum -y install mariadb-server</span></span>
+<span class="line"><span>systemctl start mariadb</span></span>
+<span class="line"><span>mysql -uroot -e "create database zabbix"</span></span>
+<span class="line"><span>sed 's/DBUser=zabbix/DBUser=root/g' -i /etc/zabbix/zabbix_server.conf</span></span>
+<span class="line"><span>zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.gz | mysql -uroot zabbix</span></span>
+<span class="line"><span>setenforce 0</span></span>
+<span class="line"><span>systemctl start zabbix-server</span></span></code></pre><span class="language ps-1 pe-3 text-sm bg-muted text-muted-foreground">plaintext</span><button class="copy text-muted-foreground p-1 box-content border rounded-lg bg-card" aria-label="Copy code" data-code="rpm -ivh http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabix-release-3.4-2.el7.noarch.rpm
+
+yum -y install zabbix-server-mysql
+yum -y install zabbix-proxy-mysql
+yum -y install zabbix-web-mysql
+yum -y install mariadb-server
+systemctl start mariadb
+mysql -uroot -e &#x22;create database zabbix&#x22;
+sed &#x27;s/DBUser=zabbix/DBUser=root/g&#x27; -i /etc/zabbix/zabbix_server.conf
+zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.gz | mysql -uroot zabbix
+setenforce 0
+systemctl start zabbix-server" onclick="
+          navigator.clipboard.writeText(this.dataset.code);
+          this.classList.add(&#x27;copied&#x27;);
+          setTimeout(() => this.classList.remove(&#x27;copied&#x27;), 2000)
+        "><div class="ready"><svg class="size-5"><use href="/icons/code.svg#mingcute-clipboard-line"></use></svg></div><div class="success hidden"><svg class="size-5"><use href="/icons/code.svg#mingcute-file-check-line"></use></svg></div></button></div>
+</li>
 <li>
 <p>结果验证</p>
 </li>
 </ul>
-<p>scp centos7_install_zabbix.sh <a href="mailto:root@192.168.1.39" rel="">root@192.168.1.39</a>:~</p>
-<p>ssh <a href="mailto:root@192.168.1.39" rel="">root@192.168.1.39</a> &ldquo;bash centos7_install_zabbix.sh&rdquo;</p>
+<p>scp centos7_install_zabbix.sh root@192.168.1.39:~</p>
+<p>ssh root@192.168.1.39 “bash centos7_install_zabbix.sh”</p>
 <p>Shell脚本要写很多判断看是否与运行正常 	编写复杂 操作繁琐 跨平台问题</p>
-<h3 id="playbook版本">Playbook版本</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">  1
-</span><span class="lnt">  2
-</span><span class="lnt">  3
-</span><span class="lnt">  4
-</span><span class="lnt">  5
-</span><span class="lnt">  6
-</span><span class="lnt">  7
-</span><span class="lnt">  8
-</span><span class="lnt">  9
-</span><span class="lnt"> 10
-</span><span class="lnt"> 11
-</span><span class="lnt"> 12
-</span><span class="lnt"> 13
-</span><span class="lnt"> 14
-</span><span class="lnt"> 15
-</span><span class="lnt"> 16
-</span><span class="lnt"> 17
-</span><span class="lnt"> 18
-</span><span class="lnt"> 19
-</span><span class="lnt"> 20
-</span><span class="lnt"> 21
-</span><span class="lnt"> 22
-</span><span class="lnt"> 23
-</span><span class="lnt"> 24
-</span><span class="lnt"> 25
-</span><span class="lnt"> 26
-</span><span class="lnt"> 27
-</span><span class="lnt"> 28
-</span><span class="lnt"> 29
-</span><span class="lnt"> 30
-</span><span class="lnt"> 31
-</span><span class="lnt"> 32
-</span><span class="lnt"> 33
-</span><span class="lnt"> 34
-</span><span class="lnt"> 35
-</span><span class="lnt"> 36
-</span><span class="lnt"> 37
-</span><span class="lnt"> 38
-</span><span class="lnt"> 39
-</span><span class="lnt"> 40
-</span><span class="lnt"> 41
-</span><span class="lnt"> 42
-</span><span class="lnt"> 43
-</span><span class="lnt"> 44
-</span><span class="lnt"> 45
-</span><span class="lnt"> 46
-</span><span class="lnt"> 47
-</span><span class="lnt"> 48
-</span><span class="lnt"> 49
-</span><span class="lnt"> 50
-</span><span class="lnt"> 51
-</span><span class="lnt"> 52
-</span><span class="lnt"> 53
-</span><span class="lnt"> 54
-</span><span class="lnt"> 55
-</span><span class="lnt"> 56
-</span><span class="lnt"> 57
-</span><span class="lnt"> 58
-</span><span class="lnt"> 59
-</span><span class="lnt"> 60
-</span><span class="lnt"> 61
-</span><span class="lnt"> 62
-</span><span class="lnt"> 63
-</span><span class="lnt"> 64
-</span><span class="lnt"> 65
-</span><span class="lnt"> 66
-</span><span class="lnt"> 67
-</span><span class="lnt"> 68
-</span><span class="lnt"> 69
-</span><span class="lnt"> 70
-</span><span class="lnt"> 71
-</span><span class="lnt"> 72
-</span><span class="lnt"> 73
-</span><span class="lnt"> 74
-</span><span class="lnt"> 75
-</span><span class="lnt"> 76
-</span><span class="lnt"> 77
-</span><span class="lnt"> 78
-</span><span class="lnt"> 79
-</span><span class="lnt"> 80
-</span><span class="lnt"> 81
-</span><span class="lnt"> 82
-</span><span class="lnt"> 83
-</span><span class="lnt"> 84
-</span><span class="lnt"> 85
-</span><span class="lnt"> 86
-</span><span class="lnt"> 87
-</span><span class="lnt"> 88
-</span><span class="lnt"> 89
-</span><span class="lnt"> 90
-</span><span class="lnt"> 91
-</span><span class="lnt"> 92
-</span><span class="lnt"> 93
-</span><span class="lnt"> 94
-</span><span class="lnt"> 95
-</span><span class="lnt"> 96
-</span><span class="lnt"> 97
-</span><span class="lnt"> 98
-</span><span class="lnt"> 99
-</span><span class="lnt">100
-</span><span class="lnt">101
-</span><span class="lnt">102
-</span><span class="lnt">103
-</span><span class="lnt">104
-</span><span class="lnt">105
-</span><span class="lnt">106
-</span><span class="lnt">107
-</span><span class="lnt">108
-</span><span class="lnt">109
-</span><span class="lnt">110
-</span><span class="lnt">111
-</span><span class="lnt">112
-</span><span class="lnt">113
-</span><span class="lnt">114
-</span><span class="lnt">115
-</span><span class="lnt">116
-</span><span class="lnt">117
-</span><span class="lnt">118
-</span><span class="lnt">119
-</span><span class="lnt">120
-</span><span class="lnt">121
-</span><span class="lnt">122
-</span><span class="lnt">123
-</span><span class="lnt">124
-</span><span class="lnt">125
-</span><span class="lnt">126
-</span><span class="lnt">127
-</span><span class="lnt">128
-</span><span class="lnt">129
-</span><span class="lnt">130
-</span><span class="lnt">131
-</span><span class="lnt">132
-</span><span class="lnt">133
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim /etc/ansible/hosts
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">centos ansible_ssh_port=22 ansible_ssh_host=192，168.1.39 ansible_ssh_user=root
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ubuntu ansible_ssh_port=22 ansible_ssh_host=13.94.42.159 ansible_ssh_user=simon
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">[test]#分组
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">centos
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ubuntu
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">vim test.yml
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">hosts：test
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">become：true #使用root权限
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">tasks：
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    name: install zabbix rpm
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	yum:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		name:http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-re lease-3.4-2.el7.noarch.rpm
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: installed
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    name: download zabbix deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    get_url:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​        url:http://repo.zabbix.com/zabbix/3.4/ubuntu/pool/main/z/zabbi x-release/zabbix-release_3.4-1+xenial_all.deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​        dest:/tmp/zabbix.deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​        when: ansible_distribution == &#39;Ubuntu&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    name: install zabbix deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    apt:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​        name:/tmp/zabbix.deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​        state: installed
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	    when: ansible_distribution == &#39;Ubuntu&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    name: install zabbix deb
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	apt:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		deb:/tmp/zabbix.deb #从本地装
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name: install zabbix server
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	yum:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		name:&#34;{{ item }}&#34;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: installed
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	with_items:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		-zabbix-server-mysql
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		-zabbix-proxy-mysql
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		-zabbix-web-mysql
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name: install zabbix agent
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	apt:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		name: zabbix-agent
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: installed
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​    name: config zabbix server
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		replace:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​			path:/etc/zabbix/zabbix_server.conf
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​			regexp: DBUser=zabbix
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​			replace: DBUser=root
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name: import db format
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	shell: zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.g | mysql -uroot zabbix
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name:disable selinux
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	selinux:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: disabled
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name: start zabbix server
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	systemd:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		name:zabbix-server
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: started
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Centos&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	name: start zabbix agent
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​	systemd:
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		name:zabbix-agent
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		state: started
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">​		when: ansible_distribution == &#39;Ubuntu&#39;
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">ansible-playbook test.yml
-</span></span></code></pre></td></tr></table>
-</div>
-</div></div><div id="comments"><div id="giscus" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
-            </noscript></div></div></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">小刘呀の博客</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
-        </div>
-    </footer></div>
+<h3 id="playbook版本">Playbook版本<a class="anchor" href="#playbook版本">#</a></h3>
+<div class="astro-code astro-code-themes github-light github-dark collapsed" style="background-color:#fff;--shiki-dark-bg:#24292e;color:#24292e;--shiki-dark:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="plaintext"><pre><code><span class="line"><span>vim /etc/ansible/hosts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>centos ansible_ssh_port=22 ansible_ssh_host=192，168.1.39 ansible_ssh_user=root</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ubuntu ansible_ssh_port=22 ansible_ssh_host=13.94.42.159 ansible_ssh_user=simon</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[test]#分组</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>centos</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ubuntu</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>vim test.yml</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>hosts：test</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>become：true #使用root权限</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>tasks：</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    name: install zabbix rpm</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	yum:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		name:http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-re lease-3.4-2.el7.noarch.rpm</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: installed</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    name: download zabbix deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    get_url:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​        url:http://repo.zabbix.com/zabbix/3.4/ubuntu/pool/main/z/zabbi x-release/zabbix-release_3.4-1+xenial_all.deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​        dest:/tmp/zabbix.deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​        when: ansible_distribution == 'Ubuntu'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    name: install zabbix deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    apt:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​        name:/tmp/zabbix.deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​        state: installed</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	    when: ansible_distribution == 'Ubuntu'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    name: install zabbix deb</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	apt:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		deb:/tmp/zabbix.deb #从本地装</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Ubuntu'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name: install zabbix server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	yum:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		name:"{{ item }}"</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: installed</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	with_items:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		-zabbix-server-mysql</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		-zabbix-proxy-mysql</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		-zabbix-web-mysql</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name: install zabbix agent</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	apt:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		name: zabbix-agent</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: installed</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Ubuntu'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​    name: config zabbix server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		replace:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​			path:/etc/zabbix/zabbix_server.conf</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​			regexp: DBUser=zabbix</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​			replace: DBUser=root</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name: import db format</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	shell: zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.g | mysql -uroot zabbix</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name:disable selinux</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	selinux:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: disabled</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name: start zabbix server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	systemd:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		name:zabbix-server</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: started</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Centos'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	name: start zabbix agent</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​	systemd:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		name:zabbix-agent</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		state: started</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>​		when: ansible_distribution == 'Ubuntu'</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>ansible-playbook test.yml</span></span></code></pre><span class="language ps-1 pe-3 text-sm bg-muted text-muted-foreground">plaintext</span><button class="copy text-muted-foreground p-1 box-content border rounded-lg bg-card" aria-label="Copy code" data-code="vim /etc/ansible/hosts
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"giscus":{"category":"General","categoryId":"DIC_kwDOIcDLD84DDzWj","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"zh-CN","lazyLoading":true,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"liushu258/liushu258","repoId":"R_kgDOIcDLDw"}}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js" data-site-base="/"></script></body>
-</html>
+centos ansible_ssh_port=22 ansible_ssh_host=192，168.1.39 ansible_ssh_user=root
+
+ubuntu ansible_ssh_port=22 ansible_ssh_host=13.94.42.159 ansible_ssh_user=simon
+
+[test]#分组
+
+centos
+
+ubuntu
+
+vim test.yml
+
+hosts：test
+
+become：true #使用root权限
+
+tasks：
+
+​    name: install zabbix rpm
+
+​	yum:
+
+​		name:http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64/zabbix-re lease-3.4-2.el7.noarch.rpm
+
+​		state: installed
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​    name: download zabbix deb
+
+​    get_url:
+
+​        url:http://repo.zabbix.com/zabbix/3.4/ubuntu/pool/main/z/zabbi x-release/zabbix-release_3.4-1+xenial_all.deb
+
+​        dest:/tmp/zabbix.deb
+
+​        when: ansible_distribution == &#x27;Ubuntu&#x27;
+
+​    name: install zabbix deb
+
+​    apt:
+
+​        name:/tmp/zabbix.deb
+
+​        state: installed
+
+​	    when: ansible_distribution == &#x27;Ubuntu&#x27;
+
+​    name: install zabbix deb
+
+​	apt:
+
+​		deb:/tmp/zabbix.deb #从本地装
+
+​		when: ansible_distribution == &#x27;Ubuntu&#x27;
+
+​	name: install zabbix server
+
+​	yum:
+
+​		name:&#x22;{{ item }}&#x22;
+
+​		state: installed
+
+​	with_items:
+
+​		-zabbix-server-mysql
+
+​		-zabbix-proxy-mysql
+
+​		-zabbix-web-mysql
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​	name: install zabbix agent
+
+​	apt:
+
+​		name: zabbix-agent
+
+​		state: installed
+
+​		when: ansible_distribution == &#x27;Ubuntu&#x27;
+
+​    name: config zabbix server
+
+​		replace:
+
+​			path:/etc/zabbix/zabbix_server.conf
+
+​			regexp: DBUser=zabbix
+
+​			replace: DBUser=root
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​	name: import db format
+
+​	shell: zcat /usr/share/doc/zabbix-server-mysql-3.4.7/create.sql.g | mysql -uroot zabbix
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​	name:disable selinux
+
+​	selinux:
+
+​		state: disabled
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​	name: start zabbix server
+
+​	systemd:
+
+​		name:zabbix-server
+
+​		state: started
+
+​		when: ansible_distribution == &#x27;Centos&#x27;
+
+​	name: start zabbix agent
+
+​	systemd:
+
+​		name:zabbix-agent
+
+​		state: started
+
+​		when: ansible_distribution == &#x27;Ubuntu&#x27;
+
+ansible-playbook test.yml" onclick="
+          navigator.clipboard.writeText(this.dataset.code);
+          this.classList.add(&#x27;copied&#x27;);
+          setTimeout(() => this.classList.remove(&#x27;copied&#x27;), 2000)
+        "><div class="ready"><svg class="size-5"><use href="/icons/code.svg#mingcute-clipboard-line"></use></svg></div><div class="success hidden"><svg class="size-5"><use href="/icons/code.svg#mingcute-file-check-line"></use></svg></div></button><button class="collapse-toggle bg-card text-muted-foreground rounded-lg m-2" aria-label="Toggle collapse code block" onclick="this.parentElement.classList.toggle(&#x27;collapsed&#x27;)"><svg class="size-5"><use href="/icons/code.svg#mingcute-arrow-down-line"></use></svg><span class="desc"> code</span></button><div class="collapse-fade"></div></div>    </div> </article> </main> <div class="bottom mt-6 items-start gap-x-10 md:flex astro-scuu7fyy">  <div class="flex-1 text-muted-foreground md:min-w-[50ch] astro-scuu7fyy"> <div class="relative flex flex-col gap-y-2 rounded-xl border px-3 sm:px-4 py-2 sm:py-3 astro-u2aaojfd"> <svg aria-hidden="true" class="absolute end-4 top-4 size-20 opacity-10 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 3a5 5 0 0 1 3.75 1.692a1 1 0 1 1-1.5 1.324a3 3 0 1 0 0 3.968a1 1 0 1 1 1.5 1.324A5 5 0 1 1 12 7"/></g></svg>  <div class="flex flex-col astro-u2aaojfd"> <div class="font-medium text-foreground astro-u2aaojfd">自动化运维架构笔记 Ansible</div> <div class="text-sm line-clamp-1 astro-u2aaojfd">https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/</div> </div>  <div class="flex flex-row flex-wrap justify-start gap-x-5 gap-y-1 sm:gap-x-8 astro-u2aaojfd"> <div class="flex gap-x-2 sm:flex-col astro-u2aaojfd"> <span class="astro-u2aaojfd">作者</span> <span class="text-sm text-foreground max-sm:place-self-center astro-u2aaojfd">小刘呀</span> </div> <div class="flex gap-x-2 sm:min-w-16 sm:flex-col astro-u2aaojfd"> <span class="astro-u2aaojfd">发布于</span> <span class="text-sm text-foreground max-sm:place-self-center astro-u2aaojfd"> 2022年11月30日 </span> </div> <div class="flex gap-x-2 sm:flex-col astro-u2aaojfd"> <span class="astro-u2aaojfd">许可协议</span> <a class="text-sm text-foreground max-sm:place-self-center astro-u2aaojfd" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">
+CC BY-NC 4.0
+</a> </div> </div>  <div class="relative astro-u2aaojfd"> <div class="flex flex-row gap-3 astro-u2aaojfd"> <button id="copy-link" aria-label="Copy link" class="group rounded-full bg-muted p-1 text-muted-foreground transition-colors hover:text-primary sm:p-1.5 astro-u2aaojfd"> <svg aria-hidden="true" class="size-5 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M16.243 9.878a1 1 0 0 1 1.32-.083l.094.083L19.778 12a5.5 5.5 0 0 1-7.596 7.952L12 19.778l-2.121-2.121a1 1 0 0 1 1.32-1.498l.094.083l2.121 2.122a3.5 3.5 0 0 0 5.091-4.8l-.141-.15l-2.121-2.121a1 1 0 0 1 0-1.415M9.17 9.171a1 1 0 0 1 1.32-.083l.095.083l4.242 4.243a1 1 0 0 1-1.32 1.497l-.094-.083l-4.243-4.242a1 1 0 0 1 0-1.415m-4.95-4.95a5.5 5.5 0 0 1 7.597-.173l.182.174l2.121 2.12A1 1 0 0 1 12.8 7.84l-.094-.083l-2.121-2.121a3.5 3.5 0 0 0-5.091 4.8l.141.15l2.121 2.12a1 1 0 0 1-1.32 1.498l-.094-.083L4.222 12a5.5 5.5 0 0 1 0-7.778Z"/></g></svg> </button> <button id="get-qrcode" aria-label="Get QR code" class="group rounded-full bg-muted p-1 text-muted-foreground transition-colors hover:text-primary sm:p-1.5 astro-u2aaojfd"> <svg aria-hidden="true" class="size-5 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M11 3a2 2 0 0 1 1.995 1.85L13 5v6a2 2 0 0 1-1.85 1.995L11 13H5a2 2 0 0 1-1.995-1.85L3 11V5a2 2 0 0 1 1.85-1.995L5 3zm0 2H5v6h6zM8.5 7a.5.5 0 0 1 .492.41L9 7.5v1a.5.5 0 0 1-.41.492L8.5 9h-1a.5.5 0 0 1-.492-.41L7 8.5v-1a.5.5 0 0 1 .41-.492L7.5 7zM21 5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm-4 0h2v2h-2zM7 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2zm0 2H5v2h2zm14 0a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm-4 0h2v2h-2zm-2-5a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1m-2 4a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0z"/></g></svg> </button> <a href="http://service.weibo.com/share/share.php?url=https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/&#38;title=自动化运维架构笔记 Ansible&#38;pic=" target="_blank" id="share-weibo" aria-label="Share to weibo" class="group rounded-full bg-muted p-1 text-muted-foreground transition-colors hover:text-primary sm:p-1.5 astro-u2aaojfd"> <svg aria-hidden="true" class="size-5 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M13.12 5.815c.55.537.826 1.24.863 1.992c1.675-.502 3.045-.362 3.937.5c.848.82.937 1.967.617 2.964C19.9 11.961 21 13.058 21 14.715c0 1.93-1.256 3.526-2.962 4.586C16.318 20.371 14.004 21 11.5 21s-4.818-.63-6.538-1.699C3.256 18.241 2 16.646 2 14.715c0-1.762.842-3.589 2.05-5.156a14.6 14.6 0 0 1 4.723-3.954c1.635-.847 3.286-.828 4.347.21m-1.399 1.43c-.213-.21-.829-.485-2.028.136a12.6 12.6 0 0 0-4.06 3.4C4.576 12.154 4 13.558 4 14.715c0 .988.647 2.035 2.018 2.888C7.374 18.446 9.309 19 11.5 19c2.19 0 4.127-.554 5.482-1.397c1.371-.853 2.018-1.9 2.018-2.888c0-.711-.56-1.439-2.16-1.991a1 1 0 0 1-.473-1.546c.495-.66.355-1.248.163-1.433l-.048-.04l-.067-.042c-.337-.186-1.274-.368-3.335.661a1 1 0 0 1-1.347-1.33c.444-.92.225-1.517-.012-1.75ZM17 3c1.576 0 3.128.643 4.243 1.757A6.05 6.05 0 0 1 23 9a1 1 0 1 1-2 0c0-1.05-.429-2.086-1.172-2.828A4.04 4.04 0 0 0 17 5a1 1 0 1 1 0-2"/></g></svg> </a><a href="https://x.com/intent/tweet?text='自动化运维架构笔记 Ansible'&#38;url='https://blog.simliu.com/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-ansible/'&#38;via='小刘呀'" target="_blank" id="share-x" aria-label="Share to x" class="group rounded-full bg-muted p-1 text-muted-foreground transition-colors hover:text-primary sm:p-1.5 astro-u2aaojfd"> <svg aria-hidden="true" class="size-5 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M19.753 4.659a1 1 0 0 0-1.506-1.317l-5.11 5.84L8.8 3.4A1 1 0 0 0 8 3H4a1 1 0 0 0-.8 1.6l6.437 8.582l-5.39 6.16a1 1 0 0 0 1.506 1.317l5.11-5.841L15.2 20.6a1 1 0 0 0 .8.4h4a1 1 0 0 0 .8-1.6l-6.437-8.582l5.39-6.16ZM16.5 19L6 5h1.5L18 19z"/></g></svg> </a> </div> <div id="qrcode-container" class="absolute z-10 -mt-2 box-content max-h-0 max-w-44 overflow-hidden rounded-xl border bg-muted p-4 opacity-0 transition-all duration-300 ease-in-out astro-u2aaojfd astro-nafosdfo"></div> <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script> <script>(function(){const content = undefined;
+
+  const renderContent = content ?? window.location.href
+  // Load qrcode
+  function loadQRcode(qrcodeContainer) {
+    if (!qrcodeContainer) throw new Error('qrcode container not found')
+    if (qrcodeContainer.innerHTML !== '') return
+    new QRCode(qrcodeContainer, renderContent)
+  }
+  const qrcodeContainer = document.getElementById('qrcode-container')
+  if (!qrcodeContainer) throw new Error('qrcode container not found')
+  loadQRcode(qrcodeContainer)
+})();</script> </div> </div> <div class="mx-6 rounded-b-xl border border-t-0 px-3 pb-1.5 pt-1 sm:mx-8 sm:px-4 astro-u2aaojfd"> <a href="/about/" class="flex items-center justify-between text-muted-foreground no-underline astro-u2aaojfd" target="_blank"> <span class="astro-u2aaojfd">关于作者</span> <svg aria-hidden="true" class="box-content size-5 p-1 astro-u2aaojfd astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M17 2a3 3 0 0 1 3 3v12a1 1 0 0 1 .351 1.936l-8 3a1 1 0 0 1-.702 0l-8-3A1 1 0 0 1 4 17V5a3 3 0 0 1 3-3zm0 2H7a1 1 0 0 0-.993.883L6 5v12.682l6 2.25l6-2.25V5a1 1 0 0 0-.883-.993zm-5 1a1 1 0 0 1 .993.883L13 6v1h2a1 1 0 0 1 .117 1.993L15 9h-5a.5.5 0 0 0-.09.992L10 10h4a2.5 2.5 0 0 1 .164 4.995L14 15h-1v1a1 1 0 0 1-1.993.117L11 16v-1H9a1 1 0 0 1-.117-1.993L9 13h5a.5.5 0 0 0 .09-.992L14 12h-4a2.5 2.5 0 0 1-.164-4.995L10 7h1V6a1 1 0 0 1 1-1"/></g></svg> </a> </div>  <script type="module" src="/_astro/Copyright.astro_astro_type_script_index_0_lang.-YLuNbia.js"></script> <div class="flex max-sm:flex-col sm:justify-between gap-2 mt-3 sm:mt-6"> <span class="min-w-0"> <a href="/2022-12-%E7%94%B5%E6%8A%A5%E6%94%B6%E8%97%8F/" class="group inline-flex items-center gap-x-2 rounded-xl px-4 py-2 no-underline transition-colors duration-300 hover:bg-muted max-sm:max-w-[80%] sm:flex"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 rotate-180 stroke-muted-foreground transition-colors group-hover:stroke-primary"> <line x1="5" y1="12" x2="19" y2="12" class="translate-x-4 scale-x-0 transition-all duration-300 ease-in-out group-hover:translate-x-1 group-hover:scale-x-100"></line> <polyline points="12 5 19 12 12 19" class="translate-x-0 transition-all duration-300 ease-in-out group-hover:translate-x-1"></polyline> </svg> <p class="truncate font-medium transition-colors">2022年12月收藏</p> </a> </span> <span class="min-w-0"> <a href="/%E8%BF%90%E7%BB%B4it/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%E6%9E%B6%E6%9E%84%E7%AC%94%E8%AE%B0-%E6%9E%B6%E6%9E%84/" class="group inline-flex items-center gap-x-2 rounded-xl px-4 py-2 text-right no-underline transition-colors duration-300 hover:bg-muted max-sm:float-end max-sm:max-w-[80%] sm:flex"> <p class="truncate font-medium transition-colors">自动化运维架构笔记 架构</p> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 stroke-muted-foreground transition-colors group-hover:stroke-primary"> <line x1="5" y1="12" x2="19" y2="12" class="translate-x-4 scale-x-0 transition-all duration-300 ease-in-out group-hover:translate-x-1 group-hover:scale-x-100"></line> <polyline points="12 5 19 12 12 19" class="translate-x-0 transition-all duration-300 ease-in-out group-hover:translate-x-1"></polyline> </svg> </a> </span> </div> <section class="mt-8 border-t pt-6" aria-label="评论" data-pagefind-ignore> <h2 class="mb-5 text-xl font-medium">评论</h2> <div class="giscus" data-repo="liushu258/liushu258" data-repo-id="R_kgDOIcDLDw" data-category="General" data-category-id="DIC_kwDOIcDLD84DDzWj"></div> <noscript>请启用 JavaScript 查看 GitHub Discussions 评论。</noscript> <p class="mt-3 text-xs text-muted-foreground">评论由 GitHub Discussions 提供，登录 GitHub 后即可参与。</p> </section> <script type="module">const e=document.querySelector(".giscus");if(e){const t=document.createElement("script");t.src="https://giscus.app/client.js",t.async=!0,t.crossOrigin="anonymous";for(const[s,n]of Object.entries(e.dataset))t.dataset[s]=n;Object.assign(t.dataset,{mapping:"pathname",strict:"1",reactionsEnabled:"1",emitMetadata:"0",inputPosition:"bottom",lang:"zh-CN",loading:"lazy",theme:document.documentElement.classList.contains("dark")?"dark":"light"}),e.append(t),new MutationObserver(()=>{document.querySelector(".giscus-frame")?.contentWindow?.postMessage({giscus:{setConfig:{theme:document.documentElement.classList.contains("dark")?"dark":"light"}}},"https://giscus.app")}).observe(document.documentElement,{attributes:!0,attributeFilter:["class"]})}</script> </div> <div class="min-w-48 basis-60 astro-scuu7fyy">  </div> </div> <div class="z-10 md:z-50 group fixed bottom-8 end-4 transition-all flex flex-col gap-y-4 sm:end-8 astro-jxfdehre" id="action-buttons"> <button aria-label="Toggle sidebar" class="size-10 flex items-center justify-center rounded-full border-2 border-transparent bg-muted text-muted-foreground duration-300 hover:border-border/75 md:hidden sm:size-12 astro-scuu7fyy" id="sidebar-btn"> <svg aria-hidden="true" class="astro-scuu7fyy astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M4.5 17.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M20 18a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2zM4.5 10.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M20 11a1 1 0 0 1 .117 1.993L20 13H9a1 1 0 0 1-.117-1.993L9 11zM4.5 3.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M20 4a1 1 0 0 1 .117 1.993L20 6H9a1 1 0 0 1-.117-1.993L9 4z"/></g></svg> </button> <scroll-button class="astro-jxfdehre"> <button aria-label="Back to Top" class="relative size-10 flex items-center justify-center rounded-full border-2 border-transparent bg-muted text-muted-foreground duration-300 hover:border-border/75 sm:size-12 opacity-0 astro-jxfdehre" id="to-top-btn"> <div class="top-text absolute bottom-0 end-0 start-0 top-0 flex items-center justify-center group-[.ended]:opacity-0 astro-jxfdehre"> <span class="text astro-jxfdehre">10</span> <span class="text-xs astro-jxfdehre">%</span> </div> <svg aria-hidden="true" class="top-icon group-[.ended]:opacity-100 astro-jxfdehre astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M11.293 8.293a1 1 0 0 1 1.414 0l5.657 5.657a1 1 0 0 1-1.414 1.414L12 10.414l-4.95 4.95a1 1 0 0 1-1.414-1.414z"/></g></svg> </button> </scroll-button> </div> <script>(function(){const headerName = "content-header";
+const contentName = "content";
+const needPercent = true;
+
+  class ScrollBtn extends HTMLElement {
+    actionBtns
+    scrollBtn
+    scrollPercentEl
+    targetHeader
+    articleEl
+    scrollHeight = 0
+    articleTop = 0
+    clientHeight = 0
+    ticking = false
+    needPercent = true
+
+    calculateScrollPercent() {
+      const scrollTop = Math.max(0, window.scrollY || document.documentElement.scrollTop)
+      // Before article
+      if (scrollTop < this.articleTop) return 0
+      const maxScrollable = this.scrollHeight - this.clientHeight
+      // After article
+      if (maxScrollable <= 0) return 100
+      const progress = Math.min(scrollTop - this.articleTop, maxScrollable)
+      return Math.round((progress / maxScrollable) * 100)
+    }
+
+    updateScrollPercent() {
+      const percent = this.calculateScrollPercent()
+      this.scrollPercentEl.textContent = percent.toString()
+      this.actionBtns.classList.toggle('ended', percent >= 100)
+      this.ticking = false
+    }
+
+    connectedCallback() {
+      this.needPercent = needPercent
+      this.actionBtns = document.getElementById('action-buttons')
+      this.scrollBtn = this.querySelector('button#to-top-btn')
+      this.scrollPercentEl = this.scrollBtn.querySelector('.top-text .text')
+      this.targetHeader = document.getElementById(headerName)
+      this.articleEl = document.getElementById(contentName)
+
+      if (!this.articleEl) {
+        console.error(`Element with ID ${contentName} not found.`)
+        needPercent = false
+      }
+      // Scroll to top action
+      this.scrollBtn.addEventListener('click', this)
+      // Observe header visibility
+      if (this.targetHeader) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            this.actionBtns.classList.toggle('show', !entry.isIntersecting)
+          })
+        })
+        observer.observe(this.targetHeader)
+      } else {
+        console.error(`Element with ID ${headerName} not found.`)
+      }
+      // Scroll percent update
+      if (this.needPercent) {
+        this.scrollHeight = this.articleEl.scrollHeight
+        this.articleTop = this.articleEl.offsetTop
+        this.clientHeight = document.documentElement.clientHeight
+
+        document.addEventListener('scroll', () => {
+          if (!this.ticking) {
+            requestAnimationFrame(() => this.updateScrollPercent())
+            this.ticking = true
+          }
+        })
+      } else {
+        this.actionBtns.classList.add('ended')
+      }
+    }
+
+    handleEvent(event) {
+      if (event.type === 'click') {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+      }
+    }
+  }
+  customElements.define('scroll-button', ScrollBtn)
+})();</script>  </div> <footer class="mx-auto mb-5 mt-16 w-full astro-dojmed5u"> <div class="border-t pt-5 astro-dojmed5u"> <div class="flex items-center gap-y-3 max-sm:flex-col sm:justify-between sm:gap-y-0 astro-dojmed5u"> <div class="flex items-center gap-x-4 gap-y-2 text-muted-foreground max-sm:flex-col astro-dojmed5u"> <div class="astro-dojmed5u">  <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" class=" astro-dojmed5u"> CC BY-NC 4.0 </a>  </div>  <div class="astro-dojmed5u"> © 2022–2026 小刘呀 
+&
+<span class="astro-dojmed5u">  </span>  </div> <span class="astro-dojmed5u"> <a href="https://github.com/withastro/astro" target="_blank" class="astro-dojmed5u">
+Astro
+</a>
+&
+<a href="https://github.com/cworld1/astro-theme-pure" target="_blank" class="astro-dojmed5u">
+Pure
+</a>
+theme powered
+</span> </div>  <div class="flex items-center gap-x-4 astro-dojmed5u"> <a href="https://github.com/liushu258" rel="me" class="sl-flex astro-dojmed5u"> <span class="sr-only astro-dojmed5u">GitHub</span> <svg aria-hidden="true" class="astro-dojmed5u astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M6.315 6.176c-.25-.638-.24-1.367-.129-2.034a6.8 6.8 0 0 1 2.12 1.07c.28.214.647.283.989.18A9.3 9.3 0 0 1 12 5c.961 0 1.874.14 2.703.391c.342.104.709.034.988-.18a6.8 6.8 0 0 1 2.119-1.07c.111.667.12 1.396-.128 2.033c-.15.384-.075.826.208 1.14C18.614 8.117 19 9.04 19 10c0 2.114-1.97 4.187-5.134 4.818c-.792.158-1.101 1.155-.495 1.726c.389.366.629.882.629 1.456v3a1 1 0 0 0 2 0v-3c0-.57-.12-1.112-.334-1.603C18.683 15.35 21 12.993 21 10c0-1.347-.484-2.585-1.287-3.622c.21-.82.191-1.646.111-2.28c-.071-.568-.17-1.312-.57-1.756c-.595-.659-1.58-.271-2.28-.032a9 9 0 0 0-2.125 1.045A11.4 11.4 0 0 0 12 3c-.994 0-1.953.125-2.851.356a9 9 0 0 0-2.125-1.045c-.7-.24-1.686-.628-2.281.031c-.408.452-.493 1.137-.566 1.719l-.005.038c-.08.635-.098 1.462.112 2.283C3.484 7.418 3 8.654 3 10c0 2.992 2.317 5.35 5.334 6.397A4 4 0 0 0 8 17.98l-.168.034c-.717.099-1.176.01-1.488-.122c-.76-.322-1.152-1.133-1.63-1.753c-.298-.385-.732-.866-1.398-1.088a1 1 0 0 0-.632 1.898c.558.186.944 1.142 1.298 1.566c.373.448.869.916 1.58 1.218c.682.29 1.483.393 2.438.276V21a1 1 0 0 0 2 0v-3c0-.574.24-1.09.629-1.456c.607-.572.297-1.568-.495-1.726C6.969 14.187 5 12.114 5 10c0-.958.385-1.881 1.108-2.684c.283-.314.357-.756.207-1.14"/></g></svg> </a><a href="/index.xml" rel="me" class="sl-flex astro-dojmed5u"> <span class="sr-only astro-dojmed5u">RSS</span> <svg aria-hidden="true" class="astro-dojmed5u astro-hn7k2gay" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><g fill="none"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M5.5 17a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m0-14C14.06 3 21 9.94 21 18.5q0 .268-.009.534a1 1 0 0 1-1.999-.068Q19 18.734 19 18.5C19 11.044 12.956 5 5.5 5q-.234 0-.466.008a1 1 0 0 1-.068-1.999Q5.231 3 5.5 3m0 7a8.5 8.5 0 0 1 8.482 9.066a1 1 0 0 1-1.996-.132a6.5 6.5 0 0 0-6.92-6.92a1 1 0 1 1-.132-1.995q.28-.02.566-.019"/></g></svg> </a> </div> </div> </div> </footer> </div>  </body> </html> <script type="module">const d=document.getElementById("sidebar-btn"),e=document.getElementById("sidebar"),s=document.getElementById("sidebar-shade");s&&s.addEventListener("click",()=>{t()});function t(){e&&e.classList.contains("show")?(e.classList.remove("show"),s.style.display="none"):e&&(e.classList.add("show"),s.style.display="block")}d?.addEventListener("click",()=>{t()});</script> <script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/pure/medium-zoom.min.umd.js"></script> <script>(function(){const selector = ".prose .zoomable";
+const background = "hsl(var(--background) / 0.8)";
+
+  mediumZoom(selector, { background })
+})();</script> 

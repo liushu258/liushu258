@@ -1,6 +1,3 @@
-# 2026年6月收藏
-
-
 ### AI 与效率工具
 
 - **06-02 09:24** **Vibe Vibe：从想法到产品的 Vibe Coding 教程**<br>Datawhale 面向零基础用户设计的四段式路线：基础心法、全栈进阶、项目实践与延伸阅读；可在线学习，也能用 Docker Compose 私有部署。图中还给出“在线 IDE + Skills”的进阶路径，以及从选题、开发到部署的分层定位。[GitHub](https://github.com/datawhalechina/vibe-vibe)
@@ -45,4 +42,3 @@
 - **06-05 12:55** **中文磁力搜索入口**<br>记录了磁力猫与磁力天堂两个站点；此类域名变动频繁，使用时需核实版权、文件来源与恶意软件风险。[磁力猫](https://bashi5.com/) · [磁力天堂](https://voicing1.sbs/)
 - **06-15 23:26** **低成本美国 eSIM**<br>Saily 方案标称 0.99 美元/月、支持中国大陆申请和接码；价格与实名政策可能变化，开通前应重新核验。[教程](https://geekshare.org/504/)
 - **06-19 21:32** **德国 O2 免费 eSIM 与低成本保号**<br>线上申请时必须选择 eSIM；原帖称可用中国护照 KYC、支持 Wi‑Fi Calling，并可通过小额充值维持号码。运营商规则随时可能调整，以官方页面为准。[O2 官方](https://www.o2online.de/mobilfunk/prepaid/kostenlose-sim/)
-

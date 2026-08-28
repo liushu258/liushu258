@@ -1,6 +1,3 @@
-# 2023年1月收藏
-
-
 # 2023年1月1日
 
 ### 数据网站
@@ -317,5 +314,3 @@ http://LearnLayout.com/position.html
 资源名称：Docker+Kubernetes(k8s)微服务容器化实践
 
 资源名称：JavaScript玩转机器学习-Tensorflow.js项目实战
-
-

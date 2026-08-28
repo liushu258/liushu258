@@ -1,6 +1,3 @@
-# 2026年8月收藏
-
-
 ### AI 与效率工具
 
 - **08-02 15:38** **Hyper-Extract：从文档到结构化知识**<br>用 LLM 将论文、研报、合同等非结构化文本提取为列表、知识图谱、超图、时间线或时空图；整合 GraphRAG、LightRAG、Hyper-RAG、KG-Gen 等引擎，并提供金融、法律、医疗、工业等 80+ YAML 模板和增量更新。基本用法：`uv tool install hyperextract`，再用 `he parse 文档.md -t 模板 -o 输出目录` 与 `he search 输出目录 "问题"`。[GitHub](http://github.com/yifanfeng97/Hyper-Extract)
@@ -24,4 +21,3 @@
 - **08-02 20:40** **桌面文具与数码摆件模型**<br>组合包含 iMac、书本、笔记本、纸张、笔筒、台灯和多种文具，可快速填充办公室、工作室或学生桌面场景；本地模型包不在 Markdown 中引用。
 - **08-03 20:42** **优秀个人网站灵感清单**<br>共同特征是强叙事、交互细节和鲜明个人气质，适合研究作品集与实验型 Web 设计：[Echo Echo](https://echoecho.space/)、[Jesse Zhou](https://www.jesse-zhou.com/)、[Nitya's Notes](https://nityasnotes.com/)、[Harini](https://harinisk.com/)、[VVisual](https://www.vvisual.biz/)、[Rona Wang](https://rona.wang/)、[Joey de Ruiter](https://joeyderuiter.me/)、[Charlie Dean](https://charliedean.com/portfolio)、[Sumatran Cat](https://sumatran.cat/)、[Itom](https://itomdev.com/)、[Matteo Santoro](https://interactive.matteosantoro.dev/)、[Moncy](https://www.moncy.dev/)。
 - **08-06 22:03** **优秀设计工作室知识库**<br>飞书数据库以卡片缩略图集中整理品牌、网页、交互与视觉设计工作室，可用于建立设计参考雷达和项目对标清单。[知识库](https://dqxf1izhlm.feishu.cn/share/base/view/shrcng6FtYpq6HMbd3Me9pPvLkc)
-

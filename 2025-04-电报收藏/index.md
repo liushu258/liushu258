@@ -1,6 +1,3 @@
-# 2025年4月收藏
-
-
 ## 主题笔记
 
 ### AI 与效率工具
@@ -104,4 +101,3 @@
 - **04-24 20:44** **博客园_首页**<br>[小结.NET 9性能优化黑科技：从内存管理到Web性能的最全指南 - AI·NET极客圈](https://www.cnblogs.com/code-daily/p/18830657)
 - **04-30 20:06** **博客园_首页**<br>[在Avalonia/C#中使用依赖注入过程记录 - mingupupup](https://www.cnblogs.com/mingupupu/p/18838910)
 - **04-30 20:27** **博客园_首页**<br>[极客时间上新 .NET + AI 体系课 - 「圣杰」](https://www.cnblogs.com/sheng-jie/p/18840383)
-

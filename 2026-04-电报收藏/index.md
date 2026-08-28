@@ -1,6 +1,3 @@
-# 2026年4月收藏
-
-
 ### AI 与效率工具
 
 - **04-03 23:12** **AI 探索指南**<br>[ClawFeed](https://github.com/kevinho/clawfeed) 用 Agent 全量阅读 Twitter 信息流，每四小时生成结构化简报，把“逐条判断是否值得点开”改成“只看筛选后的精华”；Node.js 原生 HTTP + better-sqlite3，内存占用较小，适合研究个人信息流过滤。
@@ -14,4 +11,3 @@
 - **04-15 07:43** **极客盐选**<br>[Zed 编辑器进阶指南](https://geekshare.org/429/)聚焦远程服务器连接与 AI 辅助编程工作流，可用于把本地编辑体验、远端算力和模型协作串联起来。
 - **04-17 14:32** **Chemical Engineering World**<br>相邻两条为同一资源，合并记录：VolumeCalculator 用于计算卧式圆柱储罐在不同液位下的部分体积，资源入口是 [Telegram 原帖](https://t.me/Chem_Eng_World/12515)。导出附带的是 Windows EXE，来源和安全性未验证，运行前应做签名、哈希与沙箱检查；工程计算还应复核单位和几何公式。
 - **04-30 23:59** **转存**<br>[《万字详解 RAG 向量索引算法和向量数据库》](https://www.cnblogs.com/javaguide/p/19895647)梳理生产级 RAG 的向量检索：暴力扫描是 O(n) 且延迟可到秒级，ANN 用少量召回损失换毫秒级检索；选型要理解 HNSW 与 IVFFLAT 的召回、内存、构建和更新权衡，并关注元数据过滤、向量 + BM25 混合检索、增量更新、索引清理及多租户隔离。
-

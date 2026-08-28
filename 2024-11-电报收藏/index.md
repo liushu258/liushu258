@@ -1,6 +1,3 @@
-# 2024年11月收藏
-
-
 ## 主题笔记
 
 ### AI 与效率工具
@@ -66,4 +63,3 @@
 - **11-17 07:01** **博客园_首页**<br>[.NET 8 强大功能 IHostedService 与 BackgroundService 实战 - 小码编匠](https://www.cnblogs.com/1312mn/p/18340210)
 - **11-17 12:05** **博客园_首页**<br>[manim边做边学--圆锥 - wang_yb](https://www.cnblogs.com/wang_yb/p/18547304)<br>[惊爆！72.1K star 的 Netdata：实时监控与可视化的超炫神器！ - 狂师](https://www.cnblogs.com/jinjiangongzuoshi/p/18547297)
 - **11-21 20:26** **博客园_首页**<br>[100 款支持 .NET 多版本的强大 WPF 控件库 - 小码编匠](https://www.cnblogs.com/1312mn/p/18548375)
-
