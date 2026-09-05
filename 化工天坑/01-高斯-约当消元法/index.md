@@ -50,12 +50,14 @@ flowchart LR
 $$\overline{L}_n P_n \cdots \overline{L}_2 P_2 \overline{L}_1 P_1 A = I$$
 
 以 4 阶系统在第 2 步消元为例，算子矩阵 $\overline{L}_2$ 为：
-$$\overline{L}_2 = \begin{bmatrix}
+$$
+\overline{L}_2 = \begin{bmatrix}
 1 & -\frac{a_{12}^{(1)}}{a_{22}^{(1)}} & 0 & 0 \\
 0 & \frac{1}{a_{22}^{(1)}} & 0 & 0 \\
 0 & -\frac{a_{32}^{(1)}}{a_{22}^{(1)}} & 1 & 0 \\
 0 & -\frac{a_{42}^{(1)}}{a_{22}^{(1)}} & 0 & 1
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 和 LU 分解里严格下三角的初等矩阵 $L_k$ 不同，$\overline{L}_k$ 在主对角线**上下方都有非零项**，对角线元素是主元的倒数。记 $\overline{L} = \prod \overline{L}_k P_k$，显然：
 $$\overline{L} A = I \implies \overline{L} = A^{-1}$$
 
@@ -93,17 +95,21 @@ $$[A \mid b \mid I] \xrightarrow{\text{Gauss-Jordan}} [I \mid x \mid A^{-1}]$$
 
 ### 案例一：三元经典算例与手工演算基准
 经典的物料衡算三元系统（来源 Gelmi & Jorquera 2026, 例 1.1 和 2.9）：
-$$\begin{aligned}
+$$
+\begin{aligned}
 2x + y - 3z &= -1 \\
 -x + 3y + 2z &= 12 \\
 3x + y - 3z &= 0
-\end{aligned}$$
+\end{aligned}
+$$
 构建初始增广矩阵：
-$$M^{(0)} = \begin{bmatrix}
+$$
+M^{(0)} = \begin{bmatrix}
  2 & 1 & -3 & \mid & -1 \\
 -1 & 3 &  2 & \mid & 12 \\
  3 & 1 & -3 & \mid &  0
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 1. **第 1 列消元**：主元行归一化（除以 2），清空第 2、3 行第 1 列。
 2. **第 2 列消元**：主元行归一化，**同时清空第 1、3 行**第 2 列。
 3. **第 3 列消元**：归一化并清空上方对应的列。
@@ -117,7 +123,8 @@ $$M^{(0)} = \begin{bmatrix}
 
 写出稳态质量和能量衡算方程（未知量 $x_1 \sim x_{14}$ 是支路流量，单位 $10^3\text{ lb/h}$）：
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 (1)\quad & x_1 + x_2 + x_3 = 43.93 && \text{(680 psia 蒸汽总管衡算)} \\
 (2)\quad & 1.17 x_1 - x_4 = 0 && \text{(减温减压器 Desuperheater)} \\
 (3)\quad & x_5 = 95.798 && \text{(发电机透平抽出级指定流量)} \\
@@ -132,7 +139,8 @@ $$\begin{aligned}
 (12)\quad & x_3 - 0.07 x_{12} = 0 && \text{(主给水泵透平耗汽平衡)} \\
 (13)\quad & x_7 = 14.6188 && \text{(锅炉引风机透平消耗)} \\
 (14)\quad & x_{10} - x_{12} + x_{14} = -97.9 && \text{(除氧急冷器 Deaerator)}
-\end{aligned}$$
+\end{aligned}
+$$
 
 这个系统有典型的工程特征：
 - 矩阵里一堆 0，**既非规则带状，也不严苛对角占优**。
