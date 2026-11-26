@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-26T02:36:22.937Z",
+  "basis": {
+    "annualTonnes": 8000000,
+    "feedTh": 1000,
+    "densityKgm3": 865
+  },
+  "notice": "教学机理模型实机截图；实时沙盘需要 Cloudflare Access 授权。",
+  "scenes": [
+    {
+      "id": "production",
+      "title": "产线 · 物料闭合",
+      "query": "?module=production&line=Atmospheric-I&t=540",
+      "description": "1000 t/h 基准、13 股净产品与工程级管线追踪",
+      "image": "/showcase/production.png",
+      "authorizedUrl": "https://refinery.simliu.com/?module=production&line=Atmospheric-I&t=540"
+    },
+    {
+      "id": "yield",
+      "title": "收率 · 13 股净产品",
+      "query": "?module=yield&t=540",
+      "description": "常渣内部转移抵消，五类产品净收率闭合 100%",
+      "image": "/showcase/yield.png",
+      "authorizedUrl": "https://refinery.simliu.com/?module=yield&t=540"
+    },
+    {
+      "id": "steadyState",
+      "title": "稳态 · 40 层水力学",
+      "query": "?module=steadyState&sub=trayHydraulic&crumb=Atmospheric%20Tower&t=540",
+      "description": "逐层气液物料衡算，独立气相与降液管负荷",
+      "image": "/showcase/steadyState.png",
+      "authorizedUrl": "https://refinery.simliu.com/?module=steadyState&sub=trayHydraulic&crumb=Atmospheric%20Tower&t=540"
+    },
+    {
+      "id": "heatSource",
+      "title": "热源 · 减压炉扰动",
+      "query": "?module=heatSource&crumb=vacFurnace1&t=636",
+      "description": "炉效、油出口、汽化率与填料润湿的时延因果链",
+      "image": "/showcase/heatSource.png",
+      "authorizedUrl": "https://refinery.simliu.com/?module=heatSource&crumb=vacFurnace1&t=636"
+    },
+    {
+      "id": "thermalCycle",
+      "title": "热循环 · 38 台换热器",
+      "query": "?module=thermalCycle&sub=heatRecovery&crumb=E111B&t=540",
+      "description": "三段原油预热网络，明确每台设备的冷热介质",
+      "image": "/showcase/thermalCycle.png",
+      "authorizedUrl": "https://refinery.simliu.com/?module=thermalCycle&sub=heatRecovery&crumb=E111B&t=540"
+    }
+  ]
+}
